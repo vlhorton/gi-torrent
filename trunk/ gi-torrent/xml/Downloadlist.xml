@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE methodCall SYSTEM "C:\Documents and Settings\Hans Hasert\My Documents\TibcoGI\addins\XMLRPC.DTD">
+<methodCall>
+   <methodName/>
+     <params>
+       <param>
+          <value><string /></value>
+       </param>
+     </params>
+</methodCall>
+
