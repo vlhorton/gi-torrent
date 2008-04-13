@@ -30,9 +30,7 @@ General XML structure for inbound (response) message :
 	 <value>
    	   <array>
 	     <data>
-		<value>
-		  <string/>
-		</value>
+		<value><string/></value>
 	     </data>
 	   </array>
 	</value>
