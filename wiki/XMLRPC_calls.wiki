@@ -1,5 +1,5 @@
-#summary One-sentence summary of this page.
-XML schemes to call xmlrpc services with http post
+#summary XML schemes to call xmlrpc services with http post.
+
 = Introduction =
 I found a very good reference to the XMLRPC interface with a schema and a DTD made by Elliotte Rusty Harold [http://www.cafeconleche.org/books/xmljava/chapters/ch02s05.html].
 
