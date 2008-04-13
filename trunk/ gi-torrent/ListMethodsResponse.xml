@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE methodResponse SYSTEM "C:\Documents and Settings\Hans Hasert\My Documents\TibcoGI\addins\XMLRPC.DTD">
+<methodResponse>
+	<params>
+		<param>
+			<value>
+				<array>
+					<data>
+						<value>
+							<string/>
+						</value>
+					</data>
+				</array>
+			</value>
+		</param>
+	</params>
+</methodResponse>
