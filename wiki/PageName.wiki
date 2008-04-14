@@ -5,7 +5,7 @@ The XMLRPC multicall provides a response where multiple entries have the same XM
 
 = Details =
 The response looks like this :
-
+{{{
 <?xml version="1.0" encoding="UTF-8"?>
 <methodResponse>                                        <-- CDF Document
 <params>
@@ -41,5 +41,6 @@ The response looks like this :
  </param>
 </params>
 </methodResponse>
+}}}
 
 Where each torrent delivers one array of information. In Tibco GI you can use the mapper to map the structure to a CDF document in the data cache. In the mapper you give 'Methodresponse' the type 'CDF Document' with a name of f.i. "Downloadlist". The next step is to set the type 'CDF Record' as indicated in the listing. Normally the 'CDF Attribute' can be set on the values returned, but since they have identical tags the mapper overwrites  with the last tag found. Bummer. The latter always means we have to use a manual override and in Tibco GI that is scripting. 
