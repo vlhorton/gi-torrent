@@ -43,7 +43,7 @@ The response looks like this :
 </methodResponse>
 }}}
 
-Where each torrent delivers one array of information. In Tibco GI you can use the mapper to map the structure to a CDF document in the data cache. In the mapper you give 'Methodresponse' the type 'CDF Document' with a name of f.i. "Downloadlist". The next step is to set the type 'CDF Record' as indicated in the listing. Normally the 'CDF Attribute' can be set on the values returned, but since they have identical tags the mapper overwrites  with the last tag found. Bummer. The latter always means we have to use a manual override and in Tibco GI that is scripting. 
+Where each torrent delivers one array of information. In Tibco GI you can use the mapper to map the structure to a CDF document in the data cache. In the mapper you give 'methodResponse' the type 'CDF Document' with a name of f.i. "Downloadlist". The next step is to set the type 'CDF Record' as indicated in the listing. Normally the 'CDF Attribute' can be set on the values returned, but since they have identical tags the mapper overwrites  with the last tag found. Bummer. The latter always means we have to use a manual override and in Tibco GI that is scripting. 
 
 The trick is that we treat all the 'value' tags as entries in an array and use 'getValue()' to get at the data. The script in this case is :
 
