@@ -1,5 +1,4 @@
-#summary Getting a peer listing
-
+#summary Getting a peer list
 = Introduction =
 
 The syntax for getting a peer list
