@@ -1,4 +1,4 @@
-#summary Get a peer listing
+#summary Getting a peer listing
 
 = Introduction =
 
