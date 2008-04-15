@@ -1,0 +1,11 @@
+#summary Getting a directory list
+
+= Introduction =
+
+The syntax for getting a directory list
+
+
+= Details =
+The way to get a directory list is to use the d.multicall and specify which fields we are interested in. So the XML would look something like this :
+
+
