@@ -15,6 +15,9 @@ The way to get a directory list is to use the d.multicall and specify which fiel
           <value><string>3C3E07AB344D11F98562F8374C99947698740B84</value>  <-- specify hash
        </param>
        <param>
+          <value><string> </string></value>                                <-- left blank
+       </param>
+       <param>
           <value><string>p.get_address=</string></value>
        </param>
        <param>
