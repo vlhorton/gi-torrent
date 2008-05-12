@@ -1,5 +1,4 @@
-#summary One-sentence summary of this page.
-Local install of giTorrent
+#summary Web Server install of giTorrent
 
 = Introduction =
 
