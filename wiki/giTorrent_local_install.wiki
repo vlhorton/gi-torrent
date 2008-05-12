@@ -18,8 +18,4 @@ Tibco GI framework and "gihome" contains the actual application code.
 To start giTorrent, just click "file", "open" in your browser and open the file "giTorrent.html" in
 the "apps" directory, this will start the application.
 
-giTorrent only supports http connections to rTorrent, so in the "Settings" tab you should enter your 
-url to the rtorrent server, its port and the mount point for XMLRPC. If you configured your webserver
-with security, enter userid and password. Press the "refresh" button and the top list fills with the 
-running torrents. On selecting a torrent in the list, the information on the tabs is updated for that 
-specific torrent.
+giTorrent only supports http connections to rTorrent, so in the "Settings" tab you should enter your url to the rtorrent server, its port and the mount point for XMLRPC. If you configured your webserver with security, enter userid and password. Use the 'Action' menu and select the "refresh" option. The top list fills with the running torrents. On selecting a torrent in the list, the information on the tabs is updated for that specific torrent. The 'Tracker' tab will be opened upon selection. This is the least demanding call and I needed to refresh something to avoid confusion.
