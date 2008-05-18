@@ -54,7 +54,7 @@ auth.backend.htdigest.userfile = "/etc/lighttpd/lighttpd.user.htdigest"
 
 auth.require = ( "/RPC2" =>
  (
-  "method" => "basic",
+  "method" => "digest",
   "realm" => "XML-RPC",
   "require" => "valid-user"
  ))
