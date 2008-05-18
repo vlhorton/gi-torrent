@@ -27,7 +27,7 @@ scgi.server = (
                   "disable-time" => 0  # don't disable scgi if connection fails
                  )))
 }}}
-Restart Lighttpd to activate it or change the security settings described later first.
+Restart Lighttpd to activate it.
 
 Edit the .rtorrent.rc file (for me the homedir of the user it runs on).
 Add the following lines at the end of the file :
