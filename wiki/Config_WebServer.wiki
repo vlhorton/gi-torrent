@@ -22,7 +22,7 @@ scgi.server = (
                 "/RPC2" => #RT_DIR
                 ("127.0.0.1" =>
                  (
-                  "socket" => "/tmp/rpc.socket",        # socket name specified in .rtorrentrc
+                  "socket" => "/tmp/rpc.socket",        # socket name specified in .rtorrent.rc
                   "check-local" => "disable",
                   "disable-time" => 0  # don't disable scgi if connection fails
                  )))
