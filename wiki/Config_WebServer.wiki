@@ -96,6 +96,6 @@ AuthName "Private"
 AuthType Basic
 AuthBasicProvider file
 AuthUserFile /path/to/htpasswd
-Require user myrpcuser
+Require user username
 </Location>
 }}}
