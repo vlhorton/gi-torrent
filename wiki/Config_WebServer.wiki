@@ -60,6 +60,12 @@ auth.require = ( "/RPC2" =>
  ))
 }}}
 
+Edit the .rtorrent.rc file (for me in the homedir of the user it runs on).
+Add the following lines at the end of the file :
+{{{
+scgi_port = localhost:5000
+}}}
+
 This will instruct Lighttpd to check the file /etc/lighttpd/lighttpd.user.htdigest for userid/passwords. 
 
 To create such a file you need tooling (htdigest) from Apache. (Reference is http://trac.lighttpd.net/trac/wiki/Docs%3AModAuth#htdigest) On debian you can install 'apache2-utils' ('apt-get install apache2-utils').
@@ -71,4 +77,25 @@ htdigest -c /etc/lighttpd/lighttpd.user.htdigest 'XML-RPC' 'userid'
 
 *Apache*
 
-to be added......
+(Reference is http://httpd.apache.org/)
+
+Install and enable mod_scgi for apache (if you don't know how to do this refer to your distribution for instructions). Add the following to httpd.conf:
+{{{
+SCGIMount /RPC2 127.0.0.1:5000
+}}}
+
+For auth with apache you have to create a htpasswd file, which can be done this way:
+{{{
+htpasswd -c /path/to/htpasswd username
+}}}
+
+After that add the following to httpd.conf:
+{{{
+<Location /RPC2>
+AuthName "Private"
+AuthType Basic
+AuthBasicProvider file
+AuthUserFile /path/to/htpasswd
+Require user myrpcuser
+</Location>
+}}}
