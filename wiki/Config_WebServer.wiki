@@ -1,0 +1,74 @@
+#summary Configuring your webserver
+= Introduction =
+
+Two webservers are described in this document, Apache and Lighttpd. The instructions are copied from multiple sources, so thanks to all those authors who have done the nitty gritty for me. (See f.i. http://www.wtorrent-project.org/trac/wiki/wTorrentInstall where most of the basic setup is explained)
+
+= Details =
+The setup assumes that rTorrent and XMLRPC is installed correctly. You need at least a web server like Apache of Lighttpd installed to host the interface.
+
+*bold*Using Lighttpd (on Unix)
+
+(Reference is http://www.lighttpd.net/)
+
+Open the file lighttpd.conf (my installation has it at /etc/lighttpd). 
+Uncomment (or add) the following line :
+{{{
+"mod_scgi",
+}}}
+
+Then add this at the end of your file:
+{{{
+scgi.server = (
+                "/RPC2" => #RT_DIR
+                ("127.0.0.1" =>
+                 (
+                  "socket" => "/tmp/rpc.socket",        # socket name specified in .rtorrentrc
+                  "check-local" => "disable",
+                  "disable-time" => 0  # don't disable scgi if connection fails
+                 )))
+}}}
+Restart Lighttpd to activate it or change the security settings described later first.
+
+Edit the .rtorrent.rc file (for me the homedir of the user it runs on).
+Add the following lines at the end of the file :
+{{{
+scgi_local = /tmp/rpc.socket
+}}}
+Restart rTorrent to active the settings. You should see an entry /tmp/rpc.socket when this is succesful. I like the socket approach, because it is more secure than the tcp/ip port.
+
+_italic_Adding security
+
+I urge you to check the installation without security first to ensure everything is working correctly. 
+
+Open the file lighttpd.conf (my installation has it at /etc/lighttpd). 
+Uncomment (or add) the following line :
+{{{
+"mod_auth",
+}}}
+
+Then add this at the end of your file:
+{{{
+auth.backend = "htdigest"
+
+auth.backend.htdigest.userfile = "/etc/lighttpd/lighttpd.user.htdigest"
+
+auth.require = ( "/RPC2" =>
+ (
+  "method" => "basic",
+  "realm" => "XML-RPC",
+  "require" => "valid-user"
+ ))
+}}}
+
+This will instruct Lighttpd to check the file /etc/lighttpd/lighttpd.user.htdigest for userid/passwords. 
+
+To create such a file you need tooling (htdigest) from Apache. (Reference is http://trac.lighttpd.net/trac/wiki/Docs%3AModAuth#htdigest) On debian you can install 'apache2-utils' ('apt-get install apache2-utils').
+
+Enter the following command while the active directory is '/etc/lighttpd'
+{{{
+htdigest -c lighttpd.user.htdigest 'XML-RPC' 'userid'
+}}}
+
+*bold*Apache
+
+to be added......
