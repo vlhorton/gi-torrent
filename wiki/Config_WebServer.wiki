@@ -69,6 +69,6 @@ Enter the following command while the active directory is '/etc/lighttpd'
 htdigest -c lighttpd.user.htdigest 'XML-RPC' 'userid'
 }}}
 
-*bold*Apache
+*Apache*
 
 to be added......
