@@ -29,7 +29,7 @@ scgi.server = (
 }}}
 Restart Lighttpd to activate it.
 
-Edit the .rtorrent.rc file (for me the homedir of the user it runs on).
+Edit the .rtorrent.rc file (for me in the homedir of the user it runs on).
 Add the following lines at the end of the file :
 {{{
 scgi_local = /tmp/rpc.socket
