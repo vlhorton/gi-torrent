@@ -6,7 +6,7 @@ Two webservers are described in this document, Apache and Lighttpd. The instruct
 = Details =
 The setup assumes that rTorrent and XMLRPC is installed correctly. You need at least a web server like Apache of Lighttpd installed to host the interface.
 
-*bold*Using Lighttpd (on Unix)
+*Using Lighttpd (on Unix)*
 
 (Reference is http://www.lighttpd.net/)
 
@@ -36,7 +36,7 @@ scgi_local = /tmp/rpc.socket
 }}}
 Restart rTorrent to active the settings. You should see an entry /tmp/rpc.socket when this is succesful. I like the socket approach, because it is more secure than the tcp/ip port.
 
-_italic_Adding security
+_Adding security_
 
 I urge you to check the installation without security first to ensure everything is working correctly. 
 
