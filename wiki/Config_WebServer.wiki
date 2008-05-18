@@ -64,9 +64,9 @@ This will instruct Lighttpd to check the file /etc/lighttpd/lighttpd.user.htdige
 
 To create such a file you need tooling (htdigest) from Apache. (Reference is http://trac.lighttpd.net/trac/wiki/Docs%3AModAuth#htdigest) On debian you can install 'apache2-utils' ('apt-get install apache2-utils').
 
-Enter the following command while the active directory is '/etc/lighttpd'
+Enter the following command :
 {{{
-htdigest -c lighttpd.user.htdigest 'XML-RPC' 'userid'
+htdigest -c /etc/lighttpd/lighttpd.user.htdigest 'XML-RPC' 'userid'
 }}}
 
 *Apache*
