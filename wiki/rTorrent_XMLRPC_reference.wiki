@@ -15,12 +15,15 @@ Given the name of a method, return an array of legal signatures. Each signature 
 
 Given the name of a method, return a help string.
 
-
 *system.multicall*
 
-Used to chain multiple commands as one request/response pair. The syntax for the Htpp post is described in this [http://code.google.com/p/gi-torrent/wiki/system_multicall Wiki]
+Process an array of calls, and return an array of results.  Calls should be structs of the form {'methodName': string, 'params': array}. Each result will either be a single-item array containg the result value, or a struct of the form {'faultCode': int, 'faultString': string}.  This is useful when you need to make lots of small calls without lots of round trips. See[http://code.google.com/p/gi-torrent/wiki/system_multicall Wiki] for syntax.
+
+
+*system.shutdown*
+
+Shut down the server.  Return code is always zero.
 {{{
-'system.shutdown'
 'and'
 'branch'
 'call_download'
