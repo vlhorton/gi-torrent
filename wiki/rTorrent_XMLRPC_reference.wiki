@@ -30,6 +30,9 @@ Shut down the server.  Return code is always zero.
 'close_untied'
 'create_link'
 }}}
+*Managing Torrents*
+The commands that act on a torrent are prefixed with 'd.'. They can be used separately (with the 'hash' as the parameter that distinguishes the specific torrent) or together by using d.multicall.
+
 *d.multicall*
 
 Process an array of calls, and return an array of results. This is specific for a torrent listing, where the following arguments can be used to acquire information. The first argument is the type of view (f.i. 'main') that you want to get returned. The arguments can be used on their own as well, with the 'hash' as the parameter to distinguish the torrents. Whenever in a multicall, the char '=' is added at the end.
@@ -104,7 +107,7 @@ d.get_uploads_max
 d.initialize_logs
 d.is_active                Get the active state (0=inactive, 1=active)
 d.is_hash_checked
-d.is_hash_checking
+d.is_hash_checking         Get the hash state (0=not hash checking, 1=hash checking)
 d.is_multi_file
 d.is_open
 d.is_pex_active
