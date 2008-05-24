@@ -6,10 +6,11 @@
 *system.listMethods*  
 
 Produces this list of available methods. 
-{{{
-'system.methodSignature'
-'system.methodHelp'
-}}}
+
+*system.methodSignature*
+
+*system.methodHelp*
+
 *system.multicall*
 
 Used to chain multiple commands as one request/response pair. The syntax for the Htpp post is described in this [http://code.google.com/p/gi-torrent/wiki/system_multicall Wiki]
