@@ -1,11 +1,15 @@
-#summary Special settings to use the weblink with Internet Explorer
+#summary Special settings to use the weblink with Internet Explorer & FireFox
 
 = Introduction =
 
-Loading giTorrent from the hosted webserver requires additional settings due to security restrictions in the browser.
+Loading giTorrent from the hosted webserver requires additional settings due to security restrictions in the browser. Beware that opening up the security of your browser may introduce security risks. 
 
 = Details =
+*FireFox*
 
+Open the webpage 'about:config' and change the setting 'signed.applets.codebase_principal_support' to 'true'
+
+*Internet Explorer*
 In short, you have to add your server as a trusted domain and enable the 'Access data sources across domains setting'.
 
 Start Internet Explorer and Select 'Tools', 'Internet options' in the menu bar. Click the 'Security' tab and click the 'Custom Level' button. Scroll through the list until you see 'Access data sources across domains setting', select 'enable' then click 'Ok'. You are back at the 'Security' tab, click the 'Sites' button and type the page of your rTorrent serving web server and click the 'Add' button. You are done now, load giTorrent from the link [http://hhasert.oxyhost.com/giTorrent/apps/giTorrent.html giTorrent Live!] and fill in the 'Connections tab'
