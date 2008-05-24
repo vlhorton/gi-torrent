@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Loading giTorrent from the hosted webserver requirers additional settings due to security restrictions in the browser.
+Loading giTorrent from the hosted webserver requires additional settings due to security restrictions in the browser.
 
 = Details =
 
