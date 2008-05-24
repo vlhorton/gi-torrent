@@ -5,11 +5,16 @@
 
 *system.listMethods*  
 
-Produces this list of available methods. 
+Return an array of all available XML-RPC methods on the server.
 
 *system.methodSignature*
 
+Given the name of a method, return an array of legal signatures. Each signature is an array of strings.  The first item of each signature is the return type, and any others items are parameter types.
+
 *system.methodHelp*
+
+Given the name of a method, return a help string.
+
 
 *system.multicall*
 
