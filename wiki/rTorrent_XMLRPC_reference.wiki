@@ -2,7 +2,7 @@
 = Introduction =
 
 = Details =
-
+{{{
 'system.listMethods'
 'system.methodSignature'
 'system.methodHelp'
@@ -386,3 +386,4 @@
 'view_sort_current'
 'view_sort_new'
 'xmlrpc_dialect'
+}}}
