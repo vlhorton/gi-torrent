@@ -32,62 +32,62 @@ Shut down the server.  Return code is always zero.
 }}}
 *d.multicall*
 
-Process an array of calls, and return an array of results. This is specific for a torrent listing, where the following arguments can be used to acquire information. The first argument is the type of view (f.i. 'main') that you want to get returned.
+Process an array of calls, and return an array of results. This is specific for a torrent listing, where the following arguments can be used to acquire information. The first argument is the type of view (f.i. 'main') that you want to get returned. The arguments can be used on their own as well, with the 'hash' as the parameter to distinguish the torrents. Whenever in a multicall, the char '=' is added at the end.
 {{{
-d.check_hash=
-d.close=
-d.create_link=
-d.delete_link=
-d.delete_tied=
-d.erase=
-d.get_base_filename=
-d.get_base_path=
-d.get_bytes_done=
-d.get_chunk_size=
-d.get_chunks_hashed=
-d.get_complete=
-d.get_completed_bytes=
-d.get_completed_chunks=
-d.get_connection_current=
-d.get_connection_leech=
-d.get_connection_seed=
-d.get_creation_date=
-d.get_custom1=
-d.get_custom2=
-d.get_custom3=
-d.get_custom4=
-d.get_custom5=
-d.get_directory=
+d.check_hash
+d.close
+d.create_link
+d.delete_link
+d.delete_tied
+d.erase
+d.get_base_filename
+d.get_base_path
+d.get_bytes_done
+d.get_chunk_size
+d.get_chunks_hashed
+d.get_complete
+d.get_completed_bytes
+d.get_completed_chunks
+d.get_connection_current
+d.get_connection_leech
+d.get_connection_seed
+d.get_creation_date
+d.get_custom1
+d.get_custom2
+d.get_custom3
+d.get_custom4
+d.get_custom5
+d.get_directory
 d.get_directory_base
-d.get_down_rate
+d.get_down_rate             Get the speed in bytes/sec in which the torrent is downloading
 d.get_down_total
 d.get_free_diskspace
-d.get_hash               Always query the hash, since it is the index for other calls.
-d.get_hashing=
-d.get_hashing_failed=
-d.get_ignore_commands=
-d.get_left_bytes=
-d.get_loaded_file=
-d.get_local_id=
-d.get_local_id_html=
-d.get_max_file_size=
-d.get_max_size_pex=
-d.get_message=
-d.get_mode=
-d.get_name=              The name of the torrent.
-d.get_peer_exchange=
-d.get_peers_accounted=
+d.get_hash                  Always query the hash, since it is the index for other calls.
+d.get_hashing
+d.get_hashing_failed
+d.get_ignore_commands
+d.get_left_bytes
+d.get_loaded_file
+d.get_local_id
+d.get_local_id_html
+d.get_max_file_size
+d.get_max_size_pex
+d.get_message
+d.get_mode
+d.get_name                  The name of the torrent.
+d.get_peer_exchange
+d.get_peers_accounted
 d.get_peers_complete
 d.get_peers_connected
 d.get_peers_max
 d.get_peers_min
 d.get_peers_not_connected
-d.get_priority
-d.get_priority_str
-d.get_ratio
-d.get_size_bytes
-d.get_size_chunks
-d.get_size_files
+d.get_priority              Get the priority (0=low, 1=normal, 2=high)
+d.get_priority_str          Get the priority as a string (Low, Normal, High)
+d.get_ratio                 Get the ratio (upload divided by download)
+d.get_size_bytes            Get the torrent size in bytes
+d.get_size_chunks           Get the size of the chunks
+d.get_size_files            
 d.get_size_pex
 d.get_skip_rate
 d.get_skip_total
@@ -98,11 +98,11 @@ d.get_tied_to_file
 d.get_tracker_focus
 d.get_tracker_numwant
 d.get_tracker_size
-d.get_up_rate
+d.get_up_rate              Get the speed in bytes/sec in which the torrent is uploading
 d.get_up_total
 d.get_uploads_max
 d.initialize_logs
-d.is_active
+d.is_active                Get the active state (0=inactive, 1=active)
 d.is_hash_checked
 d.is_hash_checking
 d.is_multi_file
@@ -127,12 +127,12 @@ d.set_message
 d.set_peer_exchange
 d.set_peers_max
 d.set_peers_min
-d.set_priority
+d.set_priority              Set the priority (0=low, 1=normal, 2=high)
 d.set_tied_to_file
 d.set_tracker_numwant
 d.set_uploads_max
-d.start
-d.stop
+d.start                     Start the torrent
+d.stop                      Stop the torrent
 d.try_close
 d.try_start
 d.try_stop
