@@ -2,11 +2,16 @@
 = Introduction =
 
 = Details =
+
+*system.listMethods*
+Produces this list of available methods. 
 {{{
-'system.listMethods'
 'system.methodSignature'
 'system.methodHelp'
-'system.multicall'
+}}}
+*system.multicall*
+Used to chain multiple commands as one request. The syntax for the htpp post is described in this []
+{{{
 'system.shutdown'
 'and'
 'branch'
