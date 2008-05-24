@@ -17,65 +17,67 @@ Given the name of a method, return a help string.
 
 *system.multicall*
 
-Process an array of calls, and return an array of results.  Calls should be structs of the form {'methodName': string, 'params': array}. Each result will either be a single-item array containg the result value, or a struct of the form {'faultCode': int, 'faultString': string}.  This is useful when you need to make lots of small calls without lots of round trips. See[http://code.google.com/p/gi-torrent/wiki/system_multicall Wiki] for syntax.
-
+Process an array of calls, and return an array of results.  Calls should be structs of the form {'methodName': string, 'params': array}. Each result will either be a single-item array containg the result value, or a struct of the form {'faultCode': int, 'faultString': string}.  This is useful when you need to make lots of small calls without lots of round trips. See [http://code.google.com/p/gi-torrent/wiki/system_multicall Wiki] for syntax.
 
 *system.shutdown*
 
 Shut down the server.  Return code is always zero.
 {{{
-'and'
-'branch'
 'call_download'
 'cat'
 'close_low_diskspace'
 'close_on_ratio'
 'close_untied'
 'create_link'
-'d.check_hash'
-'d.close'
-'d.create_link'
-'d.delete_link'
-'d.delete_tied'
-'d.erase'
-'d.get_base_filename'
-'d.get_base_path'
-'d.get_bytes_done'
-'d.get_chunk_size'
-'d.get_chunks_hashed'
-'d.get_complete'
-'d.get_completed_bytes'
-'d.get_completed_chunks'
-'d.get_connection_current'
-'d.get_connection_leech'
-'d.get_connection_seed'
-'d.get_creation_date'
-'d.get_custom1'
-'d.get_custom2'
-'d.get_custom3'
-'d.get_custom4'
-'d.get_custom5'
-'d.get_directory'
-'d.get_directory_base'
-'d.get_down_rate'
-'d.get_down_total'
-'d.get_free_diskspace'
-'d.get_hash'
-'d.get_hashing'
-'d.get_hashing_failed'
-'d.get_ignore_commands'
-'d.get_left_bytes'
-'d.get_loaded_file'
-'d.get_local_id'
-'d.get_local_id_html'
-'d.get_max_file_size'
-'d.get_max_size_pex'
-'d.get_message'
-'d.get_mode'
-'d.get_name'
-'d.get_peer_exchange'
-'d.get_peers_accounted'
-'d.get_peers_complete'
+
+*d.multicall*
+
+Process an array of calls, and return an array of results. This is specific for a torrent listing, where the following arguments can be used to acquire information
+{{{
+_d.check_hash=_
+_d.close=_
+_d.create_link=_
+_d.delete_link=_
+_d.delete_tied=_
+_d.erase=_
+_d.get_base_filename=_
+_d.get_base_path=_
+_d.get_bytes_done=_
+_d.get_chunk_size=_
+_d.get_chunks_hashed=_
+_d.get_complete=_
+_d.get_completed_bytes=_
+_d.get_completed_chunks=_
+_d.get_connection_current=_
+_d.get_connection_leech=_
+_d.get_connection_seed=_
+_d.get_creation_date=_
+_d.get_custom1=_
+_d.get_custom2=_
+_d.get_custom3=_
+_d.get_custom4=_
+_d.get_custom5=_
+_d.get_directory=_
+_d.get_directory_base_
+_d.get_down_rate_
+_d.get_down_total_
+_d.get_free_diskspace_
+_d.get_hash_              Always query the hash, since it is the index for other calls.
+_d.get_hashing=_
+_d.get_hashing_failed=_
+-d.get_ignore_commands=_
+_d.get_left_bytes=_
+_d.get_loaded_file=_
+_d.get_local_id=_
+_d.get_local_id_html=_
+_d.get_max_file_size=_
+_d.get_max_size_pex=_
+_d.get_message=_
+_d.get_mode=_
+_d.get_name=_             The name of the torrent.
+_d.get_peer_exchange=_'
+_d.get_peers_accounted=_
+_d.get_peers_complete_
 'd.get_peers_connected'
 'd.get_peers_max'
 'd.get_peers_min'
@@ -107,7 +109,6 @@ Shut down the server.  Return code is always zero.
 'd.is_open'
 'd.is_pex_active'
 'd.is_private'
-'d.multicall'
 'd.open'
 'd.pause'
 'd.resume'
@@ -136,6 +137,8 @@ Shut down the server.  Return code is always zero.
 'd.try_start'
 'd.try_stop'
 'd.update_priorities'
+}}}
+{{{
 'delete_link'
 'dht'
 'dht_add_node'
