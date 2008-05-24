@@ -1,0 +1,10 @@
+#summary Special settings to use the weblink with Internet Explorer
+
+= Introduction =
+
+Loading giTorrent from the hosted webserver requirers additional settings due to security restrictions in the browser.
+
+= Details =
+
+In short, you have to add your server as a trusted domain and enable the 'Access data sources across domains setting'.
+See http://www.tibco.com/devnet/resources/gi/3_2/tips_and_techniques/accessing_data_across_subdomains32.pdf
