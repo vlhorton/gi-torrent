@@ -31,6 +31,7 @@ Shut down the server.  Return code is always zero.
 'create_link'
 }}}
 *Managing Torrents*
+
 The commands that act on a torrent are prefixed with 'd.'. They can be used separately (with the 'hash' as the parameter that distinguishes the specific torrent) or together by using d.multicall.
 
 *d.multicall*
