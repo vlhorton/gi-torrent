@@ -86,8 +86,8 @@ d.get_peers_connected
 d.get_peers_max
 d.get_peers_min
 d.get_peers_not_connected
-d.get_priority              Get the priority (0=low, 1=normal, 2=high)
-d.get_priority_str          Get the priority as a string (Low, Normal, High)
+d.get_priority              Get the priority (0=off, 1=low, 2=normal, 3=high)
+d.get_priority_str          Get the priority as a string (Off, Low, Normal, High)
 d.get_ratio                 Get the ratio (upload divided by download)
 d.get_size_bytes            Get the torrent size in bytes
 d.get_size_chunks           Get the size of the chunks
@@ -131,7 +131,7 @@ d.set_message
 d.set_peer_exchange
 d.set_peers_max
 d.set_peers_min
-d.set_priority              Set the priority (0=low, 1=normal, 2=high)
+d.set_priority              Set the priority (0 = off (do not allocate up/down slots), 1=low, 2=normal, 3=high)
 d.set_tied_to_file
 d.set_tracker_numwant
 d.set_uploads_max
