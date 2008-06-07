@@ -22,14 +22,7 @@ Process an array of calls, and return an array of results.  Calls should be stru
 *system.shutdown*
 
 Shut down the server.  Return code is always zero.
-{{{
-'call_download'
-'cat'
-'close_low_diskspace'
-'close_on_ratio'
-'close_untied'
-'create_link'
-}}}
+
 *Managing Torrents*
 
 The commands that act on a torrent are prefixed with 'd.'. They can be used separately (with the 'hash' as the parameter that distinguishes the specific torrent) or together by using d.multicall.
@@ -81,7 +74,7 @@ d.get_mode
 d.get_name                  The name of the torrent.
 d.get_peer_exchange
 d.get_peers_accounted
-d.get_peers_complete
+d.get_peers_complete        The number of complete peers = seeders
 d.get_peers_connected
 d.get_peers_max
 d.get_peers_min
@@ -142,20 +135,18 @@ d.try_start
 d.try_stop
 d.update_priorities
 }}}
+
+*Managing Files*
+
+The commands that act on a torrent are prefixed with 'f.'. They can be used separately (with the 'hash and file number' as the parameter that distinguishes the specific torrent) or together by using f.multicall.
+
+*f.multicall*
+
+Process an array of calls, and return an array of results. This is specific for a file listing, where the f.* arguments can be used to acquire information. The first argument is the hash that you got from the previous torrent listing. Whenever in a multicall, the char '=' is added at the end of the individual commands.
+
+The arguments can be used on their own as well, with the 'hash' as the parameter to distinguish the torrents and the file number to distinguish individual files. There are multiple ways to address a file, but for me the hash:f# method was the only working solution (see [http://libtorrent.rakshasa.no/wiki/RTorrentXMLRPCGuide rTorrent XML-RPC guide])
+
 {{{
-'delete_link'
-'dht'
-'dht_add_node'
-'dht_statistics'
-'download_list'
-'enable_trackers'
-'encoding_list'
-'encryption'
-'execute'
-'execute_log'
-'execute_nothrow'
-'execute_raw'
-'execute_raw_nothrow'
 'f.get_completed_chunks'
 'f.get_frozen_path'
 'f.get_last_touched'
@@ -180,6 +171,28 @@ d.update_priorities
 'f.set_resize_queued'
 'f.unset_create_queued'
 'f.unset_resize_queued'
+}}}
+
+{{{
+'call_download'
+'cat'
+'close_low_diskspace'
+'close_on_ratio'
+'close_untied'
+'create_link'
+'delete_link'
+'dht'
+'dht_add_node'
+'dht_statistics'
+'download_list'
+'enable_trackers'
+'encoding_list'
+'encryption'
+'execute'
+'execute_log'
+'execute_nothrow'
+'execute_raw'
+'execute_raw_nothrow'
 'false'
 'fi.get_filename_last'
 'fi.is_file'
