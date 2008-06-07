@@ -142,7 +142,7 @@ The commands that act on a torrent are prefixed with 'f.'. They can be used sepa
 
 *f.multicall*
 
-Process an array of calls, and return an array of results. This is specific for a file listing, where the f.* arguments can be used to acquire information. The first argument is the hash that you got from the previous torrent listing. Whenever in a multicall, the char '=' is added at the end of the individual commands.
+Process an array of calls, and return an array of results. This is specific for a file listing, where the following arguments can be used to acquire information. The first argument is the hash that you got from the previous torrent listing. Whenever in a multicall, the char '=' is added at the end of the individual commands.
 
 The arguments can be used on their own as well, with the 'hash' as the parameter to distinguish the torrents and the file number to distinguish individual files. There are multiple ways to address a file, but for me the hash:f# method was the only working solution (see [http://libtorrent.rakshasa.no/wiki/RTorrentXMLRPCGuide rTorrent XML-RPC guide])
 
