@@ -13,6 +13,6 @@ Open the webpage 'about:config' and change the setting 'signed.applets.codebase_
 
 In short, you have to add your server as a trusted domain and enable the 'Access data sources across domains setting'.
 
-Start Internet Explorer and Select 'Tools', 'Internet options' in the menu bar. Click the 'Security' tab and click the 'Custom Level' button. Scroll through the list until you see 'Access data sources across domains setting', select 'enable' then click 'Ok'. You are back at the 'Security' tab, click the 'Sites' button and type the page of your rTorrent serving web server and click the 'Add' button. You are done now, load giTorrent from the link [http://hhasert.oxyhost.com/giTorrent/apps/giTorrent.html giTorrent Live!] and fill in the 'Connections tab'
+Start Internet Explorer and Select 'Tools', 'Internet options' in the menu bar. Click the 'Security' tab and click the 'Custom Level' button. Scroll through the list until you see 'Access data sources across domains setting', select 'enable' then click 'Ok'. You are back at the 'Security' tab, click the 'Sites' button and type the page of your rTorrent serving web server and click the 'Add' button. You are done now, load giTorrent from the link [http://hhasert.10gbfreehost.com/apps/giTorrent.htmlgiTorrent Live!] and fill in the 'Connections tab'
 
 For additional information and screen shots of making the settings, see [http://www.tibco.com/devnet/resources/gi/3_2/tips_and_techniques/accessing_data_across_subdomains32.pdf accessing_data_across_subdomains.pdf]
