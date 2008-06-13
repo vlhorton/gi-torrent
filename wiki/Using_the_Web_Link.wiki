@@ -7,7 +7,7 @@ Loading giTorrent from the hosted webserver requires additional settings due to 
 = Details =
 *FireFox*
 
-Open the webpage 'about:config' and change the setting 'signed.applets.codebase_principal_support' to 'true'. You are done now, load giTorrent from the link [http://hhasert.oxyhost.com/giTorrent/apps/giTorrent.html giTorrent Live!] and fill in the 'Connections tab'
+Open the webpage 'about:config' and change the setting 'signed.applets.codebase_principal_support' to 'true'. You are done now, load giTorrent from the link [http://hhasert.10gbfreehost.com/apps/giTorrent.html giTorrent Live!] and fill in the 'Connections tab'
 
 *Internet Explorer*
 
