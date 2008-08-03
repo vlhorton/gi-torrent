@@ -40,7 +40,7 @@ d.erase
 d.get_base_filename
 d.get_base_path
 d.get_bytes_done
-d.get_chunk_size
+d.get_chunk_size           Get the size of a block of data (chunk)
 d.get_chunks_hashed
 d.get_complete
 d.get_completed_bytes
@@ -83,7 +83,7 @@ d.get_priority              Get the priority (0=off, 1=low, 2=normal, 3=high)
 d.get_priority_str          Get the priority as a string (Off, Low, Normal, High)
 d.get_ratio                 Get the ratio (upload divided by download)
 d.get_size_bytes            Get the torrent size in bytes
-d.get_size_chunks           Get the size of the chunks
+d.get_size_chunks           Get the size of the torrent in chunks
 d.get_size_files            
 d.get_size_pex
 d.get_skip_rate
