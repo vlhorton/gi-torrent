@@ -183,7 +183,47 @@ The arguments can be used on their own as well, with the 'hash' as the parameter
 'delete_link'
 'dht'
 'dht_add_node'
-'dht_statistics'
+}}}
+
+'dht_statistics' 
+
+Delivers statistics on the dht component. Data is returned in the following structure :
+{{{
+<methodResponse>
+ <params>
+  <param>
+   <value>
+    <struct>
+      <member>
+       <name/>
+       <value><i8/></value>
+      </member>
+      <member>
+       <name/>
+       <value><string/>
+      </member>
+     </struct>
+    </value>
+  </param>
+ </params>
+</methodResponse>
+}}}
+Parameters returned are :
+active                      0 = inactive, 1 = active
+buckets
+bytes_read
+bytes_written
+cycle
+dht                         string; reflects setting in .rtorrentrc
+nodes
+peers
+peers_max
+queries_received
+queries_sent
+replies_received
+torrents
+
+{{{
 'download_list'
 'enable_trackers'
 'encoding_list'
