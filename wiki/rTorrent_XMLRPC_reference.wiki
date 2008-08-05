@@ -209,6 +209,7 @@ Delivers statistics on the dht component. Data is returned in the following stru
 </methodResponse>
 }}}
 Parameters returned are :
+{{{
 active                      0 = inactive, 1 = active
 buckets
 bytes_read
@@ -222,7 +223,7 @@ queries_received
 queries_sent
 replies_received
 torrents
-
+}}}
 {{{
 'download_list'
 'enable_trackers'
