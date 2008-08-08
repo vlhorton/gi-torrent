@@ -17,6 +17,18 @@ jsx3.lang.Package.definePackage(
       giTorrent.getJSXByName("Tied_File").setValue(Val);
       Val = objGUI.getRecord(objGUI.getValue()).Dir;
       giTorrent.getJSXByName("Dir").setValue(Val);
+      Val = objGUI.getRecord(objGUI.getValue()).Chunk_size;
+      i = 0; 
+      while ( Val >= 1024 ){ Val = Math.round((10*Val)/1024)/10; i++; } 
+      switch (i) { 
+      case 3:  giTorrent.getJSXByName("Chunk_size").setValue(Val + " Gb") ; break;
+      case 2:  giTorrent.getJSXByName("Chunk_size").setValue(Val + " Mb"); break;
+      case 1:  giTorrent.getJSXByName("Chunk_size").setValue(Val + " Kb"); break;
+      default: giTorrent.getJSXByName("Chunk_size").setValue(Val + " b"); break;
+      }
+      Val = objGUI.getRecord(objGUI.getValue()).Message;
+      giTorrent.getJSXByName("Message").setValue(Val);
+
 
       objService.setEndpointURL(giTorrent.getJSXByName("URI").getValue()+":"+giTorrent.getJSXByName("Port").getValue()+giTorrent.getJSXByName("Mount").getValue());
       objService.setUserName(giTorrent.getJSXByName("UserId").getValue());

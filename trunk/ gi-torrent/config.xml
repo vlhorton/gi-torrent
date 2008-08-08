@@ -282,6 +282,24 @@
       <record jsxid="load" type="number">0</record>
       <record jsxid="src" type="string">rules/SetTorrentPrioLow.xml</record>
     </record>
+    <record jsxid="44" type="map">
+      <record jsxid="id" type="string">Testing_stuff_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Testing_stuff.xml</record>
+    </record>
+    <record jsxid="45" type="map">
+      <record jsxid="id" type="string">DhtStatistics_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/DhtStatistics.xml</record>
+    </record>
+    <record jsxid="46" type="map">
+      <record jsxid="id" type="string">DhtStatistics_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/DhtStatistics.js</record>
+    </record>
   </record>
   <record jsxid="addins" type="array"/>
   <record jsxid="bodyhotkeys" type="boolean">false</record>

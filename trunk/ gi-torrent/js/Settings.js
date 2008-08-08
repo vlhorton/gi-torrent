@@ -47,6 +47,24 @@ jsx3.lang.Package.definePackage(
       giTorrent.getJSXByName("Max_Down_t").setValue(val);
       val = iter.next().getAttribute('Result')/1024;
       giTorrent.getJSXByName("Max_Up_t").setValue(val);
+      val = iter.next().getAttribute('Result');
+      i = 0; 
+      while ( val >= 1024 ){ val = Math.round((10*val)/1024)/10; i++; } 
+      switch (i) { 
+       case 3:  giTorrent.getJSXByName("Max_Memory_t").setValue(val + " Gb") ; break;
+       case 2:  giTorrent.getJSXByName("Max_Memory_t").setValue(val + " Mb"); break;
+       case 1:  giTorrent.getJSXByName("Max_Memory_t").setValue(val + " Kb"); break;
+       default: giTorrent.getJSXByName("Max_Memory_t").setValue(val + " b"); break;
+      }
+      val = iter.next().getAttribute('Result');
+      i = 0; 
+      while ( val >= 1024 ){ val = Math.round((10*val)/1024)/10; i++; } 
+      switch (i) { 
+       case 3:  giTorrent.getJSXByName("Max_Memory_in_use_t").setValue(val + " Gb") ; break;
+       case 2:  giTorrent.getJSXByName("Max_Memory_in_use_t").setValue(val + " Mb"); break;
+       case 1:  giTorrent.getJSXByName("Max_Memory_in_use_t").setValue(val + " Kb"); break;
+       default: giTorrent.getJSXByName("Max_Memory_in_use_t").setValue(val + " b"); break;
+      }
     };
 
     service.onError = function(objEvent) {
