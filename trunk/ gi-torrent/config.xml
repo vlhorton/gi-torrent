@@ -300,6 +300,42 @@
       <record jsxid="load" type="number">1</record>
       <record jsxid="src" type="string">js/DhtStatistics.js</record>
     </record>
+    <record jsxid="47" type="map">
+      <record jsxid="id" type="string">DownloadlistStarted_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/DownloadlistStarted.xml</record>
+    </record>
+    <record jsxid="48" type="map">
+      <record jsxid="id" type="string">DowloadlistStarted_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/DowloadlistStarted.js</record>
+    </record>
+    <record jsxid="49" type="map">
+      <record jsxid="id" type="string">DowloadlistStopped_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/DowloadlistStopped.js</record>
+    </record>
+    <record jsxid="50" type="map">
+      <record jsxid="id" type="string">DownloadlistStopped_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/DownloadlistStopped.xml</record>
+    </record>
+    <record jsxid="51" type="map">
+      <record jsxid="id" type="string">DownloadlistHashing_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/DownloadlistHashing.xml</record>
+    </record>
+    <record jsxid="52" type="map">
+      <record jsxid="id" type="string">DowloadlistHashing_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/DowloadlistHashing.js</record>
+    </record>
   </record>
   <record jsxid="addins" type="array"/>
   <record jsxid="bodyhotkeys" type="boolean">false</record>
