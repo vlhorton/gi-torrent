@@ -41,7 +41,7 @@
           <dynamics jsxborder="@Outset"/>
           <object type="jsx3.gui.Matrix">
             <variants jsxpagingmodel="1" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1" jsxautorow="0" jsxxmlbind="1" jsxxmlasync="0" jsxloadtype="0" jsxdrag="0" jsxdrop="0" jsxresize="0" jsxreorder="0"/>
-            <strings jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxfocusstyle="font-weight:bold;" jsxxmlid="Download_list" jsxsortpath="Completed_bytes" jsxsorttype="text" jsxsortdirection="descending" jsxbgcolor="#FFFFFF" jsxselectionbg=""/>
+            <strings jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxfocusstyle="font-weight:bold;" jsxxmlid="Download_list" jsxsortpath="Percent_complete" jsxsorttype="number" jsxsortdirection="descending" jsxbgcolor="#FFFFFF" jsxselectionbg=""/>
             <dynamics jsxbg="@Bevel TopDown Light"/>
             <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);" jsxselect="giTorrent.getJSXByName(&quot;Tracker&quot;).doShow();"/>
             <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#F0F8FF"/>
@@ -145,8 +145,8 @@
             <strings jsxname="Up_Rate_Units" jsxtext="kB/s" jsxdisplay=""/>
           </object>
           <object type="jsx3.gui.TextBox">
-            <variants jsxvalue="110.2" jsxheight="18" jsxrelativeposition="0" jsxleft="461" jsxtop="0" jsxwidth="37" jsxenabled="1"/>
-            <strings jsxname="Up_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxtip="Upload rate in kilo bytes per second." jsxvisibility=""/>
+            <variants jsxheight="18" jsxrelativeposition="0" jsxleft="461" jsxtop="0" jsxwidth="37" jsxenabled="1"/>
+            <strings jsxname="Up_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxtip="Upload rate in kilo bytes per second." jsxvisibility="" jsxvalue=""/>
           </object>
           <object type="jsx3.gui.Block">
             <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="550" jsxtop="3"/>
@@ -157,8 +157,8 @@
             <strings jsxname="Down_Rate_Units" jsxtext="kB/s" jsxdisplay=""/>
           </object>
           <object type="jsx3.gui.TextBox">
-            <variants jsxheight="18" jsxrelativeposition="0" jsxleft="581" jsxtop="0" jsxwidth="37" jsxvalue="40"/>
-            <strings jsxname="Down_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right"/>
+            <variants jsxheight="18" jsxrelativeposition="0" jsxleft="581" jsxtop="0" jsxwidth="37"/>
+            <strings jsxname="Down_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxvalue=""/>
           </object>
           <object type="jsx3.gui.TabbedPane">
             <variants selectedIndex="2" jsxselectedindex="0" jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxshowtabs="1"/>
@@ -213,7 +213,7 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version" jsxtext="V 0.4.5 Alpha" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
+                  <strings jsxname="Version" jsxtext="V 0.4.6 Alpha" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
@@ -453,7 +453,7 @@
             </object>
             <object type="jsx3.gui.Tab">
               <variants jsxzindex="3" jsxheight="20"/>
-              <strings jsxname="Tracker" jsxtext="Tracker" jsxbgcolor="#e8e8f5" jsxtip="See tracker info, url, hash, torrent    info."/>
+              <strings jsxname="Tracker" jsxtext="Tracker" jsxbgcolor="#d8d8e5" jsxtip="See tracker info, url, hash, torrent    info."/>
               <events jsxshow="Trackerlist.service.call();"/>
               <object type="jsx3.gui.LayoutGrid">
                 <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
@@ -466,7 +466,7 @@
                     <variants jsxpagingmodel="1" jsxselectionmodel="2" jsxscalewidth="1" jsxjsxxmlasync="1"/>
                     <strings jsxname="matrix4" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxfocusstyle="font-weight:bold;" jsxsortpath="Type" jsxsorttype="text" jsxsortdirection="ascending" jsxxmlid="Tracker_list"/>
                     <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);"/>
-                    <xslparameters jsx_rowbg1="#ffffff" jsx_rowbg2="#efefff"/>
+                    <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#F0F8FF"/>
                     <object type="jsx3.gui.Matrix.Column">
                       <variants jsxwidth="600" jsxresize="1"/>
                       <strings jsxname="Url" jsxtext="Url" jsxcellpadding="2" jsxpath="Url" jsxvaluetemplate=""/>
@@ -500,19 +500,19 @@
                   <dynamics jsxborder="@Outset"/>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="10" jsxwidth="640" jsxenabled="1"/>
-                    <strings jsxname="Hash" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="156E54C8AF56C114BF9EDEEFB440A032B52F7AA0"/>
+                    <strings jsxname="Hash" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="91DEC03B0FD139C760DAD568F532A7DE3E5F78FC"/>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="35" jsxwidth="640" jsxenabled="1"/>
-                    <strings jsxname="Tied_File" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="//home/hhasert/shared/torrent_files/dead.torrent"/>
+                    <strings jsxname="Tied_File" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="//home/hhasert/shared/torrent_files/J4F_PAL_customNL_HB2_TGA.torrent"/>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="60" jsxwidth="640" jsxenabled="1"/>
-                    <strings jsxname="Dir" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="/home/hhasert/shared/torrent_downloads/dead"/>
+                    <strings jsxname="Dir" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="/home/hhasert/shared/torrent_downloads/J4F_PAL_customNL-HB2_TGA"/>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="85" jsxwidth="60" jsxenabled="1"/>
-                    <strings jsxname="Chunk_size" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="4 Mb"/>
+                    <strings jsxname="Chunk_size" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="1 Mb"/>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="110" jsxwidth="640" jsxenabled="1"/>
@@ -613,7 +613,7 @@
             </object>
             <object type="jsx3.gui.Tab">
               <variants jsxzindex="3" jsxheight="18"/>
-              <strings jsxname="Peers" jsxtext="Peers" jsxbgcolor="#d8d8e5" jsxtip="See the list of active peers."/>
+              <strings jsxname="Peers" jsxtext="Peers" jsxbgcolor="#e8e8f5" jsxtip="See the list of active peers."/>
               <events jsxshow="Peerlist.service.call();"/>
               <object type="jsx3.gui.LayoutGrid">
                 <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
@@ -638,8 +638,8 @@
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="40"/>
-                      <strings jsxname="Completed" jsxtext="Done" jsxpadding="2" jsxcellpadding="2" jsxpath="Completed" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center"/>
+                      <variants jsxwidth="60"/>
+                      <strings jsxname="Completed" jsxtext="% Done" jsxpadding="2" jsxcellpadding="2" jsxpath="Completed" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center"/>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
