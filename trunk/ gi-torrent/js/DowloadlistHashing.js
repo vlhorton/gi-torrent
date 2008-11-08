@@ -14,6 +14,12 @@ jsx3.lang.Package.definePackage(
       giTorrent.getJSXByName("matrix2").repaint(); 
       giTorrent.getJSXByName("matrix3").repaint();
       giTorrent.getJSXByName("matrix4").repaint();
+      giTorrent.getJSXByName("Hash").setValue("");
+      giTorrent.getJSXByName("Tied_File").setValue("");
+      giTorrent.getJSXByName("Dir").setValue("");
+      giTorrent.getJSXByName("Chunk_size").setValue("");
+      giTorrent.getJSXByName("Free_Diskspace").setValue("");
+      giTorrent.getJSXByName("Message").setValue("");
 
       objService.setEndpointURL(giTorrent.getJSXByName("URI").getValue()+":"+giTorrent.getJSXByName("Port").getValue()+giTorrent.getJSXByName("Mount").getValue());
       objService.setUserName(giTorrent.getJSXByName("UserId").getValue());

@@ -24,7 +24,14 @@ jsx3.lang.Package.definePackage(
 
     service.onSuccess = function(objEvent) {
       //var responseXML = objEvent.target.getInboundDocument();
-      downloadlist.service.call();
+      objGUI = giTorrent.getJSXByName("matrix1"); 
+      Val = objGUI.getRecord(objGUI.getValue()).View;
+      switch (Val){
+      case "main": downloadlist.service.call(); break;
+      case "started": downloadlistStarted.service.call(); break;
+      case "stopped": downloadlistStopped.service.call(); break;
+      case "hashing": downloadlistHashing.service.call(); break;
+      default: downloadlist.service.call(); break;}
     };
 
     service.onError = function(objEvent) {

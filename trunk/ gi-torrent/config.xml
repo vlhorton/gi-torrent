@@ -336,6 +336,24 @@
       <record jsxid="load" type="number">1</record>
       <record jsxid="src" type="string">js/DowloadlistHashing.js</record>
     </record>
+    <record jsxid="53" type="map">
+      <record jsxid="id" type="string">Hash_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/Hash.js</record>
+    </record>
+    <record jsxid="54" type="map">
+      <record jsxid="id" type="string">Hash_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Hash.xml</record>
+    </record>
+    <record jsxid="55" type="map">
+      <record jsxid="id" type="string">Stats</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Stats</record>
+    </record>
   </record>
   <record jsxid="addins" type="array"/>
   <record jsxid="bodyhotkeys" type="boolean">false</record>
