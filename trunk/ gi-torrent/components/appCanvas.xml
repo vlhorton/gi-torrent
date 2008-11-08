@@ -34,7 +34,7 @@
       </object>
       <object type="jsx3.gui.LayoutGrid">
         <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
-        <strings jsxname="layout (--)" jsxrows="50%,50%" jsxwidth="100%" jsxheight="100%" jsxbgcolor="#E6E6FA"/>
+        <strings jsxname="layout (--)" jsxrows="45%,55%" jsxwidth="100%" jsxheight="100%" jsxbgcolor="#E6E6FA"/>
         <object type="jsx3.gui.Block">
           <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"/>
           <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbgcolor="#FFFFFF" jsxvisibility=""/>
