@@ -171,7 +171,7 @@
             <strings jsxname="Down_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxvalue=""/>
           </object>
           <object type="jsx3.gui.TabbedPane">
-            <variants selectedIndex="2" jsxselectedindex="0" jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxshowtabs="1"/>
+            <variants selectedIndex="2" jsxselectedindex="1" jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxshowtabs="1"/>
             <strings jsxname="tabbedpane" jsxtextalign="0" jsxdisplay="" jsxbg=""/>
             <dynamics jsxbgcolor="@Transparent BG"/>
             <object type="jsx3.gui.Tab">
@@ -179,7 +179,7 @@
               <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#d8d8e5" jsxtip="Setup the connection  to the webserver."/>
               <object type="jsx3.gui.Block">
                 <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"/>
-                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxvisibility=""/>
+                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility=""/>
                 <dynamics jsxbgcolor="@Solid Medium"/>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxheight="18" jsxrelativeposition="0" jsxleft="20" jsxtop="30" jsxwidth="170"/>
@@ -233,11 +233,11 @@
             </object>
             <object type="jsx3.gui.Tab">
               <variants jsxheight="18"/>
-              <strings jsxname="Settings" jsxtext="Settings" jsxbgcolor="#d8d8e5" jsxtip="See rTorrent settings, change total upload/download."/>
+              <strings jsxname="Settings" jsxtext="Settings" jsxbgcolor="#e8e8f5" jsxtip="See rTorrent settings, change total upload/download."/>
               <events jsxshow="Settings.service.call();"/>
               <object type="jsx3.gui.Block">
                 <variants jsxoverflow="2" jsxrelativeposition="0" jsxloadtype="4"/>
-                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxvisibility="" jsxdisplay="none"/>
+                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxvisibility="" jsxdisplay=""/>
                 <dynamics jsxbgcolor="@Solid Medium"/>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"/>
@@ -313,7 +313,7 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="220" jsxtop="140" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Safe_Diskspace" jsxtext="Safe Diskspace" jsxdisplay=""/>
+                  <strings jsxname="Safe_Diskspace" jsxtext="Low Disk Space" jsxdisplay=""/>
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="138" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"/>
@@ -471,7 +471,7 @@
             </object>
             <object type="jsx3.gui.Tab">
               <variants jsxzindex="3" jsxheight="20"/>
-              <strings jsxname="Tracker" jsxtext="Tracker" jsxbgcolor="#e8e8f5" jsxtip="See tracker info, url, hash, torrent    info."/>
+              <strings jsxname="Tracker" jsxtext="Tracker" jsxbgcolor="#d8d8e5" jsxtip="See tracker info, url, hash, torrent    info."/>
               <events jsxshow="Trackerlist.service.call();"/>
               <object type="jsx3.gui.LayoutGrid">
                 <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
