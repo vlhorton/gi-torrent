@@ -437,13 +437,17 @@ torrents
 't.is_open'
 't.multicall'
 't.set_enabled'
-'to_date'
+
+to_* functions that operate on another command that gets a unix timestamp. Syntax is 'to_*=$.....'
+
+'to_date'                   convert the unix timestamp to a date string
 'to_elapsed_time'
-'to_gm_date'
-'to_gm_time'
+'to_gm_date'                convert the unix timestamp to a GM date string
+'to_gm_time'                convert the unix timestamp to a GM time string
+'to_time'                   convert the unix timestamp to a time string
+
 'to_kb'
 'to_mb'
-'to_time'
 'to_xb'
 'tos'
 'try_import'
