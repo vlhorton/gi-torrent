@@ -149,7 +149,7 @@ The arguments can be used on their own as well, with the 'hash' as the parameter
 {{{
 'f.get_completed_chunks'
 'f.get_frozen_path'
-'f.get_last_touched'
+'f.get_last_touched'           Last time the file was touched in microseconds since 1970
 'f.get_match_depth_next'
 'f.get_match_depth_prev'
 'f.get_offset'
@@ -446,7 +446,7 @@ to_* functions operate on another command, the following operate on a unix times
 'to_gm_time'                convert the unix timestamp to a GM time string
 'to_time'                   convert the unix timestamp to a time string
 
-Syntax is 'to_*=$.....'. Example : 'to_date=$f.get_last_touched'. 
+Syntax is 'to_*=$.....'. Example : 'to_date=$d.get_creation_date'. 
 
 'to_kb'
 'to_mb'
