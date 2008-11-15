@@ -438,7 +438,7 @@ torrents
 't.multicall'
 't.set_enabled'
 
-to_* functions that operate on another command that gets a unix timestamp. Syntax is 'to_*=$.....'
+to_* functions that operate on another command that gets a unix timestamp. Syntax is 'to_*=$.....'. Example : 'to_date=$f.get_last_touched'. 
 
 'to_date'                   convert the unix timestamp to a date string
 'to_elapsed_time'
