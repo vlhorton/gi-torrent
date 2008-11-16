@@ -287,13 +287,13 @@ Syntax is 'to_*=$.....'. Example : 'to_date=$d.get_creation_date'.
 
 *Loading Torrents*
 {{{
-'load'                   Load/download a torrent URL
+'load'                   Load/download a torrent URL/file
 'load_raw'               Load a torrent file content
 'load_raw_start'         Load a torrent file content and start it
 'load_raw_verbose'       Load a torrent file content and supply verbose info
-'load_start'             Load/download a torrent URL and start it
-'load_start_verbose'     Load/download a torrent URL, start it and supply verbose info
-'load_verbose'           Load/download a torrent URL and supply verbose info
+'load_start'             Load/download a torrent URL/file and start it
+'load_start_verbose'     Load/download a torrent URL/file, start it and supply verbose info
+'load_verbose'           Load/download a torrent URL/file and supply verbose info
 }}}
 
 *Other Commands*
