@@ -32,11 +32,11 @@ The commands that act on a torrent are prefixed with 'd.'. They can be used sepa
 Process an array of calls, and return an array of results. This is specific for a torrent listing, where the following arguments can be used to acquire information. The first argument is the type of view (f.i. 'main', 'started','stopped','hashing','seeding') that you want to get returned. The arguments can be used on their own as well, with the 'hash' as the parameter to distinguish the torrents. Whenever in a multicall, the char '=' is added at the end.
 {{{
 d.check_hash               Initiate a hash check
-d.close
+d.close                    Stop the torrent
 d.create_link
 d.delete_link
 d.delete_tied
-d.erase
+d.erase                    Erase the torrent from the list
 d.get_base_filename
 d.get_base_path
 d.get_bytes_done
