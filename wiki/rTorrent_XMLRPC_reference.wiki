@@ -48,7 +48,7 @@ d.get_completed_chunks
 d.get_connection_current
 d.get_connection_leech
 d.get_connection_seed
-d.get_creation_date
+d.get_creation_date        Get the date the torrent was created
 d.get_custom1
 d.get_custom2
 d.get_custom3
