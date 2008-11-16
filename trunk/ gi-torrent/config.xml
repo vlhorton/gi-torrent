@@ -354,6 +354,42 @@
       <record jsxid="load" type="number">0</record>
       <record jsxid="src" type="string">rules/Stats</record>
     </record>
+    <record jsxid="56" type="map">
+      <record jsxid="id" type="string">DownloadlistSeeding_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/DownloadlistSeeding.xml</record>
+    </record>
+    <record jsxid="57" type="map">
+      <record jsxid="id" type="string">DowloadlistSeeding_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/DowloadlistSeeding.js</record>
+    </record>
+    <record jsxid="58" type="map">
+      <record jsxid="id" type="string">LoadStartURL_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/LoadStartURL.xml</record>
+    </record>
+    <record jsxid="59" type="map">
+      <record jsxid="id" type="string">LoadStartURL_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/LoadStartURL.js</record>
+    </record>
+    <record jsxid="60" type="map">
+      <record jsxid="id" type="string">UpdatePriorities_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/UpdatePriorities.xml</record>
+    </record>
+    <record jsxid="61" type="map">
+      <record jsxid="id" type="string">UpdatePriorities_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/UpdatePriorities.js</record>
+    </record>
   </record>
   <record jsxid="addins" type="array"/>
   <record jsxid="bodyhotkeys" type="boolean">false</record>

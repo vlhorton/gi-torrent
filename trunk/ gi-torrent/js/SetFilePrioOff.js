@@ -26,6 +26,7 @@ jsx3.lang.Package.definePackage(
     service.onSuccess = function(objEvent) {
       //var responseXML = objEvent.target.getInboundDocument();
       Filelist.service.call();
+      UpdatePriorities.service.call();
     };
 
     service.onError = function(objEvent) {

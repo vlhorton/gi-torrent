@@ -17,15 +17,11 @@ jsx3.lang.Package.definePackage(
       giTorrent.getJSXByName("Tied_File").setValue(Val);
       Val = objGUI.getRecord(objGUI.getValue()).Dir;
       giTorrent.getJSXByName("Dir").setValue(Val);
-      Val = objGUI.getRecord(objGUI.getValue()).Free_Diskspace;
-      i = 0; 
-      while ( Val >= 1024 ){ Val = Math.round((10*Val)/1024)/10; i++; } 
-      switch (i) { 
-      case 3:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " Gb") ; break;
-      case 2:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " Mb"); break;
-      case 1:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " Kb"); break;
-      default: giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " b"); break;
-      }
+      Val = objGUI.getRecord(objGUI.getValue()).Creation_Date;
+      giTorrent.getJSXByName("Creation_Date").setValue(Val);
+      Val = objGUI.getRecord(objGUI.getValue()).Creation_Time;
+      giTorrent.getJSXByName("Creation_Time").setValue(Val);
+
       Val = objGUI.getRecord(objGUI.getValue()).Chunk_size;
       i = 0; 
       while ( Val >= 1024 ){ Val = Math.round((10*Val)/1024)/10; i++; } 
@@ -34,6 +30,15 @@ jsx3.lang.Package.definePackage(
       case 2:  giTorrent.getJSXByName("Chunk_size").setValue(Val + " Mb"); break;
       case 1:  giTorrent.getJSXByName("Chunk_size").setValue(Val + " Kb"); break;
       default: giTorrent.getJSXByName("Chunk_size").setValue(Val + " b"); break;
+      }
+      Val = objGUI.getRecord(objGUI.getValue()).Free_Diskspace;
+      i = 0; 
+      while ( Val >= 1024 ){ Val = Math.round((10*Val)/1024)/10; i++; } 
+      switch (i) { 
+      case 3:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " Gb") ; break;
+      case 2:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " Mb"); break;
+      case 1:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " Kb"); break;
+      default: giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " b"); break;
       }
       Val = objGUI.getRecord(objGUI.getValue()).Message;
       giTorrent.getJSXByName("Message").setValue(Val);

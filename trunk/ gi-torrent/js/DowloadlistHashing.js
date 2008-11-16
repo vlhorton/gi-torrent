@@ -18,6 +18,8 @@ jsx3.lang.Package.definePackage(
       giTorrent.getJSXByName("Tied_File").setValue("");
       giTorrent.getJSXByName("Dir").setValue("");
       giTorrent.getJSXByName("Chunk_size").setValue("");
+      giTorrent.getJSXByName("Creation_Date").setValue("");
+      giTorrent.getJSXByName("Creation_Time").setValue("");
       giTorrent.getJSXByName("Free_Diskspace").setValue("");
       giTorrent.getJSXByName("Message").setValue("");
 

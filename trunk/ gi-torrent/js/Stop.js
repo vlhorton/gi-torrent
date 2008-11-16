@@ -28,6 +28,7 @@ jsx3.lang.Package.definePackage(
       switch (Val){
       case "main": downloadlist.service.call(); break;
       case "started": downloadlistStarted.service.call(); break;
+      case "seeding": downloadlistSeeding.service.call(); break;
       case "stopped": downloadlistStopped.service.call(); break;
       case "hashing": downloadlistHashing.service.call(); break;
       default: downloadlist.service.call(); break;}
