@@ -172,16 +172,33 @@ The arguments can be used on their own as well, with the 'hash' as the parameter
 'f.unset_resize_queued'
 }}}
 
+*Managing Peers*
+
+The commands that act on a peer are prefixed with 'p.'. They can be used separately (with the 'hash' as the parameter that distinguishes the specific torrent) or together by using p.multicall.
+
+*p.multicall*
+
+Process an array of calls, and return an array of results. This is specific for a peer listing, where the following arguments can be used to acquire information. The first argument is the hash that you got from the previous torrent listing. Whenever in a multicall, the char '=' is added at the end of the individual commands.
+
+The arguments can be used on their own as well, with the 'hash' as the parameter to distinguish the torrents. 
 {{{
-'call_download'
-'cat'                    Used to convert to a string, cat=$......
-'close_low_diskspace'
-'close_on_ratio'
-'close_untied'
-'create_link'
-'delete_link'
-'dht'
-'dht_add_node'
+'p.get_address'
+'p.get_client_version'
+'p.get_completed_percent'
+'p.get_down_rate'
+'p.get_down_total'
+'p.get_id'
+'p.get_id_html'
+'p.get_options_str'
+'p.get_peer_rate'
+'p.get_peer_total'
+'p.get_port'
+'p.get_up_rate'
+'p.get_up_total'
+'p.is_encrypted'
+'p.is_incoming'
+'p.is_obfuscated'
+'p.is_snubbed'
 }}}
 
 *dht_statistics* 
@@ -225,6 +242,15 @@ replies_received
 torrents
 }}}
 {{{
+'call_download'
+'cat'                    Used to convert to a string, cat=$......
+'close_low_diskspace'
+'close_on_ratio'
+'close_untied'
+'create_link'
+'delete_link'
+'dht'
+'dht_add_node'
 'download_list'
 'enable_trackers'
 'encoding_list'
@@ -323,24 +349,6 @@ torrents
 'on_start'
 'on_stop'
 'or'
-'p.get_address'
-'p.get_client_version'
-'p.get_completed_percent'
-'p.get_down_rate'
-'p.get_down_total'
-'p.get_id'
-'p.get_id_html'
-'p.get_options_str'
-'p.get_peer_rate'
-'p.get_peer_total'
-'p.get_port'
-'p.get_up_rate'
-'p.get_up_total'
-'p.is_encrypted'
-'p.is_incoming'
-'p.is_obfuscated'
-'p.is_snubbed'
-'p.multicall'
 'print'
 'remove_untied'
 'scgi_local'
