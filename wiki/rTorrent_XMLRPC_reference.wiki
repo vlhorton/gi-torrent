@@ -286,6 +286,8 @@ Syntax is 'to_*=$.....'. Example : 'to_date=$d.get_creation_date'.
 }}}
 
 *Loading Torrents*
+The URL for a restricted site is http://userid:password@Torrent.location.org.
+
 {{{
 'load'                   Load/download a torrent URL/file
 'load_raw'               Load a torrent file content
