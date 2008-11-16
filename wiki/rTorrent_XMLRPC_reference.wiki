@@ -133,7 +133,7 @@ d.stop                      Stop the torrent
 d.try_close
 d.try_start
 d.try_stop
-d.update_priorities
+d.update_priorities         Update the torrent after changes to file priorities
 }}}
 
 *Managing Files*
