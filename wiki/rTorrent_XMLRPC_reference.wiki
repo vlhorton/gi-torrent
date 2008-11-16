@@ -201,6 +201,32 @@ The arguments can be used on their own as well, with the 'hash' as the parameter
 'p.is_snubbed'
 }}}
 
+*Managing Trackers*
+
+The commands that act on a tracker are prefixed with 't.'. They can be used separately (with the 'hash' as the parameter that distinguishes the specific torrent) or together by using t.multicall.
+
+*t.multicall*
+
+Process an array of calls, and return an array of results. This is specific for a tracker listing, where the following arguments can be used to acquire information. The first argument is the hash that you got from the previous torrent listing. Whenever in a multicall, the char '=' is added at the end of the individual commands.
+
+The arguments can be used on their own as well, with the 'hash' as the parameter to distinguish the torrents. 
+{{{
+'t.get_group'
+'t.get_id'
+'t.get_min_interval'
+'t.get_normal_interval'
+'t.get_scrape_complete'
+'t.get_scrape_downloaded'
+'t.get_scrape_incomplete'
+'t.get_scrape_time_last'
+'t.get_type'
+'t.get_url'
+'t.is_enabled'
+'t.is_open'
+'t.multicall'
+'t.set_enabled'
+}}}
+
 *dht_statistics* 
 
 Delivers statistics on the dht component. Data is returned in the following structure :
@@ -430,20 +456,6 @@ torrents
 'system.time'
 'system.time_seconds'
 'system.time_usec'
-'t.get_group'
-'t.get_id'
-'t.get_min_interval'
-'t.get_normal_interval'
-'t.get_scrape_complete'
-'t.get_scrape_downloaded'
-'t.get_scrape_incomplete'
-'t.get_scrape_time_last'
-'t.get_type'
-'t.get_url'
-'t.is_enabled'
-'t.is_open'
-'t.multicall'
-'t.set_enabled'
 
 to_* functions operate on another command, the following operate on a unix timestamp : 
 
