@@ -165,7 +165,6 @@ The arguments can be used on their own as well, with the 'hash' as the parameter
 'f.is_created'
 'f.is_open'
 'f.is_resize_queued'
-'f.multicall'
 'f.set_create_queued'
 'f.set_priority'
 'f.set_resize_queued'
