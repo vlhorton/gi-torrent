@@ -285,6 +285,16 @@ Syntax is 'to_*=$.....'. Example : 'to_date=$d.get_creation_date'.
 'to_xb'
 }}}
 
+*Loading Torrents*
+{{{
+'load'                   Load/download a torrent URL
+'load_raw'               Load a torrent file content
+'load_raw_start'         Load a torrent file content and start it
+'load_raw_verbose'       Load a torrent file content and supply verbose info
+'load_start'             Load/download a torrent URL and start it
+'load_start_verbose'     Load/download a torrent URL, start it and supply verbose info
+'load_verbose'           Load/download a torrent URL and supply verbose info
+}}}
 
 *Other Commands*
 {{{
@@ -376,13 +386,6 @@ Syntax is 'to_*=$.....'. Example : 'to_date=$d.get_creation_date'.
 'if'
 'import'
 'less'
-'load'
-'load_raw'
-'load_raw_start'
-'load_raw_verbose'
-'load_start'
-'load_start_verbose'
-'load_verbose'
 'not'
 'on_close'
 'on_erase'
