@@ -267,6 +267,26 @@ queries_sent
 replies_received
 torrents
 }}}
+
+*To functions*
+{{{
+to_* functions operate on another command, the following operate on a unix timestamp : 
+
+'to_date'                   convert the unix timestamp to a date string
+'to_elapsed_time'
+'to_gm_date'                convert the unix timestamp to a GM date string
+'to_gm_time'                convert the unix timestamp to a GM time string
+'to_time'                   convert the unix timestamp to a time string
+
+Syntax is 'to_*=$.....'. Example : 'to_date=$d.get_creation_date'. 
+
+'to_kb'
+'to_mb'
+'to_xb'
+}}}
+
+
+*Other Commands*
 {{{
 'call_download'
 'cat'                    Used to convert to a string, cat=$......
@@ -456,20 +476,6 @@ torrents
 'system.time'
 'system.time_seconds'
 'system.time_usec'
-
-to_* functions operate on another command, the following operate on a unix timestamp : 
-
-'to_date'                   convert the unix timestamp to a date string
-'to_elapsed_time'
-'to_gm_date'                convert the unix timestamp to a GM date string
-'to_gm_time'                convert the unix timestamp to a GM time string
-'to_time'                   convert the unix timestamp to a time string
-
-Syntax is 'to_*=$.....'. Example : 'to_date=$d.get_creation_date'. 
-
-'to_kb'
-'to_mb'
-'to_xb'
 'tos'
 'try_import'
 'ui.unfocus_download'
