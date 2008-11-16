@@ -174,7 +174,7 @@ The arguments can be used on their own as well, with the 'hash' as the parameter
 
 {{{
 'call_download'
-'cat'
+'cat'                    Used to convert to a string, cat=$......
 'close_low_diskspace'
 'close_on_ratio'
 'close_untied'
