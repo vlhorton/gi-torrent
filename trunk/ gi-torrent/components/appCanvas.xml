@@ -233,7 +233,7 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version" jsxtext="V 0.5.0 Beta" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
+                  <strings jsxname="Version" jsxtext="V 0.5.1 Beta" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
@@ -389,7 +389,7 @@
                   <strings jsxname="URL_User" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="90" jsxwidth="80" jsxenabled="1"/>
+                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="90" jsxwidth="80" jsxenabled="1" jsxtype="2"/>
                   <strings jsxname="URL_Password" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
                 </object>
                 <object type="jsx3.gui.Block">
