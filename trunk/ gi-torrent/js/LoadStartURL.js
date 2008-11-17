@@ -25,7 +25,7 @@ jsx3.lang.Package.definePackage(
     service.onSuccess = function(objEvent) {
       //var responseXML = objEvent.target.getInboundDocument();
       Val = giTorrent.getJSXByName("URL").getValue();
-      alert("Torrent add request for" + Val + " succesfully sent");
+      alert("Torrent add request for " + Val + " succesfully sent");
       giTorrent.getJSXByName("URL").setValue("");
     };
 
