@@ -24,15 +24,9 @@ jsx3.lang.Package.definePackage(
 
     service.onSuccess = function(objEvent) {
       //var responseXML = objEvent.target.getInboundDocument();
-      objGUI = giTorrent.getJSXByName("matrix1"); 
-      Val = objGUI.getRecord(objGUI.getValue()).View;
-      switch (Val){
-      case "main": downloadlist.service.call(); break;
-      case "started": downloadlistStarted.service.call(); break;
-      case "seeding": downloadlistSeeding.service.call(); break;
-      case "stopped": downloadlistStopped.service.call(); break;
-      case "hashing": downloadlistHashing.service.call(); break;
-      default: downloadlist.service.call(); break;}
+      Val = giTorrent.getJSXByName("URL").getValue();
+      alert("Torrent add request for" + Val + " succesfully sent");
+      giTorrent.getJSXByName("URL").setValue("");
     };
 
     service.onError = function(objEvent) {
