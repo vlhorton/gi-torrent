@@ -106,13 +106,13 @@
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="100"/>
-              <strings jsxname="Done" jsxtext="Downloaded" jsxpadding="2" jsxcellpadding="2" jsxpath="Completed_bytes" jsxtextalign="center" jsxcelltextalign="right"/>
+              <variants jsxwidth="100" jsxsort="1" jsxresize="0"/>
+              <strings jsxname="Done" jsxtext="Downloaded" jsxpadding="2" jsxcellpadding="2" jsxpath="Completed_bytes" jsxtextalign="center" jsxcelltextalign="right" jsxformathandler="" jsxsortdatatype="number"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
               <variants jsxwidth="60" jsxsort="1" jsxresize="0"/>
-              <strings jsxname="Percent_Complete" jsxtext="% done" jsxpadding="2" jsxcellpadding="2" jsxpath="Percent_complete" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number"/>
+              <strings jsxname="Percent_Complete" jsxtext="% done" jsxpadding="2" jsxcellpadding="2" jsxpath="Percent_complete" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxformathandler="@number,#0.0 %" jsxdatatype="number"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
@@ -121,8 +121,8 @@
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80"/>
-              <strings jsxname="Ratio" jsxtext="Ratio" jsxpadding="2" jsxcellpadding="2" jsxpath="Ratio" jsxcelltextalign="right" jsxtextalign="center"/>
+              <variants jsxwidth="60" jsxsort="1" jsxresize="0"/>
+              <strings jsxname="Ratio" jsxtext="Ratio" jsxpadding="2" jsxcellpadding="2" jsxpath="Ratio" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxformathandler="@number,#0.000"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
@@ -233,7 +233,7 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version" jsxtext="V 0.5.3 Beta" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
+                  <strings jsxname="Version" jsxtext="V 0.5.4 Beta" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
@@ -523,7 +523,7 @@
               <events jsxshow="Trackerlist.service.call();"/>
               <object type="jsx3.gui.LayoutGrid">
                 <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
-                <strings jsxname="layout (--)" jsxrows="50%,50%" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility="" jsxbgcolor=""/>
+                <strings jsxname="layout (--)" jsxrows="45%,55%" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility="" jsxbgcolor=""/>
                 <object type="jsx3.gui.Block">
                   <variants jsxoverflow="2"/>
                   <strings jsxname="pane" jsxwidth="100%" jsxheight="95%"/>
@@ -720,22 +720,22 @@
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
                       <variants jsxwidth="50"/>
-                      <strings jsxname="PeerPort" jsxtext="Port" jsxpadding="2" jsxcellpadding="2" jsxpath="Port" jsxcelltextalign="right" jsxtextalign="center"/>
+                      <strings jsxname="PeerPort" jsxtext="Port" jsxpadding="2" jsxcellpadding="2" jsxpath="Port" jsxcelltextalign="right" jsxtextalign="center" jsxsortdatatype="number" jsxdatatype="number"/>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="60"/>
-                      <strings jsxname="Completed" jsxtext="% Done" jsxpadding="2" jsxcellpadding="2" jsxpath="Completed" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center"/>
+                      <variants jsxwidth="60" jsxsort="1"/>
+                      <strings jsxname="Completed" jsxtext="% Done" jsxpadding="2" jsxcellpadding="2" jsxpath="Completed" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0 %"/>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxresize="1"/>
-                      <strings jsxname="Down_rate" jsxtext="Down" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_rate" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="text" jsxsortdatatype="text"/>
+                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"/>
+                      <strings jsxname="Down_rate" jsxtext="Down" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_rate" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxdisplay="" jsxvaluetemplate="" jsxformathandler="@number,#0.0 kb/s"/>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxresize="1"/>
-                      <strings jsxname="Up_rate" jsxtext="Up" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_rate" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center"/>
+                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"/>
+                      <strings jsxname="Up_rate" jsxtext="Up" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_rate" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0.0 kb/s"/>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
