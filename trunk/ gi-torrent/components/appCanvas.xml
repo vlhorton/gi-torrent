@@ -136,13 +136,13 @@
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="90"/>
-              <strings jsxname="Down_rate" jsxtext="Down" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_rate" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="text" jsxsortdatatype="text"/>
+              <variants jsxwidth="90" jsxsort="1" jsxresize="0"/>
+              <strings jsxname="Down_rate" jsxtext="Down" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_rate" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0.0 kb/s"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="90"/>
-              <strings jsxname="Up_rate" jsxtext="Up" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_rate" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="text" jsxdatatype="text"/>
+              <variants jsxwidth="90" jsxsort="1" jsxresize="0"/>
+              <strings jsxname="Up_rate" jsxtext="Up" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_rate" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxdatatype="number" jsxformathandler="@number,#0.0 kb/s"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
@@ -233,7 +233,7 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version" jsxtext="V 0.5.4 Beta" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
+                  <strings jsxname="Version" jsxtext="V 0.5.5 Beta" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
