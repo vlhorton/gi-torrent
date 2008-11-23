@@ -280,9 +280,9 @@ to_* functions operate on another command, the following operate on a unix times
 
 Syntax is 'to_*=$.....'. Example : 'to_date=$d.get_creation_date'. 
 
-'to_kb'
-'to_mb'
-'to_xb'
+'to_kb'                     convert to Kb
+'to_mb'                     convert to Mb
+'to_xb'                     
 }}}
 
 *Loading Torrents*
