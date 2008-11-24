@@ -29,3 +29,7 @@ rTorrent is based on views to show the active torrents. The default views are su
  * Seeding  All the torrents that are fully downloaded and seeding.
 
 giTorrent has these views accessable through the 'View' menu. Choosing a view from the menu gets the information from rTorrent, so initially the list is empty until a view is selected. 
+
+*Getting information on the tracker*
+
+In general every action on a torrent starts from selecting it in the torrent list. The default action on selecting a torrent is opening the tracker tab and collecting information on the torrent. Every time a tab is clicked (apart from the 'Add Torrent' tab ofcourse) the content is refreshed from the server. 
