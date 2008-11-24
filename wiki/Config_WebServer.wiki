@@ -34,7 +34,7 @@ Add the following lines at the end of the file :
 {{{
 scgi_local = /tmp/rpc.socket
 }}}
-Restart rTorrent to active the settings. You should see an entry /tmp/rpc.socket when this is succesful. I like the socket approach, because it is more secure than the tcp/ip port. The security settings on the /tmp directory should allow the lighttpd user to read/write to the socket. If this is set incorrectly a record is written in the lighttpd error log.
+Restart rTorrent to active the settings. You should see an entry /tmp/rpc.socket when this is succesful. I like the socket approach, because it is more secure than the tcp/ip port. The security settings on the /tmp directory should allow the lighttpd user to read/write to the socket. If this is set incorrectly a record is written in the lighttpd error log (/var/log/lighttpd/error.log).
 
 _Adding security_
 
