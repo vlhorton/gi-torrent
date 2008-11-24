@@ -10,7 +10,7 @@ This is the first attempt to create a user manual for giTorrent.
 
 The connection tab contains the information for giTorrent to reach rTorrent on the server. There are 5 parameters to set :
 
- * URL&tab        The url that points to your webserver.||
+ * URL          The url that points to your webserver.
  * Port         The port that your webserver uses, default port 80.
  * Mount Point  The link to the RPC interface, default '/RPC2'.
  * UserID       The userid defined in the webserver if you enabled security.
