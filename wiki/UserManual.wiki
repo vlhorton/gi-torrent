@@ -1,4 +1,4 @@
-#giTorrent User Manual.
+giTorrent User Manual.
 
 = Introduction =
 
