@@ -679,8 +679,8 @@
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="80" jsxsort="0" jsxresize="0"/>
-                      <strings jsxname="Percentage_complete" jsxtext="% complete" jsxpadding="2" jsxcellpadding="2" jsxpath="Percentage_complete" jsxcelltextalign="right" jsxtextalign="center"/>
+                      <variants jsxwidth="80" jsxsort="1" jsxresize="0"/>
+                      <strings jsxname="Percentage_complete" jsxtext="% complete" jsxpadding="2" jsxcellpadding="2" jsxpath="Percentage_complete" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0.0 %"/>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
@@ -744,7 +744,7 @@
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="60" jsxsort="1"/>
+                      <variants jsxwidth="60" jsxsort="1" jsxresize="0"/>
                       <strings jsxname="Completed" jsxtext="% Done" jsxpadding="2" jsxcellpadding="2" jsxpath="Completed" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0 %"/>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
