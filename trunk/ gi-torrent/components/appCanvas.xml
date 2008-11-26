@@ -102,22 +102,37 @@
             </object>
             <object type="jsx3.gui.Matrix.Column">
               <variants jsxwidth="100" jsxresize="0"/>
-              <strings jsxname="Size" jsxtext="Size" jsxcellpadding="2" jsxpath="Size" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center"/>
+              <strings jsxname="Size" jsxtext="Size" jsxcellpadding="2" jsxpath="Size" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxsortpath="Size_bytes" jsxsortdatatype="number"/>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+            </object>
+            <object type="jsx3.gui.Matrix.Column">
+              <variants jsxwidth="100" jsxresize="0"/>
+              <strings jsxname="Size_bytes" jsxtext="Size_bytes" jsxcellpadding="2" jsxpath="Size_bytes" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxdisplay="none" jsxdatatype="number"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
               <variants jsxwidth="100" jsxsort="1" jsxresize="0"/>
-              <strings jsxname="Done" jsxtext="Downloaded" jsxpadding="2" jsxcellpadding="2" jsxpath="Completed_bytes" jsxtextalign="center" jsxcelltextalign="right" jsxformathandler="" jsxsortdatatype="number"/>
+              <strings jsxname="Downloaded" jsxtext="Downloaded" jsxpadding="2" jsxcellpadding="2" jsxpath="Downloaded" jsxtextalign="center" jsxcelltextalign="right" jsxformathandler="" jsxsortdatatype="number" jsxsortpath="Downloaded_bytes"/>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+            </object>
+            <object type="jsx3.gui.Matrix.Column">
+              <variants jsxwidth="100" jsxsort="1" jsxresize="0"/>
+              <strings jsxname="Downloaded_bytes" jsxtext="Downloaded_bytes" jsxpadding="2" jsxcellpadding="2" jsxpath="Downloaded_bytes" jsxtextalign="center" jsxcelltextalign="right" jsxformathandler="" jsxsortdatatype="number" jsxdatatype="number" jsxdisplay="none"/>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+            </object>
+            <object type="jsx3.gui.Matrix.Column">
+              <variants jsxwidth="100"/>
+              <strings jsxname="Uploaded" jsxtext="Uploaded" jsxpadding="2" jsxcellpadding="2" jsxpath="Uploaded" jsxcelltextalign="right" jsxtextalign="center" jsxsortpath="Uploaded_bytes" jsxsortdatatype="number" jsxdisplay=""/>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+            </object>
+            <object type="jsx3.gui.Matrix.Column">
+              <variants jsxwidth="100"/>
+              <strings jsxname="Uploaded_bytes" jsxtext="Uploaded_bytes" jsxpadding="2" jsxcellpadding="2" jsxpath="Uploaded_bytes" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxdisplay="none"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
               <variants jsxwidth="60" jsxsort="1" jsxresize="0"/>
               <strings jsxname="Percent_Complete" jsxtext="% done" jsxpadding="2" jsxcellpadding="2" jsxpath="Percent_complete" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxformathandler="@number,#0.0 %" jsxdatatype="number"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
-            </object>
-            <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="100"/>
-              <strings jsxname="Uploaded" jsxtext="Uploaded" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_total" jsxcelltextalign="right" jsxtextalign="center"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
@@ -233,7 +248,7 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version" jsxtext="V 0.5.5 Beta" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
+                  <strings jsxname="Version" jsxtext="V 0.5.6 Beta" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
@@ -649,13 +664,18 @@
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="300" jsxresize="1" jsxsort="0"/>
+                      <variants jsxwidth="300" jsxresize="1" jsxsort="1"/>
                       <strings jsxname="File" jsxtext="File" jsxcellpadding="2" jsxpath="File" jsxvaluetemplate="" jsxdatatype="text" jsxtextalign="center"/>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="100" jsxresize="0" jsxsort="0"/>
-                      <strings jsxname="Size_bytes" jsxtext="Size" jsxcellpadding="2" jsxpath="Size_bytes" jsxvaluetemplate="" jsxdatatype="text" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="text"/>
+                      <variants jsxwidth="100" jsxresize="0" jsxsort="1"/>
+                      <strings jsxname="Size" jsxtext="Size" jsxcellpadding="2" jsxpath="Size" jsxvaluetemplate="" jsxdatatype="text" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxsortpath="Size_bytes"/>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                    </object>
+                    <object type="jsx3.gui.Matrix.Column">
+                      <variants jsxwidth="100" jsxresize="0" jsxsort="1"/>
+                      <strings jsxname="Size_bytes" jsxtext="Size Bytes" jsxcellpadding="2" jsxpath="Size_bytes" jsxvaluetemplate="" jsxdatatype="number" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="text" jsxdisplay="none"/>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
