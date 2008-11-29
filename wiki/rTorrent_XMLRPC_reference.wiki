@@ -78,7 +78,7 @@ d.get_peers_complete        The number of complete peers = seeders
 d.get_peers_connected
 d.get_peers_max
 d.get_peers_min
-d.get_peers_not_connected
+d.get_peers_not_connected   Get the peers rtorrent sees but is not connected to
 d.get_priority              Get the priority (0=off, 1=low, 2=normal, 3=high)
 d.get_priority_str          Get the priority as a string (Off, Low, Normal, High)
 d.get_ratio                 Get the ratio (upload divided by download)
@@ -215,9 +215,9 @@ The arguments can be used on their own as well, with the 'hash' as the parameter
 't.get_id'
 't.get_min_interval'
 't.get_normal_interval'
-'t.get_scrape_complete'
+'t.get_scrape_complete'       Get the complete peers registered on the tracker
 't.get_scrape_downloaded'
-'t.get_scrape_incomplete'
+'t.get_scrape_incomplete'     Get the incomplete peers registered on the tracker
 't.get_scrape_time_last'
 't.get_type'
 't.get_url'
