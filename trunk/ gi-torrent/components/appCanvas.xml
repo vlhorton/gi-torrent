@@ -142,12 +142,12 @@
             </object>
             <object type="jsx3.gui.Matrix.Column">
               <variants jsxwidth="45"/>
-              <strings jsxname="Seed" jsxtext="Seed" jsxpadding="2" jsxcellpadding="2" jsxpath="Peers_complete" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number"/>
+              <strings jsxname="Seed" jsxtext="Seed" jsxpadding="2" jsxcellpadding="2" jsxpath="Peers_complete" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number" jsxtip="Seeds rTorrent is connected to."/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
               <variants jsxwidth="45"/>
-              <strings jsxname="Leech" jsxtext="Leech" jsxpadding="2" jsxcellpadding="2" jsxpath="Peers_accounted" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number"/>
+              <strings jsxname="Leech" jsxtext="Leech" jsxpadding="2" jsxcellpadding="2" jsxpath="Peers_accounted" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number" jsxtip="Leeches rTorrent is connected to."/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
@@ -585,8 +585,13 @@
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="50" jsxresize="0"/>
-                      <strings jsxname="Scrape_Time" jsxtext="Scrape Time" jsxcellpadding="2" jsxpath="Scrape_Time" jsxvaluetemplate="" jsxcelltextalign="center" jsxtextalign="center"/>
+                      <variants jsxwidth="45" jsxresize="0"/>
+                      <strings jsxname="Peers_Complete" jsxtext="Seed" jsxcellpadding="2" jsxpath="Peers_Complete" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxtip="Seeds reported by the tracker."/>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                    </object>
+                    <object type="jsx3.gui.Matrix.Column">
+                      <variants jsxwidth="45" jsxresize="0"/>
+                      <strings jsxname="Peers_Incomplete" jsxtext="Leech" jsxcellpadding="2" jsxpath="Peers_Incomplete" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxtip="Leeches reported by the tracker."/>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
@@ -613,16 +618,16 @@
                     <strings jsxname="Dir" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
                   </object>
                   <object type="jsx3.gui.TextBox">
-                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="85" jsxwidth="60" jsxenabled="1"/>
+                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="85" jsxwidth="55" jsxenabled="1"/>
                     <strings jsxname="Chunk_size" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"/>
                   </object>
                   <object type="jsx3.gui.TextBox">
-                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="310" jsxtop="85" jsxwidth="75" jsxenabled="1"/>
+                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="315" jsxtop="85" jsxwidth="75" jsxenabled="1"/>
                     <strings jsxname="Creation_Date" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"/>
                   </object>
                   <object type="jsx3.gui.TextBox">
-                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="390" jsxtop="85" jsxwidth="60" jsxenabled="1"/>
-                    <strings jsxname="Creation_Time" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"/>
+                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="395" jsxtop="85" jsxwidth="60" jsxenabled="1"/>
+                    <strings jsxname="Creation_Time" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=" " jsxtextalign="right"/>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="650" jsxtop="85" jsxwidth="60" jsxenabled="1"/>
@@ -649,7 +654,7 @@
                     <strings jsxname="label" jsxtext="Chunk size" jsxdisplay=""/>
                   </object>
                   <object type="jsx3.gui.Block">
-                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="225" jsxtop="87"/>
+                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="230" jsxtop="87"/>
                     <strings jsxname="label" jsxtext="Creation Date" jsxdisplay=""/>
                   </object>
                   <object type="jsx3.gui.Block">

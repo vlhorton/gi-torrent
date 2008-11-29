@@ -19,6 +19,7 @@ jsx3.lang.Package.definePackage(
       giTorrent.getJSXByName("Dir").setValue(Val);
       Val = objGUI.getRecord(objGUI.getValue()).Creation_Date;
       giTorrent.getJSXByName("Creation_Date").setValue(Val);
+
       Val = objGUI.getRecord(objGUI.getValue()).Creation_Time;
       giTorrent.getJSXByName("Creation_Time").setValue(Val);
 
