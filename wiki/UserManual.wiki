@@ -36,9 +36,9 @@ In general every action on a torrent starts from selecting it in the torrent lis
 
 Select a torrent and open the 'Action' menu. You can select the action from a menu item:
 
- * Start   Start the torrent
+ * Start     Start the torrent
  * Stop     Stop the torrent
- * Hash     Initiate hash checking for the torrent
+ * Hash    Initiate hash checking for the torrent
  * Erase   Erase the torrent
 
 *Changing torrent priorities*
