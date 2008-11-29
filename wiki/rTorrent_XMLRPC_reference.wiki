@@ -73,7 +73,7 @@ d.get_message
 d.get_mode
 d.get_name                  The name of the torrent.
 d.get_peer_exchange
-d.get_peers_accounted
+d.get_peers_accounted       The number of leechers
 d.get_peers_complete        The number of complete peers = seeders
 d.get_peers_connected
 d.get_peers_max
