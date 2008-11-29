@@ -50,3 +50,11 @@ Select a torrent and open the 'Priority' menu. You can set priority by selecting
 The tracker tab contains a list of trackers and information on the torrent, like the date it was created and the size of the torrent chunks. It also shows how much diskspace is available on the disk where torrents are stored.
 
 The list contains information per associated tracker. If the trackers provides scrape information, the number of seeds and leeches it has registered will be shown. rTorrent does not actively perform scraping (yet), so the information might not be present (as shown by a question mark).
+
+*Changing File Priorities*
+
+Select a torrent from the torrent list and click the Files tab. The tab will fill with a list of the files for this torrent. Select a file from the list and open the 'File Priority' menu. Choose a priority from the menu. You can also set the file to 'Do not Download', so it will not get downloaded by rTorrent (duh). 
+
+*Adding a Torrent*
+
+Select the 'Add Torrent' tab and paste the location for the torrent file in the URL field. If the torrent server needs a userid/password you supply it in the appropriate fields. Press the 'Add Torrent' button to send the request to rTorrent. A succesful send will trigger a dialog box. It takes a few seconds for rTorrent to download the torrent file, so refreshing the view after a while will show the started torrent.
