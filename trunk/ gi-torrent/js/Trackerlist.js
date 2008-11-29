@@ -26,18 +26,18 @@ jsx3.lang.Package.definePackage(
       i = 0; 
       while ( Val >= 1024 ){ Val = Math.round((10*Val)/1024)/10; i++; } 
       switch (i) { 
-      case 3:  giTorrent.getJSXByName("Chunk_size").setValue(Val + " Gb") ; break;
-      case 2:  giTorrent.getJSXByName("Chunk_size").setValue(Val + " Mb"); break;
-      case 1:  giTorrent.getJSXByName("Chunk_size").setValue(Val + " Kb"); break;
+      case 3:  giTorrent.getJSXByName("Chunk_size").setValue(Val.toFixed(1) + " Gb") ; break;
+      case 2:  giTorrent.getJSXByName("Chunk_size").setValue(Val.toFixed(1) + " Mb"); break;
+      case 1:  giTorrent.getJSXByName("Chunk_size").setValue(Val.toFixed(1) + " Kb"); break;
       default: giTorrent.getJSXByName("Chunk_size").setValue(Val + " b"); break;
       }
       Val = objGUI.getRecord(objGUI.getValue()).Free_Diskspace;
       i = 0; 
       while ( Val >= 1024 ){ Val = Math.round((10*Val)/1024)/10; i++; } 
       switch (i) { 
-      case 3:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " Gb") ; break;
-      case 2:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " Mb"); break;
-      case 1:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " Kb"); break;
+      case 3:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val.toFixed(1) + " Gb") ; break;
+      case 2:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val.toFixed(1) + " Mb"); break;
+      case 1:  giTorrent.getJSXByName("Free_Diskspace").setValue(Val.toFixed(1) + " Kb"); break;
       default: giTorrent.getJSXByName("Free_Diskspace").setValue(Val + " b"); break;
       }
       Val = objGUI.getRecord(objGUI.getValue()).Message;

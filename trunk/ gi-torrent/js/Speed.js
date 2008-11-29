@@ -28,9 +28,9 @@ jsx3.lang.Package.definePackage(
       var myDoc = giTorrent.getCache().getDocument("Speed");
       iter = myDoc.selectNodes('//record').iterator();
       val = Math.round(10*iter.next().getAttribute('Result')/1024)/10;
-      giTorrent.getJSXByName("Up_Rate_t").setValue(val);
+      giTorrent.getJSXByName("Up_Rate_t").setValue(val.toFixed(1));
       val = Math.round(10*iter.next().getAttribute('Result')/1024)/10;
-      giTorrent.getJSXByName("Down_Rate_t").setValue(val);
+      giTorrent.getJSXByName("Down_Rate_t").setValue(val.toFixed(1));
     };
 
     service.onError = function(objEvent) {

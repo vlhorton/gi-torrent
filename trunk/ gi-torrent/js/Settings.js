@@ -51,30 +51,35 @@ jsx3.lang.Package.definePackage(
       i = 0; 
       while ( val >= 1024 ){ val = Math.round((10*val)/1024)/10; i++; } 
       switch (i) { 
-       case 3:  giTorrent.getJSXByName("Max_Memory_t").setValue(val + " Gb") ; break;
-       case 2:  giTorrent.getJSXByName("Max_Memory_t").setValue(val + " Mb"); break;
-       case 1:  giTorrent.getJSXByName("Max_Memory_t").setValue(val + " Kb"); break;
+       case 3:  giTorrent.getJSXByName("Max_Memory_t").setValue(val.toFixed(1) + " Gb") ; break;
+       case 2:  giTorrent.getJSXByName("Max_Memory_t").setValue(val.toFixed(1) + " Mb"); break;
+       case 1:  giTorrent.getJSXByName("Max_Memory_t").setValue(val.toFixed(1) + " Kb"); break;
        default: giTorrent.getJSXByName("Max_Memory_t").setValue(val + " b"); break;
       }
       val = iter.next().getAttribute('Result');
       i = 0; 
       while ( val >= 1024 ){ val = Math.round((10*val)/1024)/10; i++; } 
       switch (i) { 
-       case 3:  giTorrent.getJSXByName("Max_Memory_in_use_t").setValue(val + " Gb") ; break;
-       case 2:  giTorrent.getJSXByName("Max_Memory_in_use_t").setValue(val + " Mb"); break;
-       case 1:  giTorrent.getJSXByName("Max_Memory_in_use_t").setValue(val + " Kb"); break;
+       case 3:  giTorrent.getJSXByName("Max_Memory_in_use_t").setValue(val.toFixed(1) + " Gb") ; break;
+       case 2:  giTorrent.getJSXByName("Max_Memory_in_use_t").setValue(val.toFixed(1) + " Mb"); break;
+       case 1:  giTorrent.getJSXByName("Max_Memory_in_use_t").setValue(val.toFixed(1) + " Kb"); break;
        default: giTorrent.getJSXByName("Max_Memory_in_use_t").setValue(val + " b"); break;
       }
       val = iter.next().getAttribute('Result');
       i = 0; 
       while ( val >= 1024 ){ val = Math.round((10*val)/1024)/10; i++; } 
       switch (i) { 
-       case 3:  giTorrent.getJSXByName("Safe_Diskspace_t").setValue(val + " Gb") ; break;
-       case 2:  giTorrent.getJSXByName("Safe_Diskspace_t").setValue(val + " Mb"); break;
-       case 1:  giTorrent.getJSXByName("Safe_Diskspace_t").setValue(val + " Kb"); break;
+       case 3:  giTorrent.getJSXByName("Safe_Diskspace_t").setValue(val.toFixed(1) + " Gb") ; break;
+       case 2:  giTorrent.getJSXByName("Safe_Diskspace_t").setValue(val.toFixed(1) + " Mb"); break;
+       case 1:  giTorrent.getJSXByName("Safe_Diskspace_t").setValue(val.toFixed(1) + " Kb"); break;
        default: giTorrent.getJSXByName("Safe_Diskspace_t").setValue(val + " b"); break;
       }
+      val = iter.next().getAttribute('Result');
+      giTorrent.getJSXByName("Port_Range_t").setValue(val);
+      val = iter.next().getAttribute('Result');
+      giTorrent.getJSXByName("Dht_Port_t").setValue(val);
     };
+
 
     service.onError = function(objEvent) {
       var myStatus = objEvent.target.getRequest().getStatus();

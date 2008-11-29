@@ -37,18 +37,18 @@ jsx3.lang.Package.definePackage(
        i = 0; 
        while ( val >= 1024 ){ val = Math.round((10*val)/1024)/10; i++; } 
        switch (i) { 
-        case 3:  giTorrent.getJSXByName("Bytes_read_t").setValue(val + " Gb") ; break;
-        case 2:  giTorrent.getJSXByName("Bytes_read_t").setValue(val + " Mb"); break;
-        case 1:  giTorrent.getJSXByName("Bytes_read_t").setValue(val + " Kb"); break;
+        case 3:  giTorrent.getJSXByName("Bytes_read_t").setValue(val.toFixed(1) + " Gb") ; break;
+        case 2:  giTorrent.getJSXByName("Bytes_read_t").setValue(val.toFixed(1) + " Mb"); break;
+        case 1:  giTorrent.getJSXByName("Bytes_read_t").setValue(val.toFixed(1) + " Kb"); break;
         default: giTorrent.getJSXByName("Bytes_read_t").setValue(val + " b"); break;
        }
        val = iter.next().getAttribute('Result');
        i = 0; 
        while ( val >= 1024 ){ val = Math.round((10*val)/1024)/10; i++; } 
        switch (i) { 
-        case 3:  giTorrent.getJSXByName("Bytes_written_t").setValue(val + " Gb") ; break;
-        case 2:  giTorrent.getJSXByName("Bytes_written_t").setValue(val + " Mb"); break;
-        case 1:  giTorrent.getJSXByName("Bytes_written_t").setValue(val + " Kb"); break;
+        case 3:  giTorrent.getJSXByName("Bytes_written_t").setValue(val.toFixed(1) + " Gb") ; break;
+        case 2:  giTorrent.getJSXByName("Bytes_written_t").setValue(val.toFixed(1) + " Mb"); break;
+        case 1:  giTorrent.getJSXByName("Bytes_written_t").setValue(val.toFixed(1) + " Kb"); break;
         default: giTorrent.getJSXByName("Bytes_written_t").setValue(val + " b"); break;
        }
        val = iter.next().getAttribute('Result');
