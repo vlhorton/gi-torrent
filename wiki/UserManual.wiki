@@ -22,7 +22,7 @@ See [http://code.google.com/p/gi-torrent/w/edit/giTorrent_web_server_install Web
 
 rTorrent is based on views to show the active torrents. The default views are supported in giTorrent:
 
- * All              All the torrents in the list, actually the 'main' view in rTorrent.
+ * All             All the torrents in the list, actually the 'main' view in rTorrent.
  * Started    All the torrents that are active.
  * Stopped  All the torrents that are inactive.
  * Hashing  All the torrents that are hashing or waiting for hashing. 
