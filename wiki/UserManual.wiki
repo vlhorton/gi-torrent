@@ -30,10 +30,23 @@ rTorrent is based on views to show the active torrents. The default views are su
 
 giTorrent has these views accessable through the 'View' menu. Choosing a view from the menu gets the information from rTorrent, so initially the list is empty until a view is selected. 
 
-*Getting information on the tracker*
-
 In general every action on a torrent starts from selecting it in the torrent list. The default action on selecting a torrent is opening the tracker tab and collecting information on the torrent. Every time a tab is clicked (apart from the 'Add Torrent' tab ofcourse) the content is refreshed from the server.
 
-The tracker tab contains a list of trackers and information on the torrent, like the date it was created, the size of the torrent chunks. It also shows how much diskspace is available on the disk where torrents are stored.
+*Start/Stop/Hash/Erase a torrent*
+
+Select a torrent and open the 'Action' menu. You can select the action from a menu item:
+
+ * Start   Start the torrent
+ * Stop     Stop the torrent
+ * Hash     Initiate hash checking for the torrent
+ * Erase   Erase the torrent
+
+*Changing torrent priorities*
+
+Select a torrent and open the 'Priority' menu. You can set priority by selecting a menu item. The 'Off' priority is a special case, no download slots are assigned to the torrent, but it can still be downloaded due to unused slots.
+
+*Getting information on the tracker*
+
+The tracker tab contains a list of trackers and information on the torrent, like the date it was created and the size of the torrent chunks. It also shows how much diskspace is available on the disk where torrents are stored.
 
 The list contains information per associated tracker. If the trackers provides scrape information, the number of seeds and leeches it has registered will be shown. rTorrent does not actively perform scraping (yet), so the information might not be present (as shown by a question mark).
