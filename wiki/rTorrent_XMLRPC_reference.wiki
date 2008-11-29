@@ -222,7 +222,7 @@ The arguments can be used on their own as well, with the 'hash' as the parameter
 't.get_type'                  Get the tracker type (http, udp, dht)
 't.get_url'                   Get the url for the tracker
 't.is_enabled'                Get the status of the tracker (0=disabled, 1=enabled)
-'t.is_open'                   Get the status of the tracker (0=closed, 1 = open)
+'t.is_open'                   Get the status of the tracker (0=closed, 1=open)
 't.set_enabled'               Enable the tracker
 }}}
 Note: rTorrent does not support explicit scrape, so the scrape values might be '0'.
