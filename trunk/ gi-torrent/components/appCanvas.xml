@@ -720,6 +720,16 @@
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
+                      <variants jsxwidth="110" jsxsort="1" jsxresize="0"/>
+                      <strings jsxname="Chunk_first" jsxtext="First chunk" jsxpadding="2" jsxcellpadding="2" jsxpath="Chunk_first" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number"/>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                    </object>
+                    <object type="jsx3.gui.Matrix.Column">
+                      <variants jsxwidth="110" jsxsort="1" jsxresize="0"/>
+                      <strings jsxname="Chunk_last" jsxtext="Last chunk" jsxpadding="2" jsxcellpadding="2" jsxpath="Chunk_last" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number"/>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                    </object>
+                    <object type="jsx3.gui.Matrix.Column">
                       <variants jsxwidth="90" jsxsort="1" jsxresize="0"/>
                       <strings jsxname="Priority" jsxtext="Priority" jsxpadding="2" jsxcellpadding="2" jsxpath="Priority_text" jsxcelltextalign="center" jsxtextalign="center"/>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
