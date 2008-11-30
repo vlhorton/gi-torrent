@@ -58,3 +58,7 @@ Select a torrent from the torrent list and click the Files tab. The tab will fil
 *Adding a Torrent*
 
 Select the 'Add Torrent' tab and paste the location for the torrent file in the URL field. If the torrent server needs a userid/password you supply it in the appropriate fields. Press the 'Add Torrent' button to send the request to rTorrent. A succesful send will trigger a dialog box. It takes a few seconds for rTorrent to download the torrent file, so refreshing the view after a while will show the started torrent.
+
+*Changing the upload/download settings*
+
+rTorrent has the ability to limit the upload and download speed. In the 'Settings' tab you will see both settings from the .rtorrent.rc file, the memory usage and the settings for upload/download speed. You can change the settings for the limits by editing the text box to the desired value and clicking the associated button to update rTorrent. 
