@@ -156,17 +156,17 @@ The arguments can be used on their own as well, with the 'hash' as the parameter
 'f.get_path'
 'f.get_path_components'
 'f.get_path_depth'
-'f.get_priority'
-'f.get_range_first'
-'f.get_range_second'
-'f.get_size_bytes'
-'f.get_size_chunks'
+'f.get_priority'               Get the priority (0=do not download, 1=normal, 2=high)
+'f.get_range_first'            Get the chunk range start
+'f.get_range_second'           Get the chunk range end
+'f.get_size_bytes'             Get the size of the file in bytes
+'f.get_size_chunks'            Get the size of the file in chunks
 'f.is_create_queued'
 'f.is_created'
-'f.is_open'
+'f.is_open'                    Get the state of the file (0=closed, 1=open)
 'f.is_resize_queued'
 'f.set_create_queued'
-'f.set_priority'
+'f.set_priority'               Set the priority for the file (0=do not download, 1=normal, 2=high)
 'f.set_resize_queued'
 'f.unset_create_queued'
 'f.unset_resize_queued'
