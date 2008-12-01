@@ -105,8 +105,8 @@ d.is_hash_checking         Get the hash state (0=not hash checking, 1=hash check
 d.is_multi_file
 d.is_open
 d.is_pex_active
-d.is_private
-d.open
+d.is_private               Get the privacy of the torrent (0=public, 1=private)
+d.open                     Get the state of the torrent (0=closed, 1=open)
 d.pause
 d.resume
 d.set_connection_current
