@@ -329,7 +329,7 @@ The URL for a restricted site is http://userid:password@Torrent.location.org.
 'get_directory'
 'get_down_rate'             Get the overall download speed in bytes/sec
 'get_down_total'
-'get_download_rate'
+'get_download_rate'         Get the max download speed in bytes/sec
 'get_handshake_log'
 'get_hash_interval'
 'get_hash_max_tries'
@@ -381,7 +381,7 @@ The URL for a restricted site is http://userid:password@Torrent.location.org.
 'get_tracker_numwant'
 'get_up_rate'                   Get the overall upload speed in bytes/sec
 'get_up_total'
-'get_upload_rate'
+'get_upload_rate'               Get the max upload speed in bytes/sec
 'get_use_udp_trackers'
 'get_xmlrpc_size_limit'
 'greater'
