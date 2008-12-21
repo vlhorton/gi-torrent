@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<methodCall>
+<methodName />
+ <params>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+  <param>
+   <value><string /></value>
+  </param>
+ </params>
+</methodCall>
+
