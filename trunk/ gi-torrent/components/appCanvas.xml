@@ -1,885 +1,885 @@
-<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.6">
-  <name>Layout - Top/Over</name>
-  <icon>images/prototypes/layout-over.gif</icon>
-  <description>2 top-over-bottom panes in an adaptive layout grid.</description>
-  <onBeforeDeserialize/>
-  <onAfterDeserialize/>
+<serialization jsxversion="3.6" xmlns="urn:tibco.com/v3.0">
+  <name><![CDATA[Layout - Top/Over]]></name>
+  <icon><![CDATA[images/prototypes/layout-over.gif]]></icon>
+  <description><![CDATA[2 top-over-bottom panes in an adaptive layout grid.]]></description>
+  <onBeforeDeserialize></onBeforeDeserialize>
+  <onAfterDeserialize></onAfterDeserialize>
   <object type="jsx3.gui.LayoutGrid">
-    <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
-    <strings jsxname="layout (--)" jsxwidth="100%" jsxheight="100%" jsxbgcolor="#E6E6F0"/>
+    <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"></variants>
+    <strings jsxname="layout (--)" jsxwidth="100%" jsxheight="100%" jsxbgcolor="#E6E6F0"></strings>
     <object type="jsx3.gui.Block">
-      <variants jsxoverflow="2" jsxleft="0" jsxtop="0" jsxrelativeposition="0"/>
-      <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbgcolor="#FFFFFF"/>
-      <dynamics jsxborder="@Outset"/>
+      <variants jsxoverflow="2" jsxleft="0" jsxtop="0" jsxrelativeposition="0"></variants>
+      <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbgcolor="#FFFFFF"></strings>
+      <dynamics jsxborder="@Outset"></dynamics>
       <object type="jsx3.gui.WindowBar">
-        <variants jsxbartype="2"/>
-        <strings jsxname="menuBar" jsxcolor="#FFFFFF" jsxfontweight="normal"/>
-        <dynamics jsxfontsize="@Normal FS"/>
+        <variants jsxbartype="2"></variants>
+        <strings jsxname="menuBar" jsxcolor="#FFFFFF" jsxfontweight="normal"></strings>
+        <dynamics jsxfontsize="@Normal FS"></dynamics>
         <object type="jsx3.gui.Menu">
-          <variants jsxxmlasync="1" jsxenabled="1" jsxdivider="0"/>
-          <strings jsxname="menu" jsxtip="Select the view filter and refresh." jsxtext="View" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;  &lt;record jsxid=&quot;1&quot; jsxtext=&quot;All&quot; jsxexecute=&quot;downloadlist.service.call();&quot;/&gt;  &lt;record jsxid=&quot;2&quot; jsxtext=&quot;Started&quot; jsxexecute=&quot;downloadlistStarted.service.call();&quot;/&gt;    &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Seeding&quot; jsxexecute=&quot;downloadlistSeeding.service.call();&quot;/&gt;&lt;record jsxid=&quot;4&quot; jsxtext=&quot;Stopped&quot; jsxexecute=&quot;downloadlistStopped.service.call();&quot;/&gt; &lt;record jsxid=&quot;5&quot; jsxtext=&quot;Hashing &quot; jsxexecute=&quot;downloadlistHashing.service.call();&quot;/&gt;  &lt;/data&gt;" jsxcolor="#000000" jsxxmlurl=""/>
+          <variants jsxxmlasync="1" jsxenabled="1" jsxdivider="0"></variants>
+          <strings jsxname="menu" jsxtip="Select the view filter and refresh." jsxtext="View" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;  &lt;record jsxid=&quot;1&quot; jsxtext=&quot;All&quot; jsxexecute=&quot;downloadlist.service.call();&quot;/&gt;  &lt;record jsxid=&quot;2&quot; jsxtext=&quot;Started&quot; jsxexecute=&quot;downloadlistStarted.service.call();&quot;/&gt;    &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Seeding&quot; jsxexecute=&quot;downloadlistSeeding.service.call();&quot;/&gt;&lt;record jsxid=&quot;4&quot; jsxtext=&quot;Stopped&quot; jsxexecute=&quot;downloadlistStopped.service.call();&quot;/&gt; &lt;record jsxid=&quot;5&quot; jsxtext=&quot;Hashing &quot; jsxexecute=&quot;downloadlistHashing.service.call();&quot;/&gt;  &lt;/data&gt;" jsxcolor="#000000" jsxxmlurl=""></strings>
         </object>
         <object type="jsx3.gui.Menu">
-          <variants jsxxmlasync="1" jsxenabled="1" jsxdivider="0"/>
-          <strings jsxname="menu" jsxtip="Contains actions on the torrent list (start,stop,hash,erase)." jsxtext="Action" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;   &lt;record jsxid=&quot;1&quot; jsxtext=&quot;Start&quot; jsxexecute=&quot;start.service.call();&quot;/&gt;    &lt;record jsxid=&quot;2&quot; jsxtext=&quot;Stop&quot; jsxexecute=&quot;stop.service.call();&quot;/&gt; &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Hash&quot; jsxexecute=&quot;hash.service.call();&quot;/&gt;  &lt;record jsxid=&quot;4&quot; jsxtext=&quot;Erase&quot; jsxexecute=&quot;erase.service.call();&quot;/&gt; &lt;/data&gt;" jsxcolor="#000000" jsxxmlurl=""/>
+          <variants jsxxmlasync="1" jsxenabled="1" jsxdivider="0"></variants>
+          <strings jsxname="menu" jsxtip="Contains actions on the torrent list (start,stop,hash,erase)." jsxtext="Action" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;   &lt;record jsxid=&quot;1&quot; jsxtext=&quot;Start&quot; jsxexecute=&quot;start.service.call();&quot;/&gt;    &lt;record jsxid=&quot;2&quot; jsxtext=&quot;Stop&quot; jsxexecute=&quot;stop.service.call();&quot;/&gt; &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Hash&quot; jsxexecute=&quot;hash.service.call();&quot;/&gt;  &lt;record jsxid=&quot;4&quot; jsxtext=&quot;Erase&quot; jsxexecute=&quot;erase.service.call();&quot;/&gt; &lt;/data&gt;" jsxcolor="#000000" jsxxmlurl=""></strings>
         </object>
         <object type="jsx3.gui.Menu">
-          <variants jsxxmlasync="1" jsxenabled="1" jsxdivider="0"/>
-          <strings jsxname="menu" jsxtip="Change Torrent priority." jsxtext="Priority" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;   &lt;record    jsxid=&quot;1&quot; jsxtext=&quot;Set     Off Priority &quot; jsxexecute=&quot;SetTorrentPrioOff.service.call();&quot;/&gt;   &lt;record jsxid=&quot;2&quot; jsxtext=&quot;Set Low Priority&quot; jsxexecute=&quot;SetTorrentPrioLow.service.call();&quot;/&gt;  &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Set  Normal Priority&quot; jsxexecute=&quot;SetTorrentPrioNormal.service.call();&quot;/&gt;   &lt;record jsxid=&quot;4&quot; jsxtext=&quot;Set  High Priority&quot; jsxexecute=&quot;SetTorrentPrioHigh.service.call();&quot;/&gt;  &lt;/data&gt;" jsxcolor="#000000" jsxxmlurl=""/>
+          <variants jsxxmlasync="1" jsxenabled="1" jsxdivider="0"></variants>
+          <strings jsxname="menu" jsxtip="Change Torrent priority." jsxtext="Priority" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;   &lt;record    jsxid=&quot;1&quot; jsxtext=&quot;Set     Off Priority &quot; jsxexecute=&quot;SetTorrentPrioOff.service.call();&quot;/&gt;   &lt;record jsxid=&quot;2&quot; jsxtext=&quot;Set Low Priority&quot; jsxexecute=&quot;SetTorrentPrioLow.service.call();&quot;/&gt;  &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Set  Normal Priority&quot; jsxexecute=&quot;SetTorrentPrioNormal.service.call();&quot;/&gt;   &lt;record jsxid=&quot;4&quot; jsxtext=&quot;Set  High Priority&quot; jsxexecute=&quot;SetTorrentPrioHigh.service.call();&quot;/&gt;  &lt;/data&gt;" jsxcolor="#000000" jsxxmlurl=""></strings>
         </object>
         <object type="jsx3.gui.Menu">
-          <variants jsxxmlasync="1" jsxenabled="1"/>
-          <strings jsxname="menu" jsxtip="Contains actions on the file listing." jsxtext="File Priority" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;  &lt;record jsxid=&quot;1&quot; jsxtext=&quot;Do not download&quot; jsxexecute=&quot;SetFilePrioOff.service.call();&quot;/&gt;  &lt;record jsxid=&quot;2&quot; jsxtext=&quot;Set Normal Priority&quot; jsxexecute=&quot;SetFilePrioNormal.service.call();&quot;/&gt;  &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Set High Priority&quot; jsxexecute=&quot;SetFilePrioHigh.service.call();&quot;/&gt;  &lt;/data&gt;"/>
+          <variants jsxxmlasync="1" jsxenabled="1"></variants>
+          <strings jsxname="menu" jsxtip="Contains actions on the file listing." jsxtext="File Priority" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;  &lt;record jsxid=&quot;1&quot; jsxtext=&quot;Do not download&quot; jsxexecute=&quot;SetFilePrioOff.service.call();&quot;/&gt;  &lt;record jsxid=&quot;2&quot; jsxtext=&quot;Set Normal Priority&quot; jsxexecute=&quot;SetFilePrioNormal.service.call();&quot;/&gt;  &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Set High Priority&quot; jsxexecute=&quot;SetFilePrioHigh.service.call();&quot;/&gt;  &lt;/data&gt;"></strings>
         </object>
       </object>
       <object type="jsx3.gui.LayoutGrid">
-        <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
-        <strings jsxname="layout (--)" jsxrows="45%,55%" jsxwidth="100%" jsxheight="100%" jsxbgcolor="#E6E6FA"/>
+        <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"></variants>
+        <strings jsxname="layout (--)" jsxrows="45%,55%" jsxwidth="100%" jsxheight="100%" jsxbgcolor="#E6E6FA"></strings>
         <object type="jsx3.gui.Block">
-          <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"/>
-          <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbgcolor="#FFFFFF" jsxvisibility=""/>
-          <dynamics jsxborder="@Outset"/>
+          <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"></variants>
+          <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbgcolor="#FFFFFF" jsxvisibility=""></strings>
+          <dynamics jsxborder="@Outset"></dynamics>
           <object type="jsx3.gui.Matrix">
-            <variants jsxpagingmodel="1" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1" jsxautorow="0" jsxxmlbind="1" jsxxmlasync="0" jsxloadtype="0" jsxdrag="0" jsxdrop="0" jsxresize="0" jsxreorder="1" jsxsuppressvscroll="0" jsxsuppresshscroll="1"/>
-            <strings jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxfocusstyle="font-weight:bold;" jsxxmlid="Download_list" jsxsortpath="Percent_complete" jsxsorttype="number" jsxsortdirection="descending" jsxbgcolor="#FFFFFF" jsxselectionbg=""/>
-            <dynamics jsxbg="@Bevel TopDown Light"/>
-            <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);" jsxselect="giTorrent.getJSXByName(&quot;Tracker&quot;).doShow();"/>
-            <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"/>
+            <variants jsxpagingmodel="1" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1" jsxautorow="0" jsxxmlbind="1" jsxxmlasync="0" jsxloadtype="0" jsxdrag="0" jsxdrop="0" jsxresize="0" jsxreorder="1" jsxsuppressvscroll="0" jsxsuppresshscroll="1"></variants>
+            <strings jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxfocusstyle="font-weight:bold;" jsxxmlid="Download_list" jsxsortpath="Percent_complete" jsxsorttype="number" jsxsortdirection="descending" jsxbgcolor="#FFFFFF" jsxselectionbg=""></strings>
+            <dynamics jsxbg="@Bevel TopDown Light"></dynamics>
+            <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);" jsxselect="giTorrent.getJSXByName(&quot;Tracker&quot;).doShow();"></events>
+            <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"></xslparameters>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="100" jsxresize="1"/>
-              <strings jsxname="View" jsxtext="View" jsxcellpadding="2" jsxpath="View" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="100" jsxresize="1"></variants>
+              <strings jsxname="View" jsxtext="View" jsxcellpadding="2" jsxpath="View" jsxdisplay="none"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="100" jsxresize="1"/>
-              <strings jsxname="Free_Diskspace" jsxtext="Free" jsxcellpadding="2" jsxpath="Free_Diskspace" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="100" jsxresize="1"></variants>
+              <strings jsxname="Free_Diskspace" jsxtext="Free" jsxcellpadding="2" jsxpath="Free_Diskspace" jsxdisplay="none"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="250" jsxresize="1"/>
-              <strings jsxname="Hash" jsxtext="Hash" jsxcellpadding="2" jsxpath="Hash" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="250" jsxresize="1"></variants>
+              <strings jsxname="Hash" jsxtext="Hash" jsxcellpadding="2" jsxpath="Hash" jsxdisplay="none"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="130" jsxresize="1"/>
-              <strings jsxname="Creation_Date" jsxtext="Creation Date" jsxcellpadding="2" jsxpath="Creation_Date" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="130" jsxresize="1"></variants>
+              <strings jsxname="Creation_Date" jsxtext="Creation Date" jsxcellpadding="2" jsxpath="Creation_Date" jsxdisplay="none"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="130" jsxresize="1"/>
-              <strings jsxname="Creation_Time" jsxtext="Creation Time" jsxcellpadding="2" jsxpath="Creation_Time" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="130" jsxresize="1"></variants>
+              <strings jsxname="Creation_Time" jsxtext="Creation Time" jsxcellpadding="2" jsxpath="Creation_Time" jsxdisplay="none"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="250" jsxresize="1"/>
-              <strings jsxname="Dir" jsxtext="Hash" jsxcellpadding="2" jsxpath="Dir" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="250" jsxresize="1"></variants>
+              <strings jsxname="Dir" jsxtext="Hash" jsxcellpadding="2" jsxpath="Dir" jsxdisplay="none"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="250" jsxresize="1"/>
-              <strings jsxname="Tied_File" jsxtext="Tied_File" jsxcellpadding="2" jsxpath="Tied_File" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="250" jsxresize="1"></variants>
+              <strings jsxname="Tied_File" jsxtext="Tied_File" jsxcellpadding="2" jsxpath="Tied_File" jsxdisplay="none"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="250" jsxresize="1"/>
-              <strings jsxname="Chunk_size" jsxtext="Chunk_size" jsxcellpadding="2" jsxpath="Chunk-size" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="250" jsxresize="1"></variants>
+              <strings jsxname="Chunk_size" jsxtext="Chunk_size" jsxcellpadding="2" jsxpath="Chunk-size" jsxdisplay="none"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="250" jsxresize="1"/>
-              <strings jsxname="Message" jsxtext="Message" jsxcellpadding="2" jsxpath="Message" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="250" jsxresize="1"></variants>
+              <strings jsxname="Message" jsxtext="Message" jsxcellpadding="2" jsxpath="Message" jsxdisplay="none"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80" jsxresize="0"/>
-              <strings jsxname="State" jsxtext="State" jsxpadding="2" jsxcellpadding="2" jsxpath="State" jsxtextalign="center" jsxcelltextalign="center"/>
-              <dynamics jsxborder="@Outset" jsxbgcolor="@Solid Disabled" jsxbg="@Bevel TopDown Light"/>
+              <variants jsxwidth="80" jsxresize="0"></variants>
+              <strings jsxname="State" jsxtext="State" jsxpadding="2" jsxcellpadding="2" jsxpath="State" jsxtextalign="center" jsxcelltextalign="center"></strings>
+              <dynamics jsxborder="@Outset" jsxbgcolor="@Solid Disabled" jsxbg="@Bevel TopDown Light"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="280" jsxresize="1"/>
-              <strings jsxname="Name" jsxtext="Name" jsxcellpadding="2" jsxpath="Name" jsxtextalign="center"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="280" jsxresize="1"></variants>
+              <strings jsxname="Name" jsxtext="Name" jsxcellpadding="2" jsxpath="Name" jsxtextalign="center"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80" jsxresize="0"/>
-              <strings jsxname="Size" jsxtext="Size" jsxcellpadding="2" jsxpath="Size" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxsortpath="Size_bytes" jsxsortdatatype="number"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="80" jsxresize="0"></variants>
+              <strings jsxname="Size" jsxtext="Size" jsxcellpadding="2" jsxpath="Size" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxsortpath="Size_bytes" jsxsortdatatype="number"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="100" jsxresize="0"/>
-              <strings jsxname="Size_bytes" jsxtext="Size_bytes" jsxcellpadding="2" jsxpath="Size_bytes" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxdisplay="none" jsxdatatype="number"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="100" jsxresize="0"></variants>
+              <strings jsxname="Size_bytes" jsxtext="Size_bytes" jsxcellpadding="2" jsxpath="Size_bytes" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxdisplay="none" jsxdatatype="number"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="82" jsxsort="1" jsxresize="0"/>
-              <strings jsxname="Downloaded" jsxtext="Downloaded" jsxpadding="2" jsxcellpadding="2" jsxpath="Downloaded" jsxtextalign="center" jsxcelltextalign="right" jsxformathandler="" jsxsortdatatype="number" jsxsortpath="Downloaded_bytes"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="82" jsxsort="1" jsxresize="0"></variants>
+              <strings jsxname="Downloaded" jsxtext="Downloaded" jsxpadding="2" jsxcellpadding="2" jsxpath="Downloaded" jsxtextalign="center" jsxcelltextalign="right" jsxformathandler="" jsxsortdatatype="number" jsxsortpath="Downloaded_bytes"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="100" jsxsort="1" jsxresize="0"/>
-              <strings jsxname="Downloaded_bytes" jsxtext="Downloaded_bytes" jsxpadding="2" jsxcellpadding="2" jsxpath="Downloaded_bytes" jsxtextalign="center" jsxcelltextalign="right" jsxformathandler="" jsxsortdatatype="number" jsxdatatype="number" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="100" jsxsort="1" jsxresize="0"></variants>
+              <strings jsxname="Downloaded_bytes" jsxtext="Downloaded_bytes" jsxpadding="2" jsxcellpadding="2" jsxpath="Downloaded_bytes" jsxtextalign="center" jsxcelltextalign="right" jsxformathandler="" jsxsortdatatype="number" jsxdatatype="number" jsxdisplay="none"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="82"/>
-              <strings jsxname="Uploaded" jsxtext="Uploaded" jsxpadding="2" jsxcellpadding="2" jsxpath="Uploaded" jsxcelltextalign="right" jsxtextalign="center" jsxsortpath="Uploaded_bytes" jsxsortdatatype="number" jsxdisplay=""/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="82"></variants>
+              <strings jsxname="Uploaded" jsxtext="Uploaded" jsxpadding="2" jsxcellpadding="2" jsxpath="Uploaded" jsxcelltextalign="right" jsxtextalign="center" jsxsortpath="Uploaded_bytes" jsxsortdatatype="number" jsxdisplay=""></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="100"/>
-              <strings jsxname="Uploaded_bytes" jsxtext="Uploaded_bytes" jsxpadding="2" jsxcellpadding="2" jsxpath="Uploaded_bytes" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="100"></variants>
+              <strings jsxname="Uploaded_bytes" jsxtext="Uploaded_bytes" jsxpadding="2" jsxcellpadding="2" jsxpath="Uploaded_bytes" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxdisplay="none"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="60" jsxsort="1" jsxresize="0"/>
-              <strings jsxname="Percent_Complete" jsxtext="% done" jsxpadding="2" jsxcellpadding="2" jsxpath="Percent_complete" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxformathandler="@number,#0.0 %" jsxdatatype="number"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="60" jsxsort="1" jsxresize="0"></variants>
+              <strings jsxname="Percent_Complete" jsxtext="% done" jsxpadding="2" jsxcellpadding="2" jsxpath="Percent_complete" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxformathandler="@number,#0.0 %" jsxdatatype="number"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="60" jsxsort="1" jsxresize="0"/>
-              <strings jsxname="Ratio" jsxtext="Ratio" jsxpadding="2" jsxcellpadding="2" jsxpath="Ratio" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxformathandler="@number,#0.000"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="60" jsxsort="1" jsxresize="0"></variants>
+              <strings jsxname="Ratio" jsxtext="Ratio" jsxpadding="2" jsxcellpadding="2" jsxpath="Ratio" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxformathandler="@number,#0.000"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="47"/>
-              <strings jsxname="Seed" jsxtext="Seed" jsxpadding="2" jsxcellpadding="2" jsxpath="Peers_complete" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number" jsxtip="Seeds rTorrent is connected to."/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="47"></variants>
+              <strings jsxname="Seed" jsxtext="Seed" jsxpadding="2" jsxcellpadding="2" jsxpath="Peers_complete" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number" jsxtip="Seeds rTorrent is connected to."></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="47"/>
-              <strings jsxname="Leech" jsxtext="Leech" jsxpadding="2" jsxcellpadding="2" jsxpath="Peers_accounted" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number" jsxtip="Leeches rTorrent is connected to."/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="47"></variants>
+              <strings jsxname="Leech" jsxtext="Leech" jsxpadding="2" jsxcellpadding="2" jsxpath="Peers_accounted" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number" jsxtip="Leeches rTorrent is connected to."></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80" jsxsort="1" jsxresize="0"/>
-              <strings jsxname="Down_rate" jsxtext="Down" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_rate" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0.0 kb/s"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="80" jsxsort="1" jsxresize="0"></variants>
+              <strings jsxname="Down_rate" jsxtext="Down" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_rate" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0.0 kb/s"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80" jsxsort="1" jsxresize="0"/>
-              <strings jsxname="Up_rate" jsxtext="Up" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_rate" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxdatatype="number" jsxformathandler="@number,#0.0 kb/s"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="80" jsxsort="1" jsxresize="0"></variants>
+              <strings jsxname="Up_rate" jsxtext="Up" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_rate" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxdatatype="number" jsxformathandler="@number,#0.0 kb/s"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80"/>
-              <strings jsxname="Priority" jsxtext="Prio" jsxpadding="2" jsxcellpadding="2" jsxpath="Priority" jsxtextalign="center" jsxcelltextalign="center" jsxdatatype="text" jsxsortdatatype="text"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="80"></variants>
+              <strings jsxname="Priority" jsxtext="Prio" jsxpadding="2" jsxcellpadding="2" jsxpath="Priority" jsxtextalign="center" jsxcelltextalign="center" jsxdatatype="text" jsxsortdatatype="text"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80"/>
-              <strings jsxname="Privacy" jsxtext="Privacy" jsxpadding="2" jsxcellpadding="2" jsxpath="Privacy" jsxtextalign="center" jsxcelltextalign="center" jsxdatatype="text" jsxsortdatatype="text"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="80"></variants>
+              <strings jsxname="Privacy" jsxtext="Privacy" jsxpadding="2" jsxcellpadding="2" jsxpath="Privacy" jsxtextalign="center" jsxcelltextalign="center" jsxdatatype="text" jsxsortdatatype="text"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="10" jsxsort="0" jsxresize="1"/>
-              <strings jsxname="Empty" jsxtext="" jsxpadding="2" jsxcellpadding="2" jsxpath="bla" jsxcelltextalign="right" jsxtextalign="center"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+              <variants jsxwidth="10" jsxsort="0" jsxresize="1"></variants>
+              <strings jsxname="Empty" jsxtext="" jsxpadding="2" jsxcellpadding="2" jsxpath="bla" jsxcelltextalign="right" jsxtextalign="center"></strings>
+              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
             </object>
           </object>
         </object>
         <object type="jsx3.gui.Block">
-          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="0" jsxtop="0"/>
-          <strings jsxname="Tabs" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbg=""/>
-          <dynamics jsxborder="@Outset"/>
+          <variants jsxoverflow="1" jsxrelativeposition="0" jsxleft="0" jsxtop="0"></variants>
+          <strings jsxname="Tabs" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbg=""></strings>
+          <dynamics jsxborder="@Outset"></dynamics>
           <object type="jsx3.gui.Block">
-            <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="440" jsxtop="3"/>
-            <strings jsxname="Up_Rate" jsxtext="Up" jsxdisplay=""/>
+            <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="440" jsxtop="3"></variants>
+            <strings jsxname="Up_Rate" jsxtext="Up" jsxdisplay=""></strings>
           </object>
           <object type="jsx3.gui.Block">
-            <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="510" jsxtop="3"/>
-            <strings jsxname="Up_Rate_Units" jsxtext="kB/s" jsxdisplay=""/>
+            <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="510" jsxtop="3"></variants>
+            <strings jsxname="Up_Rate_Units" jsxtext="kB/s" jsxdisplay=""></strings>
           </object>
           <object type="jsx3.gui.TextBox">
-            <variants jsxheight="18" jsxrelativeposition="0" jsxleft="461" jsxtop="0" jsxwidth="47" jsxenabled="1"/>
-            <strings jsxname="Up_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxtip="Upload rate in kilo bytes per second." jsxvisibility="" jsxvalue=""/>
+            <variants jsxheight="18" jsxrelativeposition="0" jsxleft="461" jsxtop="0" jsxwidth="47" jsxenabled="1"></variants>
+            <strings jsxname="Up_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxtip="Upload rate in kilo bytes per second." jsxvisibility="" jsxvalue="20.4"></strings>
           </object>
           <object type="jsx3.gui.Block">
-            <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="560" jsxtop="3"/>
-            <strings jsxname="Down_Rate" jsxtext="Down" jsxdisplay=""/>
+            <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="560" jsxtop="3"></variants>
+            <strings jsxname="Down_Rate" jsxtext="Down" jsxdisplay=""></strings>
           </object>
           <object type="jsx3.gui.Block">
-            <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="640" jsxtop="3"/>
-            <strings jsxname="Down_Rate_Units" jsxtext="kB/s" jsxdisplay=""/>
+            <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="640" jsxtop="3"></variants>
+            <strings jsxname="Down_Rate_Units" jsxtext="kB/s" jsxdisplay=""></strings>
           </object>
           <object type="jsx3.gui.TextBox">
-            <variants jsxheight="18" jsxrelativeposition="0" jsxleft="591" jsxtop="0" jsxwidth="47"/>
-            <strings jsxname="Down_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxvalue=""/>
+            <variants jsxheight="18" jsxrelativeposition="0" jsxleft="591" jsxtop="0" jsxwidth="47"></variants>
+            <strings jsxname="Down_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxvalue="0.0"></strings>
           </object>
           <object type="jsx3.gui.TabbedPane">
-            <variants selectedIndex="2" jsxselectedindex="0" jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxshowtabs="1"/>
-            <strings jsxname="tabbedpane" jsxtextalign="0" jsxdisplay="" jsxbg=""/>
-            <dynamics jsxbgcolor="@Transparent BG"/>
+            <variants selectedIndex="2" jsxselectedindex="5" jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxshowtabs="1"></variants>
+            <strings jsxname="tabbedpane" jsxtextalign="0" jsxdisplay="" jsxbg=""></strings>
+            <dynamics jsxbgcolor="@Transparent BG"></dynamics>
             <object type="jsx3.gui.Tab">
-              <variants jsxzindex="3" jsxheight="20"/>
-              <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#e8e8f5" jsxtip="Setup the connection  to the webserver."/>
+              <variants jsxzindex="3" jsxheight="20"></variants>
+              <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#d8d8e5" jsxtip="Setup the connection  to the webserver."></strings>
               <object type="jsx3.gui.Block">
-                <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"/>
-                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxvisibility=""/>
-                <dynamics jsxbgcolor="@Solid Medium"/>
+                <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"></variants>
+                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility=""></strings>
+                <dynamics jsxbgcolor="@Solid Medium"></dynamics>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="20" jsxtop="30" jsxwidth="170"/>
-                  <strings jsxname="URI" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="http://my.torrent.server"/>
-                </object>
-                <object type="jsx3.gui.TextBox">
-                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="200" jsxtop="30" jsxwidth="50"/>
-                  <strings jsxname="Port" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="80"/>
+                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="20" jsxtop="30" jsxwidth="170"></variants>
+                  <strings jsxname="URI" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="http://192.168.1.190"></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="260" jsxtop="30"/>
-                  <strings jsxname="Mount" jsxmargin="0 4 0 0" jsxvalue="/RPC2" jsxdisplay=""/>
-                </object>
-                <object type="jsx3.gui.Block">
-                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="100" jsxtop="10"/>
-                  <strings jsxname="label" jsxtext="URL" jsxdisplay=""/>
-                </object>
-                <object type="jsx3.gui.Block">
-                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="200" jsxtop="10"/>
-                  <strings jsxname="label" jsxtext="Port" jsxdisplay=""/>
-                </object>
-                <object type="jsx3.gui.Block">
-                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="260" jsxtop="10"/>
-                  <strings jsxname="label" jsxtext="Mount Point" jsxdisplay=""/>
-                </object>
-                <object type="jsx3.gui.Block">
-                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="20" jsxtop="70"/>
-                  <strings jsxname="label" jsxtext="Userid" jsxdisplay=""/>
-                </object>
-                <object type="jsx3.gui.Block">
-                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="20" jsxtop="100"/>
-                  <strings jsxname="label" jsxtext="Password" jsxdisplay=""/>
+                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="200" jsxtop="30" jsxwidth="50"></variants>
+                  <strings jsxname="Port" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="8181"></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="100" jsxtop="70"/>
-                  <strings jsxname="UserId" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
+                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="260" jsxtop="30"></variants>
+                  <strings jsxname="Mount" jsxmargin="0 4 0 0" jsxvalue="/RPC2" jsxdisplay=""></strings>
+                </object>
+                <object type="jsx3.gui.Block">
+                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="100" jsxtop="10"></variants>
+                  <strings jsxname="label" jsxtext="URL" jsxdisplay=""></strings>
+                </object>
+                <object type="jsx3.gui.Block">
+                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="200" jsxtop="10"></variants>
+                  <strings jsxname="label" jsxtext="Port" jsxdisplay=""></strings>
+                </object>
+                <object type="jsx3.gui.Block">
+                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="260" jsxtop="10"></variants>
+                  <strings jsxname="label" jsxtext="Mount Point" jsxdisplay=""></strings>
+                </object>
+                <object type="jsx3.gui.Block">
+                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="20" jsxtop="70"></variants>
+                  <strings jsxname="label" jsxtext="Userid" jsxdisplay=""></strings>
+                </object>
+                <object type="jsx3.gui.Block">
+                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="20" jsxtop="100"></variants>
+                  <strings jsxname="label" jsxtext="Password" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxtype="2" jsxheight="18" jsxrelativeposition="0" jsxleft="100" jsxtop="100"/>
-                  <strings jsxname="Password" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
+                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="100" jsxtop="70"></variants>
+                  <strings jsxname="UserId" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="hhasert"></strings>
+                </object>
+                <object type="jsx3.gui.TextBox">
+                  <variants jsxtype="2" jsxheight="18" jsxrelativeposition="0" jsxleft="100" jsxtop="100"></variants>
+                  <strings jsxname="Password" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="MisPoes"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version" jsxtext="V 0.6.3" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
+                  <variants jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Version" jsxtext="V 0.6.3" jsxleft="85%" jsxtop="80%" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version GI" jsxtext="based on GI 3.6.2" jsxleft="85%" jsxtop="85%" jsxdisplay=""/>
+                  <variants jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Version GI" jsxtext="based on GI 3.6.2" jsxleft="85%" jsxtop="85%" jsxdisplay=""></strings>
                 </object>
               </object>
             </object>
             <object type="jsx3.gui.Tab">
-              <variants jsxheight="18"/>
-              <strings jsxname="Settings" jsxtext="Settings" jsxbgcolor="#d8d8e5" jsxtip="See rTorrent settings, change total upload/download."/>
-              <events jsxshow="Settings.service.call();"/>
+              <variants jsxheight="18"></variants>
+              <strings jsxname="Settings" jsxtext="Settings" jsxbgcolor="#d8d8e5" jsxtip="See rTorrent settings, change total upload/download."></strings>
+              <events jsxshow="Settings.service.call();"></events>
               <object type="jsx3.gui.Block">
-                <variants jsxoverflow="2" jsxrelativeposition="0" jsxloadtype="4"/>
-                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxvisibility="" jsxdisplay="none"/>
-                <dynamics jsxbgcolor="@Solid Medium"/>
+                <variants jsxoverflow="2" jsxrelativeposition="0" jsxloadtype="4"></variants>
+                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxvisibility="" jsxdisplay="none"></strings>
+                <dynamics jsxbgcolor="@Solid Medium"></dynamics>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Files" jsxtext="Max Files" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Files" jsxtext="Max Files" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Max_Files_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Max_Files_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Sock" jsxtext="Max Sockets" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Sock" jsxtext="Max Sockets" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxtop="28" jsxleft="110" jsxheight="18" jsxwidth="40" jsxrelativeposition="0"/>
-                  <strings jsxname="Max_Sock_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxtextalign="right"/>
+                  <variants jsxtop="28" jsxleft="110" jsxheight="18" jsxwidth="40" jsxrelativeposition="0"></variants>
+                  <strings jsxname="Max_Sock_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxtextalign="right"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="50" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Http" jsxtext="Max Http" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="50" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Http" jsxtext="Max Http" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="48" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Max_Http_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="48" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Max_Http_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="80" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Down#" jsxtext="Max Downloads" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="80" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Down#" jsxtext="Max Downloads" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="78" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Max_Down#_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="78" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Max_Down#_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="100" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Up#" jsxtext="Max Uploads" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="100" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Up#" jsxtext="Max Uploads" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="98" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Max_Up#_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="98" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Max_Up#_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="130" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Peers" jsxtext="Max Peers" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="130" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Peers" jsxtext="Max Peers" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="128" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Max_Peers_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="128" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Max_Peers_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="160" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_SendBuf" jsxtext="Max Send Buffer" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="160" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_SendBuf" jsxtext="Max Send Buffer" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="158" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Max_SendBuf_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="158" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Max_SendBuf_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="180" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_RcvBuf" jsxtext="Max Rcv Buffer" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="180" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_RcvBuf" jsxtext="Max Rcv Buffer" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="178" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Max_RcvBuf_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="178" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Max_RcvBuf_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="220" jsxtop="160" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Memory" jsxtext="Max Memory" jsxdisplay=""/>
+                  <variants jsxleft="220" jsxtop="160" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Memory" jsxtext="Max Memory" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="320" jsxtop="158" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Max_Memory_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="320" jsxtop="158" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Max_Memory_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="220" jsxtop="140" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Safe_Diskspace" jsxtext="Low Disk Space" jsxdisplay=""/>
+                  <variants jsxleft="220" jsxtop="140" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Safe_Diskspace" jsxtext="Low Disk Space" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="320" jsxtop="138" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Safe_Diskspace_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="320" jsxtop="138" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Safe_Diskspace_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="220" jsxtop="180" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Memory_in_use" jsxtext="Memory Used" jsxdisplay=""/>
+                  <variants jsxleft="220" jsxtop="180" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Memory_in_use" jsxtext="Memory Used" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="320" jsxtop="178" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Max_Memory_in_use_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="320" jsxtop="178" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Max_Memory_in_use_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="220" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Down" jsxtext="Max Down Speed" jsxdisplay=""/>
+                  <variants jsxleft="220" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Down" jsxtext="Max Down Speed" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="365" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Down_Units" jsxtext="kB/s" jsxdisplay=""/>
+                  <variants jsxleft="365" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Down_Units" jsxtext="kB/s" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="320" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Max_Down_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"/>
+                  <variants jsxleft="320" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Max_Down_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
                 </object>
                 <object type="jsx3.gui.Button">
-                  <variants jsxindex="0" jsxheight="18" jsxrelativeposition="0" jsxleft="395" jsxtop="7"/>
-                  <strings jsxname="Set_Max_Down" jsxtext="Change" jsxmargin="0 4 0 0" jsxdisplay=""/>
-                  <events jsxexecute="SetMaxDown.service.call();"/>
+                  <variants jsxindex="0" jsxheight="18" jsxrelativeposition="0" jsxleft="395" jsxtop="7"></variants>
+                  <strings jsxname="Set_Max_Down" jsxtext="Change" jsxmargin="0 4 0 0" jsxdisplay=""></strings>
+                  <events jsxexecute="SetMaxDown.service.call();"></events>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="220" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Up" jsxtext="Max Up Speed" jsxdisplay=""/>
+                  <variants jsxleft="220" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Up" jsxtext="Max Up Speed" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="365" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Max_Up_Units" jsxtext="kB/s" jsxdisplay=""/>
+                  <variants jsxleft="365" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Max_Up_Units" jsxtext="kB/s" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="320" jsxtop="28" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Max_Up_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"/>
+                  <variants jsxleft="320" jsxtop="28" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Max_Up_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
                 </object>
                 <object type="jsx3.gui.Button">
-                  <variants jsxindex="0" jsxheight="18" jsxrelativeposition="0" jsxleft="395" jsxtop="27"/>
-                  <strings jsxname="Set_Max_Up" jsxtext="Change" jsxmargin="0 4 0 0" jsxdisplay=""/>
-                  <events jsxexecute="SetMaxUp.service.call();"/>
+                  <variants jsxindex="0" jsxheight="18" jsxrelativeposition="0" jsxleft="395" jsxtop="27"></variants>
+                  <strings jsxname="Set_Max_Up" jsxtext="Change" jsxmargin="0 4 0 0" jsxdisplay=""></strings>
+                  <events jsxexecute="SetMaxUp.service.call();"></events>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="220" jsxtop="75" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Port_Range" jsxtext="Port Range" jsxdisplay=""/>
+                  <variants jsxleft="220" jsxtop="75" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Port_Range" jsxtext="Port Range" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="320" jsxtop="73" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Port_Range_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"/>
+                  <variants jsxleft="320" jsxtop="73" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Port_Range_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="220" jsxtop="95" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Dht_Port" jsxtext="Dht Port" jsxdisplay=""/>
+                  <variants jsxleft="220" jsxtop="95" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Dht_Port" jsxtext="Dht Port" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="320" jsxtop="93" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Dht_Port_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"/>
+                  <variants jsxleft="320" jsxtop="93" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Dht_Port_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
                 </object>
               </object>
             </object>
             <object type="jsx3.gui.Tab">
-              <variants jsxheight="18"/>
-              <strings jsxname="Add_Torrent" jsxtext="Add Torrent" jsxbgcolor="#d8d8e5" jsxtip="Add a torrent from an URL"/>
+              <variants jsxheight="18"></variants>
+              <strings jsxname="Add_Torrent" jsxtext="Add Torrent" jsxbgcolor="#d8d8e5" jsxtip="Add a torrent from an URL"></strings>
               <object type="jsx3.gui.Block">
-                <variants jsxoverflow="2" jsxrelativeposition="0" jsxloadtype="4"/>
-                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxvisibility="" jsxdisplay="none"/>
-                <dynamics jsxbgcolor="@Solid Medium"/>
+                <variants jsxoverflow="2" jsxrelativeposition="0" jsxloadtype="4"></variants>
+                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxvisibility="" jsxdisplay="none"></strings>
+                <dynamics jsxbgcolor="@Solid Medium"></dynamics>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="20" jsxwidth="640" jsxenabled="1"/>
-                  <strings jsxname="URL" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
-                </object>
-                <object type="jsx3.gui.TextBox">
-                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="60" jsxwidth="80" jsxenabled="1"/>
-                  <strings jsxname="URL_User" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
+                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="20" jsxwidth="640" jsxenabled="1"></variants>
+                  <strings jsxname="URL" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="90" jsxwidth="80" jsxenabled="1" jsxtype="2"/>
-                  <strings jsxname="URL_Password" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
+                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="60" jsxwidth="80" jsxenabled="1"></variants>
+                  <strings jsxname="URL_User" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""></strings>
+                </object>
+                <object type="jsx3.gui.TextBox">
+                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="90" jsxwidth="80" jsxenabled="1" jsxtype="2"></variants>
+                  <strings jsxname="URL_Password" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="5" jsxtop="22"/>
-                  <strings jsxname="label" jsxtext="URL" jsxdisplay=""/>
+                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="5" jsxtop="22"></variants>
+                  <strings jsxname="label" jsxtext="URL" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="5" jsxtop="62"/>
-                  <strings jsxname="label" jsxtext="Userid" jsxdisplay=""/>
+                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="5" jsxtop="62"></variants>
+                  <strings jsxname="label" jsxtext="Userid" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="5" jsxtop="92"/>
-                  <strings jsxname="label" jsxtext="Password" jsxdisplay=""/>
+                  <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="5" jsxtop="92"></variants>
+                  <strings jsxname="label" jsxtext="Password" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.Button">
-                  <variants jsxindex="0" jsxheight="18" jsxwidth="100" jsxrelativeposition="0" jsxleft="70" jsxtop="120"/>
-                  <strings jsxname="button" jsxtext="Add Torrent" jsxmargin="0 4 0 0"/>
-                  <events jsxexecute="loadstarturl.service.call();"/>
+                  <variants jsxindex="0" jsxheight="18" jsxwidth="100" jsxrelativeposition="0" jsxleft="70" jsxtop="120"></variants>
+                  <strings jsxname="button" jsxtext="Add Torrent" jsxmargin="0 4 0 0"></strings>
+                  <events jsxexecute="loadstarturl.service.call();"></events>
                 </object>
               </object>
             </object>
             <object type="jsx3.gui.Tab">
-              <variants jsxheight="18"/>
-              <strings jsxname="Dht" jsxtext="Dht" jsxbgcolor="#d8d8e5" jsxtip="See Dht Statistics"/>
-              <events jsxshow="DhtStatistics.service.call();"/>
+              <variants jsxheight="18"></variants>
+              <strings jsxname="Dht" jsxtext="Dht" jsxbgcolor="#d8d8e5" jsxtip="See Dht Statistics"></strings>
+              <events jsxshow="DhtStatistics.service.call();"></events>
               <object type="jsx3.gui.Block">
-                <variants jsxoverflow="2" jsxrelativeposition="0" jsxloadtype="4"/>
-                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxvisibility="" jsxdisplay="none"/>
-                <dynamics jsxbgcolor="@Solid Medium"/>
+                <variants jsxoverflow="2" jsxrelativeposition="0" jsxloadtype="4"></variants>
+                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxvisibility="" jsxdisplay="none"></strings>
+                <dynamics jsxbgcolor="@Solid Medium"></dynamics>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Active" jsxtext="Active" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Active" jsxtext="Active" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Active_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Active_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Buckets" jsxtext="Buckets" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Buckets" jsxtext="Buckets" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxtop="28" jsxleft="110" jsxheight="18" jsxwidth="60" jsxrelativeposition="0"/>
-                  <strings jsxname="Buckets_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxtextalign="right"/>
+                  <variants jsxtop="28" jsxleft="110" jsxheight="18" jsxwidth="60" jsxrelativeposition="0"></variants>
+                  <strings jsxname="Buckets_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxtextalign="right"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="50" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Cycle" jsxtext="Cycle" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="50" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Cycle" jsxtext="Cycle" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="48" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Cycle_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="48" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Cycle_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="80" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Bytes_read" jsxtext="Bytes read" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="80" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Bytes_read" jsxtext="Bytes read" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="78" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Bytes_read_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="78" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Bytes_read_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="100" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Bytes_written" jsxtext="Bytes written" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="100" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Bytes_written" jsxtext="Bytes written" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="98" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Bytes_written_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="98" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Bytes_written_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="130" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Nodes" jsxtext="Nodes" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="130" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Nodes" jsxtext="Nodes" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="128" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Nodes_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="128" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Nodes_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="160" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Dht_Peers" jsxtext="Peers" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="160" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Dht_Peers" jsxtext="Peers" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="158" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"/>
-                  <strings jsxname="Dht_Peers_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="158" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
+                  <strings jsxname="Dht_Peers_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="10" jsxtop="180" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Dht_Peers_Max" jsxtext="Peers Max" jsxdisplay=""/>
+                  <variants jsxleft="10" jsxtop="180" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Dht_Peers_Max" jsxtext="Peers Max" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="110" jsxtop="178" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Dht_Peers_Max_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"/>
+                  <variants jsxleft="110" jsxtop="178" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Dht_Peers_Max_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="220" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Queries_received" jsxtext="Queries received" jsxdisplay=""/>
+                  <variants jsxleft="220" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Queries_received" jsxtext="Queries received" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="320" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Queries_received_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"/>
+                  <variants jsxleft="320" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Queries_received_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="220" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Queries_sent" jsxtext="Queries sent" jsxdisplay=""/>
+                  <variants jsxleft="220" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Queries_sent" jsxtext="Queries sent" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="320" jsxtop="28" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Queries_sent_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"/>
+                  <variants jsxleft="320" jsxtop="28" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Queries_sent_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="220" jsxtop="50" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Replies_received" jsxtext="Replies received" jsxdisplay=""/>
+                  <variants jsxleft="220" jsxtop="50" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Replies_received" jsxtext="Replies received" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="320" jsxtop="48" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Replies_received_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"/>
+                  <variants jsxleft="320" jsxtop="48" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Replies_received_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxleft="220" jsxtop="80" jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Torrents" jsxtext="Torrents" jsxdisplay=""/>
+                  <variants jsxleft="220" jsxtop="80" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Torrents" jsxtext="Torrents" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
-                  <variants jsxleft="320" jsxtop="78" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"/>
-                  <strings jsxname="Torrents_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"/>
+                  <variants jsxleft="320" jsxtop="78" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"></variants>
+                  <strings jsxname="Torrents_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
                 </object>
               </object>
             </object>
             <object type="jsx3.gui.Tab">
-              <variants jsxzindex="3" jsxheight="20"/>
-              <strings jsxname="Tracker" jsxtext="Tracker" jsxbgcolor="#d8d8e5" jsxtip="See tracker info, url, hash, torrent    info."/>
-              <events jsxshow="Trackerlist.service.call();"/>
+              <variants jsxzindex="3" jsxheight="20"></variants>
+              <strings jsxname="Tracker" jsxtext="Tracker" jsxbgcolor="#d8d8e5" jsxtip="See tracker info, url, hash, torrent    info."></strings>
+              <events jsxshow="Trackerlist.service.call();"></events>
               <object type="jsx3.gui.LayoutGrid">
-                <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
-                <strings jsxname="layout (--)" jsxrows="45%,55%" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility="" jsxbgcolor=""/>
+                <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"></variants>
+                <strings jsxname="layout (--)" jsxrows="45%,55%" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility="" jsxbgcolor=""></strings>
                 <object type="jsx3.gui.Block">
-                  <variants jsxoverflow="2"/>
-                  <strings jsxname="pane" jsxwidth="100%" jsxheight="95%"/>
-                  <dynamics jsxborder="@Outset"/>
+                  <variants jsxoverflow="2"></variants>
+                  <strings jsxname="pane" jsxwidth="100%" jsxheight="95%"></strings>
+                  <dynamics jsxborder="@Outset"></dynamics>
                   <object type="jsx3.gui.Matrix">
-                    <variants jsxpagingmodel="1" jsxselectionmodel="2" jsxscalewidth="1" jsxjsxxmlasync="1"/>
-                    <strings jsxname="matrix4" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxfocusstyle="font-weight:bold;" jsxsortpath="Type" jsxsorttype="text" jsxsortdirection="ascending" jsxxmlid="Tracker_list"/>
-                    <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);"/>
-                    <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"/>
+                    <variants jsxpagingmodel="1" jsxselectionmodel="2" jsxscalewidth="1" jsxjsxxmlasync="1"></variants>
+                    <strings jsxname="matrix4" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxfocusstyle="font-weight:bold;" jsxsortpath="Type" jsxsorttype="text" jsxsortdirection="ascending" jsxxmlid="Tracker_list"></strings>
+                    <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);"></events>
+                    <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"></xslparameters>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="600" jsxresize="1"/>
-                      <strings jsxname="Url" jsxtext="Url" jsxcellpadding="2" jsxpath="Url" jsxvaluetemplate=""/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="600" jsxresize="1"></variants>
+                      <strings jsxname="Url" jsxtext="Url" jsxcellpadding="2" jsxpath="Url" jsxvaluetemplate=""></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="50" jsxresize="0"/>
-                      <strings jsxname="Type" jsxtext="Type" jsxcellpadding="2" jsxpath="Type" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="50" jsxresize="0"></variants>
+                      <strings jsxname="Type" jsxtext="Type" jsxcellpadding="2" jsxpath="Type" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="25" jsxresize="0"/>
-                      <strings jsxname="Enabled" jsxtext="E" jsxcellpadding="2" jsxpath="Enabled" jsxvaluetemplate="" jsxcelltextalign="center" jsxtextalign="center"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="25" jsxresize="0"></variants>
+                      <strings jsxname="Enabled" jsxtext="E" jsxcellpadding="2" jsxpath="Enabled" jsxvaluetemplate="" jsxcelltextalign="center" jsxtextalign="center"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="25" jsxresize="0"/>
-                      <strings jsxname="Open" jsxtext="O" jsxcellpadding="2" jsxpath="Open" jsxvaluetemplate="" jsxcelltextalign="center" jsxtextalign="center"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="25" jsxresize="0"></variants>
+                      <strings jsxname="Open" jsxtext="O" jsxcellpadding="2" jsxpath="Open" jsxvaluetemplate="" jsxcelltextalign="center" jsxtextalign="center"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="45" jsxresize="0"/>
-                      <strings jsxname="Peers_Complete" jsxtext="Seed" jsxcellpadding="2" jsxpath="Peers_Complete" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxtip="Seeds reported by the tracker."/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="45" jsxresize="0"></variants>
+                      <strings jsxname="Peers_Complete" jsxtext="Seed" jsxcellpadding="2" jsxpath="Peers_Complete" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxtip="Seeds reported by the tracker."></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="45" jsxresize="0"/>
-                      <strings jsxname="Peers_Incomplete" jsxtext="Leech" jsxcellpadding="2" jsxpath="Peers_Incomplete" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxtip="Leeches reported by the tracker."/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="45" jsxresize="0"></variants>
+                      <strings jsxname="Peers_Incomplete" jsxtext="Leech" jsxcellpadding="2" jsxpath="Peers_Incomplete" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxtip="Leeches reported by the tracker."></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="50" jsxresize="0"/>
-                      <strings jsxname="Interval" jsxtext="Ival" jsxcellpadding="2" jsxpath="Interval" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="50" jsxresize="0"></variants>
+                      <strings jsxname="Interval" jsxtext="Ival" jsxcellpadding="2" jsxpath="Interval" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="10" jsxsort="0" jsxresize="1"/>
-                      <strings jsxname="Empty" jsxtext="" jsxpadding="2" jsxcellpadding="2" jsxpath="bla" jsxcelltextalign="right" jsxtextalign="center"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="10" jsxsort="0" jsxresize="1"></variants>
+                      <strings jsxname="Empty" jsxtext="" jsxpadding="2" jsxcellpadding="2" jsxpath="bla" jsxcelltextalign="right" jsxtextalign="center"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                   </object>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxoverflow="1"/>
-                  <strings jsxname="pane" jsxwidth="100%" jsxheight="5%"/>
-                  <dynamics jsxborder="@Outset"/>
+                  <variants jsxoverflow="1"></variants>
+                  <strings jsxname="pane" jsxwidth="100%" jsxheight="5%"></strings>
+                  <dynamics jsxborder="@Outset"></dynamics>
                   <object type="jsx3.gui.TextBox">
-                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="10" jsxwidth="640" jsxenabled="1"/>
-                    <strings jsxname="Hash" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
+                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="10" jsxwidth="640" jsxenabled="1"></variants>
+                    <strings jsxname="Hash" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="F44478189EA65D76C6FDAA0940B5C4F1968E5C6D"></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
-                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="35" jsxwidth="640" jsxenabled="1"/>
-                    <strings jsxname="Tied_File" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
+                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="35" jsxwidth="640" jsxenabled="1"></variants>
+                    <strings jsxname="Tied_File" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="//home/hhasert/shared/torrent_files/Young harlots in detention.torrent"></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
-                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="60" jsxwidth="640" jsxenabled="1"/>
-                    <strings jsxname="Dir" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
+                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="60" jsxwidth="640" jsxenabled="1"></variants>
+                    <strings jsxname="Dir" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="/home/hhasert/shared/torrent_downloads/Young harlots in detention"></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
-                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="85" jsxwidth="55" jsxenabled="1"/>
-                    <strings jsxname="Chunk_size" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"/>
+                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="85" jsxwidth="55" jsxenabled="1"></variants>
+                    <strings jsxname="Chunk_size" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="2.0 Mb" jsxtextalign="right"></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
-                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="315" jsxtop="85" jsxwidth="75" jsxenabled="1"/>
-                    <strings jsxname="Creation_Date" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"/>
+                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="315" jsxtop="85" jsxwidth="75" jsxenabled="1"></variants>
+                    <strings jsxname="Creation_Date" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="24/04/2008" jsxtextalign="right"></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
-                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="395" jsxtop="85" jsxwidth="60" jsxenabled="1"/>
-                    <strings jsxname="Creation_Time" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=" " jsxtextalign="right"/>
+                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="395" jsxtop="85" jsxwidth="60" jsxenabled="1"></variants>
+                    <strings jsxname="Creation_Time" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=" 6:18:43" jsxtextalign="right"></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
-                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="650" jsxtop="85" jsxwidth="60" jsxenabled="1"/>
-                    <strings jsxname="Free_Diskspace" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"/>
+                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="650" jsxtop="85" jsxwidth="60" jsxenabled="1"></variants>
+                    <strings jsxname="Free_Diskspace" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="24.7 Gb" jsxtextalign="right"></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
-                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="110" jsxwidth="640" jsxenabled="1"/>
-                    <strings jsxname="Message" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
+                    <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="110" jsxwidth="640" jsxenabled="1"></variants>
+                    <strings jsxname="Message" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""></strings>
                   </object>
                   <object type="jsx3.gui.Block">
-                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="0" jsxtop="12"/>
-                    <strings jsxname="label" jsxtext="Hash" jsxdisplay=""/>
+                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="0" jsxtop="12"></variants>
+                    <strings jsxname="label" jsxtext="Hash" jsxdisplay=""></strings>
                   </object>
                   <object type="jsx3.gui.Block">
-                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="0" jsxtop="37"/>
-                    <strings jsxname="label" jsxtext="Tied to File" jsxdisplay=""/>
+                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="0" jsxtop="37"></variants>
+                    <strings jsxname="label" jsxtext="Tied to File" jsxdisplay=""></strings>
                   </object>
                   <object type="jsx3.gui.Block">
-                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="0" jsxtop="62"/>
-                    <strings jsxname="label" jsxtext="Directory" jsxdisplay=""/>
+                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="0" jsxtop="62"></variants>
+                    <strings jsxname="label" jsxtext="Directory" jsxdisplay=""></strings>
                   </object>
                   <object type="jsx3.gui.Block">
-                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="0" jsxtop="87"/>
-                    <strings jsxname="label" jsxtext="Chunk size" jsxdisplay=""/>
+                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="0" jsxtop="87"></variants>
+                    <strings jsxname="label" jsxtext="Chunk size" jsxdisplay=""></strings>
                   </object>
                   <object type="jsx3.gui.Block">
-                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="230" jsxtop="87"/>
-                    <strings jsxname="label" jsxtext="Creation Date" jsxdisplay=""/>
+                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="230" jsxtop="87"></variants>
+                    <strings jsxname="label" jsxtext="Creation Date" jsxdisplay=""></strings>
                   </object>
                   <object type="jsx3.gui.Block">
-                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="550" jsxtop="87"/>
-                    <strings jsxname="label" jsxtext="Free Disk Space" jsxdisplay=""/>
+                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="550" jsxtop="87"></variants>
+                    <strings jsxname="label" jsxtext="Free Disk Space" jsxdisplay=""></strings>
                   </object>
                   <object type="jsx3.gui.Block">
-                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="0" jsxtop="112"/>
-                    <strings jsxname="label" jsxtext="Message" jsxdisplay=""/>
+                    <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="0" jsxtop="112"></variants>
+                    <strings jsxname="label" jsxtext="Message" jsxdisplay=""></strings>
                   </object>
                 </object>
               </object>
             </object>
             <object type="jsx3.gui.Tab">
-              <variants jsxzindex="3" jsxheight="18"/>
-              <strings jsxname="Files" jsxtext="Files" jsxbgcolor="#d8d8e5" jsxcursor="" jsxtip="See the listing of files in the torrent."/>
-              <events jsxshow="Filelist.service.call();"/>
+              <variants jsxzindex="3" jsxheight="18"></variants>
+              <strings jsxname="Files" jsxtext="Files" jsxbgcolor="#e8e8f5" jsxcursor="" jsxtip="See the listing of files in the torrent."></strings>
+              <events jsxshow="Filelist.service.call();"></events>
               <object type="jsx3.gui.LayoutGrid">
-                <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
-                <strings jsxname="layout (--)" jsxrows="97%,3%" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility=""/>
+                <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"></variants>
+                <strings jsxname="layout (--)" jsxrows="97%,3%" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxvisibility=""></strings>
                 <object type="jsx3.gui.Block">
-                  <variants jsxoverflow="2"/>
-                  <strings jsxname="pane" jsxwidth="100%" jsxheight="100%"/>
-                  <dynamics jsxborder="@Outset"/>
+                  <variants jsxoverflow="2"></variants>
+                  <strings jsxname="pane" jsxwidth="100%" jsxheight="100%"></strings>
+                  <dynamics jsxborder="@Outset"></dynamics>
                   <object type="jsx3.gui.Matrix">
-                    <variants jsxpagingmodel="1" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1"/>
-                    <strings jsxname="matrix2" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxfocusstyle="font-weight:bold;" jsxxmlid="File_list" jsxsortpath="Percentage_complete" jsxsorttype="number" jsxsortdirection="descending"/>
-                    <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);"/>
-                    <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"/>
+                    <variants jsxpagingmodel="1" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1"></variants>
+                    <strings jsxname="matrix2" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxfocusstyle="font-weight:bold;" jsxxmlid="File_list" jsxsortpath="Percentage_complete" jsxsorttype="number" jsxsortdirection="descending"></strings>
+                    <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);"></events>
+                    <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"></xslparameters>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants/>
-                      <strings jsxname="Index" jsxwidth="100" jsxtext="Index" jsxpadding="2" jsxcellpadding="3" jsxpath="Index" jsxvaluetemplate="" jsxdisplay="none" jsxdatatype="number"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants></variants>
+                      <strings jsxname="Index" jsxwidth="100" jsxtext="Index" jsxpadding="2" jsxcellpadding="3" jsxpath="Index" jsxvaluetemplate="" jsxdisplay="none" jsxdatatype="number"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="300" jsxresize="1" jsxsort="1"/>
-                      <strings jsxname="File" jsxtext="File" jsxcellpadding="2" jsxpath="File" jsxvaluetemplate="" jsxdatatype="text" jsxtextalign="center"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="300" jsxresize="1" jsxsort="1"></variants>
+                      <strings jsxname="File" jsxtext="File" jsxcellpadding="2" jsxpath="File" jsxvaluetemplate="" jsxdatatype="text" jsxtextalign="center"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="100" jsxresize="0" jsxsort="1"/>
-                      <strings jsxname="Size" jsxtext="Size" jsxcellpadding="2" jsxpath="Size" jsxvaluetemplate="" jsxdatatype="text" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxsortpath="Size_bytes"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="100" jsxresize="0" jsxsort="1"></variants>
+                      <strings jsxname="Size" jsxtext="Size" jsxcellpadding="2" jsxpath="Size" jsxvaluetemplate="" jsxdatatype="text" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxsortpath="Size_bytes"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="100" jsxresize="0" jsxsort="1"/>
-                      <strings jsxname="Size_bytes" jsxtext="Size Bytes" jsxcellpadding="2" jsxpath="Size_bytes" jsxvaluetemplate="" jsxdatatype="number" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="text" jsxdisplay="none"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="100" jsxresize="0" jsxsort="1"></variants>
+                      <strings jsxname="Size_bytes" jsxtext="Size Bytes" jsxcellpadding="2" jsxpath="Size_bytes" jsxvaluetemplate="" jsxdatatype="number" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="text" jsxdisplay="none"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="100" jsxsort="1" jsxresize="0"/>
-                      <strings jsxname="Percentage_complete" jsxtext="% complete" jsxpadding="2" jsxcellpadding="2" jsxpath="Percentage_complete" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0.0 %"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="100" jsxsort="1" jsxresize="0"></variants>
+                      <strings jsxname="Percentage_complete" jsxtext="% complete" jsxpadding="2" jsxcellpadding="2" jsxpath="Percentage_complete" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0.0 %"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="130" jsxsort="1" jsxresize="0"/>
-                      <strings jsxname="Chunks_total" jsxtext="Chunks total" jsxpadding="2" jsxcellpadding="2" jsxpath="Chunks_total" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="130" jsxsort="1" jsxresize="0"></variants>
+                      <strings jsxname="Chunks_total" jsxtext="Chunks total" jsxpadding="2" jsxcellpadding="2" jsxpath="Chunks_total" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="130" jsxsort="1" jsxresize="0"/>
-                      <strings jsxname="Chunks_complete" jsxtext="Chunks complete" jsxpadding="2" jsxcellpadding="2" jsxpath="Chunks_complete" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="130" jsxsort="1" jsxresize="0"></variants>
+                      <strings jsxname="Chunks_complete" jsxtext="Chunks complete" jsxpadding="2" jsxcellpadding="2" jsxpath="Chunks_complete" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="110" jsxsort="1" jsxresize="0"/>
-                      <strings jsxname="Chunk_first" jsxtext="First chunk" jsxpadding="2" jsxcellpadding="2" jsxpath="Chunk_first" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="110" jsxsort="1" jsxresize="0"></variants>
+                      <strings jsxname="Chunk_first" jsxtext="First chunk" jsxpadding="2" jsxcellpadding="2" jsxpath="Chunk_first" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="110" jsxsort="1" jsxresize="0"/>
-                      <strings jsxname="Chunk_last" jsxtext="Last chunk" jsxpadding="2" jsxcellpadding="2" jsxpath="Chunk_last" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="110" jsxsort="1" jsxresize="0"></variants>
+                      <strings jsxname="Chunk_last" jsxtext="Last chunk" jsxpadding="2" jsxcellpadding="2" jsxpath="Chunk_last" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxsort="1" jsxresize="0"/>
-                      <strings jsxname="Priority" jsxtext="Priority" jsxpadding="2" jsxcellpadding="2" jsxpath="Priority_text" jsxcelltextalign="center" jsxtextalign="center"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxsort="1" jsxresize="0"></variants>
+                      <strings jsxname="Priority" jsxtext="Priority" jsxpadding="2" jsxcellpadding="2" jsxpath="Priority_text" jsxcelltextalign="center" jsxtextalign="center"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxsort="1" jsxresize="0"/>
-                      <strings jsxname="Status" jsxtext="Status" jsxpadding="2" jsxcellpadding="2" jsxpath="Status_text" jsxcelltextalign="center" jsxtextalign="center"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxsort="1" jsxresize="0"></variants>
+                      <strings jsxname="Status" jsxtext="Status" jsxpadding="2" jsxcellpadding="2" jsxpath="Status_text" jsxcelltextalign="center" jsxtextalign="center"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxsort="0" jsxresize="1"/>
-                      <strings jsxname="Empty" jsxtext="" jsxpadding="2" jsxcellpadding="2" jsxpath="bla" jsxcelltextalign="right" jsxtextalign="center"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxsort="0" jsxresize="1"></variants>
+                      <strings jsxname="Empty" jsxtext="" jsxpadding="2" jsxcellpadding="2" jsxpath="bla" jsxcelltextalign="right" jsxtextalign="center"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                   </object>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxoverflow="1"/>
-                  <strings jsxname="pane" jsxwidth="100%" jsxheight="100%"/>
-                  <dynamics jsxborder="@Outset"/>
+                  <variants jsxoverflow="1"></variants>
+                  <strings jsxname="pane" jsxwidth="100%" jsxheight="100%"></strings>
+                  <dynamics jsxborder="@Outset"></dynamics>
                 </object>
               </object>
             </object>
             <object type="jsx3.gui.Tab">
-              <variants jsxzindex="3" jsxheight="18"/>
-              <strings jsxname="Peers" jsxtext="Peers" jsxbgcolor="#d8d8e5" jsxtip="See the list of active peers."/>
-              <events jsxshow="Peerlist.service.call();"/>
+              <variants jsxzindex="3" jsxheight="18"></variants>
+              <strings jsxname="Peers" jsxtext="Peers" jsxbgcolor="#d8d8e5" jsxtip="See the list of active peers."></strings>
+              <events jsxshow="Peerlist.service.call();"></events>
               <object type="jsx3.gui.LayoutGrid">
-                <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"/>
-                <strings jsxname="layout (--)" jsxrows="97%,3%" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility=""/>
+                <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"></variants>
+                <strings jsxname="layout (--)" jsxrows="97%,3%" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility=""></strings>
                 <object type="jsx3.gui.Block">
-                  <variants jsxoverflow="2"/>
-                  <strings jsxname="pane" jsxwidth="100%" jsxheight="100%"/>
-                  <dynamics jsxborder="@Outset"/>
+                  <variants jsxoverflow="2"></variants>
+                  <strings jsxname="pane" jsxwidth="100%" jsxheight="100%"></strings>
+                  <dynamics jsxborder="@Outset"></dynamics>
                   <object type="jsx3.gui.Matrix">
-                    <variants jsxpagingmodel="1" jsxselectionmodel="0" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1"/>
-                    <strings jsxname="matrix3" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxfocusstyle="font-weight:bold;" jsxxmlid="Peer_list" jsxsortpath="Completed" jsxsorttype="number" jsxsortdirection="descending"/>
-                    <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);"/>
-                    <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"/>
+                    <variants jsxpagingmodel="1" jsxselectionmodel="0" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1"></variants>
+                    <strings jsxname="matrix3" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxfocusstyle="font-weight:bold;" jsxxmlid="Peer_list" jsxsortpath="Completed" jsxsorttype="number" jsxsortdirection="descending"></strings>
+                    <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);"></events>
+                    <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"></xslparameters>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="110" jsxresize="0"/>
-                      <strings jsxname="Address" jsxtext="Address" jsxcellpadding="2" jsxpath="Address" jsxvaluetemplate="" jsxtextalign="center" jsxcelltextalign="right"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="110" jsxresize="0"></variants>
+                      <strings jsxname="Address" jsxtext="Address" jsxcellpadding="2" jsxpath="Address" jsxvaluetemplate="" jsxtextalign="center" jsxcelltextalign="right"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="50"/>
-                      <strings jsxname="PeerPort" jsxtext="Port" jsxpadding="2" jsxcellpadding="2" jsxpath="Port" jsxcelltextalign="right" jsxtextalign="center" jsxsortdatatype="number" jsxdatatype="number"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="50"></variants>
+                      <strings jsxname="PeerPort" jsxtext="Port" jsxpadding="2" jsxcellpadding="2" jsxpath="Port" jsxcelltextalign="right" jsxtextalign="center" jsxsortdatatype="number" jsxdatatype="number"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="60" jsxsort="1" jsxresize="0"/>
-                      <strings jsxname="Completed" jsxtext="% Done" jsxpadding="2" jsxcellpadding="2" jsxpath="Completed" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0 %"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="60" jsxsort="1" jsxresize="0"></variants>
+                      <strings jsxname="Completed" jsxtext="% Done" jsxpadding="2" jsxcellpadding="2" jsxpath="Completed" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0 %"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"/>
-                      <strings jsxname="Down_rate" jsxtext="Down" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_rate" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxdisplay="" jsxvaluetemplate="" jsxformathandler="@number,#0.0 kb/s"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"></variants>
+                      <strings jsxname="Down_rate" jsxtext="Down" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_rate" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxdisplay="" jsxvaluetemplate="" jsxformathandler="@number,#0.0 kb/s"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"/>
-                      <strings jsxname="Up_rate" jsxtext="Up" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_rate" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0.0 kb/s"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"></variants>
+                      <strings jsxname="Up_rate" jsxtext="Up" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_rate" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxformathandler="@number,#0.0 kb/s"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"/>
-                      <strings jsxname="Down_total" jsxtext="Down total" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_total" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxsortpath="Down_total_bytes" jsxsortdatatype="number"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"></variants>
+                      <strings jsxname="Down_total" jsxtext="Down total" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_total" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxsortpath="Down_total_bytes" jsxsortdatatype="number"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"/>
-                      <strings jsxname="Down_total_bytes" jsxtext="Down total" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_total_bytes" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxdisplay="none"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"></variants>
+                      <strings jsxname="Down_total_bytes" jsxtext="Down total" jsxpadding="2" jsxcellpadding="2" jsxpath="Down_total_bytes" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxdisplay="none"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"/>
-                      <strings jsxname="Up_total" jsxtext="Up total" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_total" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxsortpath="Up_total_bytes" jsxsortdatatype="number"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"></variants>
+                      <strings jsxname="Up_total" jsxtext="Up total" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_total" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxsortpath="Up_total_bytes" jsxsortdatatype="number"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"/>
-                      <strings jsxname="Up_total_bytes" jsxtext="Up total" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_total_bytes" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxdisplay="none"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"></variants>
+                      <strings jsxname="Up_total_bytes" jsxtext="Up total" jsxpadding="2" jsxcellpadding="2" jsxpath="Up_total_bytes" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxdisplay="none"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxresize="1"/>
-                      <strings jsxname="Peer_rate" jsxtext="Peer rate" jsxpadding="2" jsxcellpadding="2" jsxpath="Peer_rate" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxformathandler="@number,#0.0 kb/s" jsxdatatype="number" jsxsortdatatype="number"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxresize="1"></variants>
+                      <strings jsxname="Peer_rate" jsxtext="Peer rate" jsxpadding="2" jsxcellpadding="2" jsxpath="Peer_rate" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxformathandler="@number,#0.0 kb/s" jsxdatatype="number" jsxsortdatatype="number"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"/>
-                      <strings jsxname="Peer_total" jsxtext="Peer total" jsxpadding="2" jsxcellpadding="2" jsxpath="Peer_total" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxsortpath="Peer_total_bytes" jsxsortdatatype="number"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"></variants>
+                      <strings jsxname="Peer_total" jsxtext="Peer total" jsxpadding="2" jsxcellpadding="2" jsxpath="Peer_total" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxsortpath="Peer_total_bytes" jsxsortdatatype="number"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"/>
-                      <strings jsxname="Peer_total_bytes" jsxtext="Peer total" jsxpadding="2" jsxcellpadding="2" jsxpath="Peer_total_bytes" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxdisplay="none"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="90" jsxresize="1" jsxsort="1"></variants>
+                      <strings jsxname="Peer_total_bytes" jsxtext="Peer total" jsxpadding="2" jsxcellpadding="2" jsxpath="Peer_total_bytes" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxdatatype="number" jsxsortdatatype="number" jsxdisplay="none"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="15" jsxresize="0"/>
-                      <strings jsxname="Incoming" jsxtext="I" jsxpadding="2" jsxcellpadding="2" jsxpath="Incoming" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxtip="Incoming"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="15" jsxresize="0"></variants>
+                      <strings jsxname="Incoming" jsxtext="I" jsxpadding="2" jsxcellpadding="2" jsxpath="Incoming" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxtip="Incoming"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="15" jsxresize="0"/>
-                      <strings jsxname="Snubbed" jsxtext="S" jsxpadding="2" jsxcellpadding="2" jsxpath="Snubbed" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxtip="Snubbed"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="15" jsxresize="0"></variants>
+                      <strings jsxname="Snubbed" jsxtext="S" jsxpadding="2" jsxcellpadding="2" jsxpath="Snubbed" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxtip="Snubbed"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="15" jsxresize="0"/>
-                      <strings jsxname="Obfuscated" jsxtext="O" jsxpadding="2" jsxcellpadding="2" jsxpath="Obfuscated" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxtip="Obfuscated"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="15" jsxresize="0"></variants>
+                      <strings jsxname="Obfuscated" jsxtext="O" jsxpadding="2" jsxcellpadding="2" jsxpath="Obfuscated" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxtip="Obfuscated"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="15" jsxresize="0"/>
-                      <strings jsxname="Encrypted" jsxtext="E" jsxpadding="2" jsxcellpadding="2" jsxpath="Encrypted" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxtip="Encrypted"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="15" jsxresize="0"></variants>
+                      <strings jsxname="Encrypted" jsxtext="E" jsxpadding="2" jsxcellpadding="2" jsxpath="Encrypted" jsxcelltextalign="right" jsxcolor="" jsxtextalign="center" jsxtip="Encrypted"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="180" jsxresize="1"/>
-                      <strings jsxname="Client" jsxtext="Client" jsxpadding="2" jsxcellpadding="2" jsxpath="Client" jsxcelltextalign="right" jsxtextalign="center"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="180" jsxresize="1"></variants>
+                      <strings jsxname="Client" jsxtext="Client" jsxpadding="2" jsxcellpadding="2" jsxpath="Client" jsxcelltextalign="right" jsxtextalign="center"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
-                      <variants jsxwidth="10" jsxsort="0" jsxresize="1"/>
-                      <strings jsxname="Empty" jsxtext="" jsxpadding="2" jsxcellpadding="2" jsxpath="bla" jsxcelltextalign="right" jsxtextalign="center"/>
-                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
+                      <variants jsxwidth="10" jsxsort="0" jsxresize="1"></variants>
+                      <strings jsxname="Empty" jsxtext="" jsxpadding="2" jsxcellpadding="2" jsxpath="bla" jsxcelltextalign="right" jsxtextalign="center"></strings>
+                      <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                   </object>
                 </object>
                 <object type="jsx3.gui.Block">
-                  <variants jsxoverflow="1"/>
-                  <strings jsxname="pane" jsxwidth="100%" jsxheight="100%"/>
-                  <dynamics jsxborder="@Outset"/>
+                  <variants jsxoverflow="1"></variants>
+                  <strings jsxname="pane" jsxwidth="100%" jsxheight="100%"></strings>
+                  <dynamics jsxborder="@Outset"></dynamics>
                 </object>
               </object>
             </object>
