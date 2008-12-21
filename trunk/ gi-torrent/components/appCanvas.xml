@@ -191,7 +191,7 @@
           </object>
           <object type="jsx3.gui.TextBox">
             <variants jsxheight="18" jsxrelativeposition="0" jsxleft="461" jsxtop="0" jsxwidth="47" jsxenabled="1"></variants>
-            <strings jsxname="Up_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxtip="Upload rate in kilo bytes per second." jsxvisibility="" jsxvalue="20.4"></strings>
+            <strings jsxname="Up_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxtip="Upload rate in kilo bytes per second." jsxvisibility="" jsxvalue=""></strings>
           </object>
           <object type="jsx3.gui.Block">
             <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="560" jsxtop="3"></variants>
@@ -203,26 +203,26 @@
           </object>
           <object type="jsx3.gui.TextBox">
             <variants jsxheight="18" jsxrelativeposition="0" jsxleft="591" jsxtop="0" jsxwidth="47"></variants>
-            <strings jsxname="Down_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxvalue="0.0"></strings>
+            <strings jsxname="Down_Rate_t" jsxmargin="2 2 2 2" jsxdisplay="" jsxtextalign="right" jsxvalue=""></strings>
           </object>
           <object type="jsx3.gui.TabbedPane">
-            <variants selectedIndex="2" jsxselectedindex="5" jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxshowtabs="1"></variants>
+            <variants selectedIndex="2" jsxselectedindex="0" jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxshowtabs="1"></variants>
             <strings jsxname="tabbedpane" jsxtextalign="0" jsxdisplay="" jsxbg=""></strings>
             <dynamics jsxbgcolor="@Transparent BG"></dynamics>
             <object type="jsx3.gui.Tab">
               <variants jsxzindex="3" jsxheight="20"></variants>
-              <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#d8d8e5" jsxtip="Setup the connection  to the webserver."></strings>
+              <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#e8e8f5" jsxtip="Setup the connection  to the webserver."></strings>
               <object type="jsx3.gui.Block">
                 <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"></variants>
-                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility=""></strings>
+                <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxvisibility=""></strings>
                 <dynamics jsxbgcolor="@Solid Medium"></dynamics>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxheight="18" jsxrelativeposition="0" jsxleft="20" jsxtop="30" jsxwidth="170"></variants>
-                  <strings jsxname="URI" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="http://192.168.1.190"></strings>
+                  <strings jsxname="URI" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="http://my.torrent.server"></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxheight="18" jsxrelativeposition="0" jsxleft="200" jsxtop="30" jsxwidth="50"></variants>
-                  <strings jsxname="Port" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="8181"></strings>
+                  <strings jsxname="Port" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="80"></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxheight="18" jsxrelativeposition="0" jsxleft="260" jsxtop="30"></variants>
@@ -250,11 +250,11 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxheight="18" jsxrelativeposition="0" jsxleft="100" jsxtop="70"></variants>
-                  <strings jsxname="UserId" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="hhasert"></strings>
+                  <strings jsxname="UserId" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxtype="2" jsxheight="18" jsxrelativeposition="0" jsxleft="100" jsxtop="100"></variants>
-                  <strings jsxname="Password" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="MisPoes"></strings>
+                  <strings jsxname="Password" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -280,7 +280,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Max_Files_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Max_Files_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -288,7 +288,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxtop="28" jsxleft="110" jsxheight="18" jsxwidth="40" jsxrelativeposition="0"></variants>
-                  <strings jsxname="Max_Sock_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxtextalign="right"></strings>
+                  <strings jsxname="Max_Sock_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="50" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -296,7 +296,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="48" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Max_Http_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Max_Http_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="80" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -304,7 +304,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="78" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Max_Down#_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Max_Down#_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="100" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -312,7 +312,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="98" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Max_Up#_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Max_Up#_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="130" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -320,7 +320,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="128" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Max_Peers_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Max_Peers_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="160" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -328,7 +328,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="158" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Max_SendBuf_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Max_SendBuf_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="180" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -336,7 +336,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="178" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Max_RcvBuf_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Max_RcvBuf_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="220" jsxtop="160" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -344,7 +344,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="158" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Max_Memory_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Max_Memory_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="220" jsxtop="140" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -352,7 +352,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="138" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Safe_Diskspace_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Safe_Diskspace_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="220" jsxtop="180" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -360,7 +360,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="178" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Max_Memory_in_use_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Max_Memory_in_use_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="220" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -372,7 +372,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Max_Down_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
+                  <strings jsxname="Max_Down_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.Button">
                   <variants jsxindex="0" jsxheight="18" jsxrelativeposition="0" jsxleft="395" jsxtop="7"></variants>
@@ -389,7 +389,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="28" jsxheight="18" jsxrelativeposition="0" jsxwidth="40" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Max_Up_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
+                  <strings jsxname="Max_Up_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.Button">
                   <variants jsxindex="0" jsxheight="18" jsxrelativeposition="0" jsxleft="395" jsxtop="27"></variants>
@@ -402,7 +402,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="73" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Port_Range_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
+                  <strings jsxname="Port_Range_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="220" jsxtop="95" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -410,7 +410,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="93" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Dht_Port_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
+                  <strings jsxname="Dht_Port_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue=""></strings>
                 </object>
               </object>
             </object>
@@ -466,7 +466,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Active_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Active_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -474,7 +474,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxtop="28" jsxleft="110" jsxheight="18" jsxwidth="60" jsxrelativeposition="0"></variants>
-                  <strings jsxname="Buckets_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxtextalign="right"></strings>
+                  <strings jsxname="Buckets_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="50" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -482,7 +482,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="48" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Cycle_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Cycle_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="80" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -490,7 +490,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="78" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Bytes_read_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Bytes_read_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="100" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -498,7 +498,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="98" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Bytes_written_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Bytes_written_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="130" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -506,7 +506,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="128" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Nodes_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Nodes_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="160" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -514,7 +514,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="158" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0" jsxmaxlength="4"></variants>
-                  <strings jsxname="Dht_Peers_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Dht_Peers_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="10" jsxtop="180" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -522,7 +522,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="110" jsxtop="178" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Dht_Peers_Max_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="?" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
+                  <strings jsxname="Dht_Peers_Max_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000"></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="220" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -530,7 +530,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="8" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Queries_received_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
+                  <strings jsxname="Queries_received_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="220" jsxtop="30" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -538,7 +538,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="28" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Queries_sent_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
+                  <strings jsxname="Queries_sent_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="220" jsxtop="50" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -546,7 +546,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="48" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Replies_received_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
+                  <strings jsxname="Replies_received_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxleft="220" jsxtop="80" jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -554,7 +554,7 @@
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="78" jsxheight="18" jsxrelativeposition="0" jsxwidth="60" jsxenabled="1" jsxtype="0"></variants>
-                  <strings jsxname="Torrents_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue="?"></strings>
+                  <strings jsxname="Torrents_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue=""></strings>
                 </object>
               </object>
             </object>
@@ -622,31 +622,31 @@
                   <dynamics jsxborder="@Outset"></dynamics>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="10" jsxwidth="640" jsxenabled="1"></variants>
-                    <strings jsxname="Hash" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="F44478189EA65D76C6FDAA0940B5C4F1968E5C6D"></strings>
+                    <strings jsxname="Hash" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="35" jsxwidth="640" jsxenabled="1"></variants>
-                    <strings jsxname="Tied_File" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="//home/hhasert/shared/torrent_files/Young harlots in detention.torrent"></strings>
+                    <strings jsxname="Tied_File" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="60" jsxwidth="640" jsxenabled="1"></variants>
-                    <strings jsxname="Dir" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="/home/hhasert/shared/torrent_downloads/Young harlots in detention"></strings>
+                    <strings jsxname="Dir" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="85" jsxwidth="55" jsxenabled="1"></variants>
-                    <strings jsxname="Chunk_size" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="2.0 Mb" jsxtextalign="right"></strings>
+                    <strings jsxname="Chunk_size" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="315" jsxtop="85" jsxwidth="75" jsxenabled="1"></variants>
-                    <strings jsxname="Creation_Date" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="24/04/2008" jsxtextalign="right"></strings>
+                    <strings jsxname="Creation_Date" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="395" jsxtop="85" jsxwidth="60" jsxenabled="1"></variants>
-                    <strings jsxname="Creation_Time" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=" 6:18:43" jsxtextalign="right"></strings>
+                    <strings jsxname="Creation_Time" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="650" jsxtop="85" jsxwidth="60" jsxenabled="1"></variants>
-                    <strings jsxname="Free_Diskspace" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="24.7 Gb" jsxtextalign="right"></strings>
+                    <strings jsxname="Free_Diskspace" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="" jsxtextalign="right"></strings>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="110" jsxwidth="640" jsxenabled="1"></variants>
@@ -685,18 +685,18 @@
             </object>
             <object type="jsx3.gui.Tab">
               <variants jsxzindex="3" jsxheight="18"></variants>
-              <strings jsxname="Files" jsxtext="Files" jsxbgcolor="#e8e8f5" jsxcursor="" jsxtip="See the listing of files in the torrent."></strings>
+              <strings jsxname="Files" jsxtext="Files" jsxbgcolor="#d8d8e5" jsxcursor="" jsxtip="See the listing of files in the torrent."></strings>
               <events jsxshow="Filelist.service.call();"></events>
               <object type="jsx3.gui.LayoutGrid">
                 <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"></variants>
-                <strings jsxname="layout (--)" jsxrows="97%,3%" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxvisibility=""></strings>
+                <strings jsxname="layout (--)" jsxrows="97%,3%" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility=""></strings>
                 <object type="jsx3.gui.Block">
                   <variants jsxoverflow="2"></variants>
                   <strings jsxname="pane" jsxwidth="100%" jsxheight="100%"></strings>
                   <dynamics jsxborder="@Outset"></dynamics>
                   <object type="jsx3.gui.Matrix">
                     <variants jsxpagingmodel="1" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1"></variants>
-                    <strings jsxname="matrix2" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxfocusstyle="font-weight:bold;" jsxxmlid="File_list" jsxsortpath="Percentage_complete" jsxsorttype="number" jsxsortdirection="descending"></strings>
+                    <strings jsxname="matrix2" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxfocusstyle="font-weight:bold;" jsxxmlid="File_list" jsxsortpath="Size_bytes" jsxsorttype="number" jsxsortdirection="descending"></strings>
                     <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);"></events>
                     <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"></xslparameters>
                     <object type="jsx3.gui.Matrix.Column">
@@ -711,12 +711,12 @@
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
                       <variants jsxwidth="100" jsxresize="0" jsxsort="1"></variants>
-                      <strings jsxname="Size" jsxtext="Size" jsxcellpadding="2" jsxpath="Size" jsxvaluetemplate="" jsxdatatype="text" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxsortpath="Size_bytes"></strings>
+                      <strings jsxname="Size_bytes" jsxtext="Size Bytes" jsxcellpadding="2" jsxpath="Size_bytes" jsxvaluetemplate="" jsxdatatype="number" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="text" jsxdisplay="none"></strings>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
                       <variants jsxwidth="100" jsxresize="0" jsxsort="1"></variants>
-                      <strings jsxname="Size_bytes" jsxtext="Size Bytes" jsxcellpadding="2" jsxpath="Size_bytes" jsxvaluetemplate="" jsxdatatype="number" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="text" jsxdisplay="none"></strings>
+                      <strings jsxname="Size" jsxtext="Size" jsxcellpadding="2" jsxpath="Size" jsxvaluetemplate="" jsxdatatype="text" jsxtextalign="center" jsxcelltextalign="right" jsxsortdatatype="number" jsxsortpath="Size_bytes"></strings>
                       <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"></dynamics>
                     </object>
                     <object type="jsx3.gui.Matrix.Column">
