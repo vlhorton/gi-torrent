@@ -258,7 +258,7 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"></variants>
-                  <strings jsxname="Version" jsxtext="V 0.6.3" jsxleft="85%" jsxtop="80%" jsxdisplay=""></strings>
+                  <strings jsxname="Version" jsxtext="V 0.6.4" jsxleft="85%" jsxtop="80%" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"></variants>
