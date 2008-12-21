@@ -5,7 +5,7 @@ If you plan to make changes, use this command to check out the code as yourself 
 # Project members authenticate over HTTPS to allow committing changes.
 svn checkout https://gi-torrent.googlecode.com/svn/trunk/ gi-torrent --username ......
 }}}
-When prompted, enter your generated googlecode.com password.
+When prompted, enter your generated googlecode.com [http://code.google.com/hosting/settings password].
 
 Use this command to anonymously check out the latest project source code:
 {{{
