@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+<data>
+  <record jsxid="version" type="string">1.0</record>
+  <record jsxid="jsxversion" type="string">3.2</record>
+  <record jsxid="caption" type="string">giTorrent</record>
+  <record jsxid="mode" type="boolean">true</record>
+  <record jsxid="namespace" type="string">giTorrent</record>
+  <record jsxid="cancelerror" type="boolean">true</record>
+  <record jsxid="cancelrightclick" type="boolean">true</record>
+  <record jsxid="left" type="number">0</record>
+  <record jsxid="top" type="number">0</record>
+  <record jsxid="width" type="string">100%</record>
+  <record jsxid="height" type="string">100%</record>
+  <record jsxid="position" type="number">0</record>
+  <record jsxid="overflow" type="string">3</record>
+  <record jsxid="eventsvers" type="number">3.1</record>
+  <record jsxid="default_locale" type="string">en_US</record>
+  <record jsxid="onload" type="string"></record>
+  <record jsxid="objectseturl" type="string">components/appCanvas.xml</record>
+  <record jsxid="includes" type="array">
+    <record jsxid="0" type="map">
+      <record jsxid="id" type="string">Downloadlist_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Downloadlist.xml</record>
+    </record>
+    <record jsxid="1" type="map">
+      <record jsxid="id" type="string">Dowloadlist_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/Dowloadlist.js</record>
+    </record>
+    <record jsxid="2" type="map">
+      <record jsxid="id" type="string">AppCanvas_xml</record>
+      <record jsxid="type" type="string">component</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">components/AppCanvas.xml</record>
+    </record>
+    <record jsxid="3" type="map">
+      <record jsxid="id" type="string">Peerlist_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/Peerlist.js</record>
+    </record>
+    <record jsxid="4" type="map">
+      <record jsxid="id" type="string">Peerlist_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Peerlist.xml</record>
+    </record>
+    <record jsxid="5" type="map">
+      <record jsxid="id" type="string">Filelist_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Filelist.xml</record>
+    </record>
+    <record jsxid="6" type="map">
+      <record jsxid="id" type="string">Filelist_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/Filelist.js</record>
+    </record>
+    <record jsxid="7" type="map">
+      <record jsxid="id" type="string">Tracker_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Tracker.xml</record>
+    </record>
+    <record jsxid="8" type="map">
+      <record jsxid="id" type="string">Trackerlist_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/Trackerlist.js</record>
+    </record>
+    <record jsxid="9" type="map">
+      <record jsxid="id" type="string">Stop_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Stop.xml</record>
+    </record>
+    <record jsxid="10" type="map">
+      <record jsxid="id" type="string">Stop_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/Stop.js</record>
+    </record>
+    <record jsxid="11" type="map">
+      <record jsxid="id" type="string">Start_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Start.xml</record>
+    </record>
+    <record jsxid="12" type="map">
+      <record jsxid="id" type="string">Start_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/Start.js</record>
+    </record>
+    <record jsxid="13" type="map">
+      <record jsxid="id" type="string">Erase_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Erase.xml</record>
+    </record>
+    <record jsxid="14" type="map">
+      <record jsxid="id" type="string">Erase_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/Erase.js</record>
+    </record>
+    <record jsxid="15" type="map">
+      <record jsxid="id" type="string">Settings_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Settings.xml</record>
+    </record>
+    <record jsxid="16" type="map">
+      <record jsxid="id" type="string">Settings_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/Settings.js</record>
+    </record>
+    <record jsxid="17" type="map">
+      <record jsxid="id" type="string">System_Listmethods_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/System_Listmethods.xml</record>
+    </record>
+    <record jsxid="18" type="map">
+      <record jsxid="id" type="string">ListMethods_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/ListMethods.xml</record>
+    </record>
+    <record jsxid="19" type="map">
+      <record jsxid="id" type="string">Speed_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Speed.xml</record>
+    </record>
+    <record jsxid="20" type="map">
+      <record jsxid="id" type="string">Speed_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/Speed.js</record>
+    </record>
+    <record jsxid="21" type="map">
+      <record jsxid="id" type="string">SetMaxDown_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/SetMaxDown.js</record>
+    </record>
+    <record jsxid="22" type="map">
+      <record jsxid="id" type="string">SetMaxDown_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/SetMaxDown.xml</record>
+    </record>
+    <record jsxid="23" type="map">
+      <record jsxid="id" type="string">SetMaxUp_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/SetMaxUp.js</record>
+    </record>
+    <record jsxid="24" type="map">
+      <record jsxid="id" type="string">SetMaxDownCount_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/SetMaxDownCount.js</record>
+    </record>
+    <record jsxid="25" type="map">
+      <record jsxid="id" type="string">SetMaxUpCount_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/SetMaxUpCount.js</record>
+    </record>
+    <record jsxid="26" type="map">
+      <record jsxid="id" type="string">General_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/General.xml</record>
+    </record>
+    <record jsxid="27" type="map">
+      <record jsxid="id" type="string">SetTorrentPrioLow_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/SetTorrentPrioLow.js</record>
+    </record>
+    <record jsxid="28" type="map">
+      <record jsxid="id" type="string">SetTorrentPrioNormal_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/SetTorrentPrioNormal.js</record>
+    </record>
+    <record jsxid="29" type="map">
+      <record jsxid="id" type="string">SetTorrentPrioNormal_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/SetTorrentPrioNormal.xml</record>
+    </record>
+    <record jsxid="30" type="map">
+      <record jsxid="id" type="string">SetTorrentPrioOff_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/SetTorrentPrioOff.js</record>
+    </record>
+    <record jsxid="31" type="map">
+      <record jsxid="id" type="string">SetTorrentPrioHigh_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/SetTorrentPrioHigh.js</record>
+    </record>
+    <record jsxid="32" type="map">
+      <record jsxid="id" type="string">SetTorrentPrioOff_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/SetTorrentPrioOff.xml</record>
+    </record>
+    <record jsxid="33" type="map">
+      <record jsxid="id" type="string">SetTorrentPrioHigh_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/SetTorrentPrioHigh.xml</record>
+    </record>
+    <record jsxid="34" type="map">
+      <record jsxid="id" type="string">SetFilePrioOff_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/SetFilePrioOff.xml</record>
+    </record>
+    <record jsxid="35" type="map">
+      <record jsxid="id" type="string">SetFilePrioOff_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/SetFilePrioOff.js</record>
+    </record>
+    <record jsxid="36" type="map">
+      <record jsxid="id" type="string">SetFilePrioNormal_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/SetFilePrioNormal.xml</record>
+    </record>
+    <record jsxid="37" type="map">
+      <record jsxid="id" type="string">SetFilePrioHigh_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/SetFilePrioHigh.xml</record>
+    </record>
+    <record jsxid="38" type="map">
+      <record jsxid="id" type="string">SetFilePrioNormal_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/SetFilePrioNormal.js</record>
+    </record>
+    <record jsxid="39" type="map">
+      <record jsxid="id" type="string">SetFilePrioHigh_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/SetFilePrioHigh.js</record>
+    </record>
+    <record jsxid="40" type="map">
+      <record jsxid="id" type="string">SetTorrentPrioLow_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/SetTorrentPrioLow.xml</record>
+    </record>
+    <record jsxid="41" type="map">
+      <record jsxid="id" type="string">Testing_stuff_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Testing_stuff.xml</record>
+    </record>
+    <record jsxid="42" type="map">
+      <record jsxid="id" type="string">DhtStatistics_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/DhtStatistics.xml</record>
+    </record>
+    <record jsxid="43" type="map">
+      <record jsxid="id" type="string">DhtStatistics_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/DhtStatistics.js</record>
+    </record>
+    <record jsxid="44" type="map">
+      <record jsxid="id" type="string">DownloadlistStarted_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/DownloadlistStarted.xml</record>
+    </record>
+    <record jsxid="45" type="map">
+      <record jsxid="id" type="string">DowloadlistStarted_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/DowloadlistStarted.js</record>
+    </record>
+    <record jsxid="46" type="map">
+      <record jsxid="id" type="string">DowloadlistStopped_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/DowloadlistStopped.js</record>
+    </record>
+    <record jsxid="47" type="map">
+      <record jsxid="id" type="string">DownloadlistStopped_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/DownloadlistStopped.xml</record>
+    </record>
+    <record jsxid="48" type="map">
+      <record jsxid="id" type="string">DownloadlistHashing_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/DownloadlistHashing.xml</record>
+    </record>
+    <record jsxid="49" type="map">
+      <record jsxid="id" type="string">DowloadlistHashing_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/DowloadlistHashing.js</record>
+    </record>
+    <record jsxid="50" type="map">
+      <record jsxid="id" type="string">Hash_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/Hash.js</record>
+    </record>
+    <record jsxid="51" type="map">
+      <record jsxid="id" type="string">Hash_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Hash.xml</record>
+    </record>
+    <record jsxid="52" type="map">
+      <record jsxid="id" type="string">Stats</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/Stats</record>
+    </record>
+    <record jsxid="53" type="map">
+      <record jsxid="id" type="string">DownloadlistSeeding_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/DownloadlistSeeding.xml</record>
+    </record>
+    <record jsxid="54" type="map">
+      <record jsxid="id" type="string">DowloadlistSeeding_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/DowloadlistSeeding.js</record>
+    </record>
+    <record jsxid="55" type="map">
+      <record jsxid="id" type="string">LoadStartURL_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/LoadStartURL.xml</record>
+    </record>
+    <record jsxid="56" type="map">
+      <record jsxid="id" type="string">LoadStartURL_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/LoadStartURL.js</record>
+    </record>
+    <record jsxid="57" type="map">
+      <record jsxid="id" type="string">UpdatePriorities_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/UpdatePriorities.xml</record>
+    </record>
+    <record jsxid="58" type="map">
+      <record jsxid="id" type="string">UpdatePriorities_js</record>
+      <record jsxid="type" type="string">script</record>
+      <record jsxid="load" type="number">1</record>
+      <record jsxid="src" type="string">js/UpdatePriorities.js</record>
+    </record>
+    <record jsxid="59" type="map">
+      <record jsxid="id" type="string">SetMaxUp_xml</record>
+      <record jsxid="type" type="string">services</record>
+      <record jsxid="load" type="number">0</record>
+      <record jsxid="src" type="string">rules/SetMaxUp.xml</record>
+    </record>
+  </record>
+  <record jsxid="addins" type="array"></record>
+  <record jsxid="bodyhotkeys" type="boolean">false</record>
+  <record jsxid="onunload" type="string"></record>
+</data>
