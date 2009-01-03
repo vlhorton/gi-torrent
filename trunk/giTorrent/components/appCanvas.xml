@@ -40,10 +40,10 @@
           <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbgcolor="#FFFFFF" jsxvisibility=""></strings>
           <dynamics jsxborder="@Outset"></dynamics>
           <object type="jsx3.gui.Matrix">
-            <variants jsxpagingmodel="1" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1" jsxautorow="0" jsxxmlbind="1" jsxxmlasync="0" jsxloadtype="0" jsxdrag="0" jsxdrop="0" jsxresize="0" jsxreorder="1" jsxsuppressvscroll="0" jsxsuppresshscroll="1"></variants>
+            <variants jsxpagingmodel="0" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1" jsxautorow="0" jsxxmlbind="1" jsxxmlasync="0" jsxloadtype="0" jsxdrag="0" jsxdrop="0" jsxresize="0" jsxreorder="1" jsxsuppressvscroll="0" jsxsuppresshscroll="1"></variants>
             <strings jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxfocusstyle="font-weight:bold;" jsxxmlid="Download_list" jsxsortpath="Percent_complete" jsxsorttype="number" jsxsortdirection="descending" jsxbgcolor="#FFFFFF" jsxselectionbg=""></strings>
             <dynamics jsxbg="@Bevel TopDown Light"></dynamics>
-            <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);" jsxselect="giTorrent.getJSXByName(&quot;Tracker&quot;).doShow();"></events>
+            <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);" jsxselect="window.clearTimeout(); giTorrent.getJSXByName(&quot;Refresh&quot;).setChecked(0);giTorrent.getJSXByName(&quot;Tracker&quot;).doShow();"></events>
             <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"></xslparameters>
             <object type="jsx3.gui.Matrix.Column">
               <variants jsxwidth="100" jsxresize="1"></variants>
@@ -258,7 +258,7 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"></variants>
-                  <strings jsxname="Version" jsxtext="V 0.6.4" jsxleft="85%" jsxtop="80%" jsxdisplay=""></strings>
+                  <strings jsxname="Version" jsxtext="V 0.6.5" jsxleft="85%" jsxtop="80%" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"></variants>
@@ -411,6 +411,19 @@
                 <object type="jsx3.gui.TextBox">
                   <variants jsxleft="320" jsxtop="93" jsxheight="18" jsxrelativeposition="0" jsxwidth="80" jsxenabled="1" jsxtype="0"></variants>
                   <strings jsxname="Dht_Port_t" jsxmargin="0 4 0 0" jsxdisplay="" jsxdisabledbgcolor="#FFFFFF" jsxtextalign="right" jsxcolor="#000000" jsxvalue=""></strings>
+                </object>
+                <object type="jsx3.gui.Block">
+                  <variants jsxleft="500" jsxtop="10" jsxrelativeposition="0" jsxoverflow="3"></variants>
+                  <strings jsxname="Ref1" jsxtext="Refresh" jsxdisplay=""></strings>
+                </object>
+                <object type="jsx3.gui.Select">
+                  <variants jsxwidth="40" jsxheight="18" jsxxmlasync="1" jsxrelativeposition="0" jsxleft="550" jsxtop="8" _isfocusing="true" jsxenabled="1"></variants>
+                  <strings jsxname="Refresh_Interval" jsxxmlurl="" jsxmargin="0 4 0 0" jsxdisplay="" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;&#xA;  &lt;record jsxid=&quot;1&quot; jsximg=&quot;&quot; jsxtext=&quot;1&quot;/&gt;&lt;record jsxid=&quot;2&quot; jsximg=&quot;&quot; jsxtext=&quot;2&quot;/&gt;&lt;record jsxid=&quot;5&quot; jsximg=&quot;&quot; jsxtext=&quot;5&quot;/&gt;&lt;record jsxid=&quot;10&quot; jsximg=&quot;&quot; jsxtext=&quot;10&quot;/&gt;&lt;record jsxid=&quot;15&quot; jsximg=&quot;&quot; jsxtext=&quot;15&quot;/&gt;&lt;record jsxid=&quot;20&quot; jsximg=&quot;&quot; jsxtext=&quot;20&quot;/&gt;&lt;/data&gt;" jsxvalue="10"></strings>
+                </object>
+                <object type="jsx3.gui.CheckBox">
+                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="500" jsxtop="30" jsxchecked="0" jsxenabled="1"></variants>
+                  <strings jsxname="Refresh" jsxtext="Auto Refresh" jsxmargin="0 4 0 0" jsxdisplay=""></strings>
+                  <events jsxexecute="jsx3.out('mycheck','the jsxexecute method was fired for checkbox, ' + this.getId());"></events>
                 </object>
               </object>
             </object>
