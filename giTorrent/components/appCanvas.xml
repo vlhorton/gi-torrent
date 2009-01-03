@@ -18,6 +18,7 @@
         <object type="jsx3.gui.Menu">
           <variants jsxxmlasync="1" jsxenabled="1" jsxdivider="0"></variants>
           <strings jsxname="menu" jsxtip="Select the view filter and refresh." jsxtext="View" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;  &lt;record jsxid=&quot;1&quot; jsxtext=&quot;All&quot; jsxexecute=&quot;downloadlist.service.call();&quot;/&gt;  &lt;record jsxid=&quot;2&quot; jsxtext=&quot;Started&quot; jsxexecute=&quot;downloadlistStarted.service.call();&quot;/&gt;    &lt;record jsxid=&quot;3&quot; jsxtext=&quot;Seeding&quot; jsxexecute=&quot;downloadlistSeeding.service.call();&quot;/&gt;&lt;record jsxid=&quot;4&quot; jsxtext=&quot;Stopped&quot; jsxexecute=&quot;downloadlistStopped.service.call();&quot;/&gt; &lt;record jsxid=&quot;5&quot; jsxtext=&quot;Hashing &quot; jsxexecute=&quot;downloadlistHashing.service.call();&quot;/&gt;  &lt;/data&gt;" jsxcolor="#000000" jsxxmlurl=""></strings>
+          <events jsxexecute=""></events>
         </object>
         <object type="jsx3.gui.Menu">
           <variants jsxxmlasync="1" jsxenabled="1" jsxdivider="0"></variants>
@@ -43,7 +44,7 @@
             <variants jsxpagingmodel="0" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1" jsxautorow="0" jsxxmlbind="1" jsxxmlasync="0" jsxloadtype="0" jsxdrag="0" jsxdrop="0" jsxresize="0" jsxreorder="1" jsxsuppressvscroll="0" jsxsuppresshscroll="1"></variants>
             <strings jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxfocusstyle="font-weight:bold;" jsxxmlid="Download_list" jsxsortpath="Percent_complete" jsxsorttype="number" jsxsortdirection="descending" jsxbgcolor="#FFFFFF" jsxselectionbg=""></strings>
             <dynamics jsxbg="@Bevel TopDown Light"></dynamics>
-            <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);" jsxselect="window.clearTimeout(); giTorrent.getJSXByName(&quot;Refresh&quot;).setChecked(0);giTorrent.getJSXByName(&quot;Tracker&quot;).doShow();"></events>
+            <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);" jsxselect="TimeoutID = giTorrent.getJSXByName(&quot;TimeoutID&quot;).getValue(); if ( TimeoutID  ) { window.clearTimeout(TimeoutID); giTorrent.getJSXByName(&quot;TimeoutID&quot;).setValue(&quot;0&quot;);}  giTorrent.getJSXByName(&quot;Refresh&quot;).setChecked(0);giTorrent.getJSXByName(&quot;Tracker&quot;).doShow();"></events>
             <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"></xslparameters>
             <object type="jsx3.gui.Matrix.Column">
               <variants jsxwidth="100" jsxresize="1"></variants>
@@ -211,7 +212,7 @@
             <dynamics jsxbgcolor="@Transparent BG"></dynamics>
             <object type="jsx3.gui.Tab">
               <variants jsxzindex="3" jsxheight="20"></variants>
-              <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#e8e8f5" jsxtip="Setup the connection  to the webserver."></strings>
+              <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#d8d8e5" jsxtip="Setup the connection  to the webserver."></strings>
               <object type="jsx3.gui.Block">
                 <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"></variants>
                 <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxvisibility=""></strings>
@@ -268,7 +269,7 @@
             </object>
             <object type="jsx3.gui.Tab">
               <variants jsxheight="18"></variants>
-              <strings jsxname="Settings" jsxtext="Settings" jsxbgcolor="#d8d8e5" jsxtip="See rTorrent settings, change total upload/download."></strings>
+              <strings jsxname="Settings" jsxtext="Settings" jsxbgcolor="#e8e8f5" jsxtip="See rTorrent settings, change total upload/download."></strings>
               <events jsxshow="Settings.service.call();"></events>
               <object type="jsx3.gui.Block">
                 <variants jsxoverflow="2" jsxrelativeposition="0" jsxloadtype="4"></variants>
@@ -423,7 +424,11 @@
                 <object type="jsx3.gui.CheckBox">
                   <variants jsxheight="18" jsxrelativeposition="0" jsxleft="500" jsxtop="30" jsxchecked="0" jsxenabled="1"></variants>
                   <strings jsxname="Refresh" jsxtext="Auto Refresh" jsxmargin="0 4 0 0" jsxdisplay=""></strings>
-                  <events jsxexecute="jsx3.out('mycheck','the jsxexecute method was fired for checkbox, ' + this.getId());"></events>
+                  <events jsxexecute="jsx3.out('mycheck','the jsxexecute method was fired for checkbox, ' + this.getId());" jsxtoggle="giTorrent.getJSXByName(&quot;TimeoutID&quot;).setValue(&quot;0&quot;); "></events>
+                </object>
+                <object type="jsx3.gui.TextBox">
+                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="500" jsxtop="70"></variants>
+                  <strings jsxname="TimeoutID" jsxmargin="0 4 0 0" jsxvisibility="hidden" jsxdisplay="" jsxvalue="0"></strings>
                 </object>
               </object>
             </object>

@@ -5,6 +5,8 @@ jsx3.lang.Package.definePackage(
     service.call = function() {
       var objService = giTorrent.loadResource("DownloadlistStopped_xml");
       objService.setOperation("");
+      TimeoutID = giTorrent.getJSXByName("TimeoutID").getValue();
+      if ( TimeoutID ) window.clearTimeout(TimeoutID);
       objGUI = giTorrent.getServer().getCache().clearById("Peer_list");
       objGUI = giTorrent.getServer().getCache().clearById("Tracker_list");
       objGUI = giTorrent.getServer().getCache().clearById("File_list");
@@ -31,7 +33,8 @@ jsx3.lang.Package.definePackage(
       //objService.compile();
       if (  giTorrent.getJSXByName("Refresh").getChecked() )
       {
-         window.setTimeout(downloadlistStopped.service.call, giTorrent.getJSXByName("Refresh_Interval").getValue() * 1000);
+         TimeoutID = window.setTimeout(downloadlistStopped.service.call, giTorrent.getJSXByName("Refresh_Interval").getValue() * 1000);
+         giTorrent.getJSXByName("TimeoutID").setValue(TimeoutID);
       } 
       //call the service
       objService.doCall();
