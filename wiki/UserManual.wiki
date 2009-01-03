@@ -32,6 +32,12 @@ giTorrent has these views accessable through the 'View' menu. Choosing a view fr
 
 In general every action on a torrent starts from selecting it in the torrent list. The default action on selecting a torrent is opening the tracker tab and collecting information on the torrent. Every time a tab is clicked (apart from the 'Add Torrent' tab ofcourse) the content is refreshed from the server.
 
+*Auto-Refresh*
+
+In the settings tab there is an option to enable the auto-refresh function. The Refresh listbox enables you to select a refresh interval in seconds. Checking the Auto-Refresh checkbox will enable auto refresh. After checking the box you need to select the view you want auto-refresh to be active on.
+
+Auto refresh is cancelled by selecting a torrent or deselecting the checkbox. Other actions like selecting a different view or changing the refresh interval will continue auto refresh.
+
 *Start/Stop/Hash/Erase a torrent*
 
 Select a torrent and open the 'Action' menu. You can select the action from a menu item:
