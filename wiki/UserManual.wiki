@@ -38,6 +38,8 @@ In the settings tab there is an option to enable the auto-refresh function. The 
 
 Auto refresh is cancelled by selecting a torrent or deselecting the checkbox. Other actions like selecting a different view or changing the refresh interval will continue auto refresh.
 
+The Peer list will always auto refresh and uses the refresh setting. 
+
 *Start/Stop/Hash/Erase a torrent*
 
 Select a torrent and open the 'Action' menu. You can select the action from a menu item:
