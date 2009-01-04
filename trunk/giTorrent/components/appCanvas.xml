@@ -212,7 +212,7 @@
             <dynamics jsxbgcolor="@Transparent BG"></dynamics>
             <object type="jsx3.gui.Tab">
               <variants jsxzindex="3" jsxheight="20"></variants>
-              <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#d8d8e5" jsxtip="Setup the connection  to the webserver."></strings>
+              <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#e8e8f5" jsxtip="Setup the connection  to the webserver."></strings>
               <object type="jsx3.gui.Block">
                 <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"></variants>
                 <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxvisibility=""></strings>
@@ -269,7 +269,7 @@
             </object>
             <object type="jsx3.gui.Tab">
               <variants jsxheight="18"></variants>
-              <strings jsxname="Settings" jsxtext="Settings" jsxbgcolor="#e8e8f5" jsxtip="See rTorrent settings, change total upload/download."></strings>
+              <strings jsxname="Settings" jsxtext="Settings" jsxbgcolor="#d8d8e5" jsxtip="See rTorrent settings, change total upload/download."></strings>
               <events jsxshow="Settings.service.call();"></events>
               <object type="jsx3.gui.Block">
                 <variants jsxoverflow="2" jsxrelativeposition="0" jsxloadtype="4"></variants>
@@ -789,7 +789,7 @@
             <object type="jsx3.gui.Tab">
               <variants jsxzindex="3" jsxheight="18"></variants>
               <strings jsxname="Peers" jsxtext="Peers" jsxbgcolor="#d8d8e5" jsxtip="See the list of active peers."></strings>
-              <events jsxshow="Peerlist.service.call();"></events>
+              <events jsxshow="giTorrent.getServer().getCache().clearById(&quot;Peer_list&quot;); giTorrent.getJSXByName(&quot;matrix3&quot;).repaint();Peerlist.service.call();"></events>
               <object type="jsx3.gui.LayoutGrid">
                 <variants jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxoverflow="2"></variants>
                 <strings jsxname="layout (--)" jsxrows="97%,3%" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility=""></strings>
@@ -798,7 +798,7 @@
                   <strings jsxname="pane" jsxwidth="100%" jsxheight="100%"></strings>
                   <dynamics jsxborder="@Outset"></dynamics>
                   <object type="jsx3.gui.Matrix">
-                    <variants jsxpagingmodel="1" jsxselectionmodel="0" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1"></variants>
+                    <variants jsxpagingmodel="0" jsxselectionmodel="0" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1"></variants>
                     <strings jsxname="matrix3" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxbgcolor="#efefff" jsxfocusstyle="font-weight:bold;" jsxxmlid="Peer_list" jsxsortpath="Completed" jsxsorttype="number" jsxsortdirection="descending"></strings>
                     <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);"></events>
                     <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"></xslparameters>
