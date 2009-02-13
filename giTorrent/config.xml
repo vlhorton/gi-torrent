@@ -19,7 +19,7 @@
 var doc = new jsx3.xml.Document();
 doc.load( url + "giTorrentConfig.xml" , 30);
 e = doc.getFirstChild(); giTorrent.getJSXByName("URI").setValue(e.getAttribute("url")); giTorrent.getJSXByName("Port").setValue(e.getAttribute("port")); giTorrent.getJSXByName("Mount").setValue(e.getAttribute("mount_point")); 
-giTorrent.getJSXByName("UserId").setValue(e.getAttribute("userid")); giTorrent.getJSXByName("Password").setValue(e.getAttribute("password"));</record>
+giTorrent.getJSXByName("UserId").setValue(e.getAttribute("userid")); giTorrent.getJSXByName("Password").setValue(e.getAttribute("password")); str = e.getAttribute("hide_connection"); if ( str == "yes" )  {giTorrent.getJSXByName("tabbedpane").getChild(0).setDisplay(jsx3.gui.Block.DISPLAYNONE).repaint(); giTorrent.getJSXByName("tabbedpane").getChild(2).doShow();} str = e.getAttribute("hide_settings"); if ( str == "yes" )  {giTorrent.getJSXByName("tabbedpane").getChild(1).setDisplay(jsx3.gui.Block.DISPLAYNONE).repaint(); giTorrent.getJSXByName("tabbedpane").getChild(2).doShow();} str = e.getAttribute("refresh"); if ( str == "yes" ) { giTorrent.getJSXByName("Refresh").setChecked(1); } giTorrent.getJSXByName("Refresh_Interval").setValue(e.getAttribute("interval"));</record>
   <record jsxid="objectseturl" type="string">components/appCanvas.xml</record>
   <record jsxid="includes" type="array">
     <record jsxid="0" type="map">
