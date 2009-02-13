@@ -9,8 +9,7 @@ This is the first attempt to create a user manual for giTorrent.
 *Config File*
 
 In the directory gihome/JSXAPPS/giTorrent/ there are 2 config files. The one called  giTorrentConfig.xml contains the variables that are used to configure the startup paramaters. The default file looks like this :
-
-(((
+{{{
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <data>
 <property 
