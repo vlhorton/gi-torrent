@@ -208,11 +208,11 @@
           </object>
           <object type="jsx3.gui.TabbedPane">
             <variants selectedIndex="2" jsxselectedindex="0" jsxrelativeposition="0" jsxleft="0" jsxtop="0" jsxshowtabs="1"></variants>
-            <strings jsxname="tabbedpane" jsxtextalign="0" jsxdisplay="" jsxbg=""></strings>
+            <strings jsxname="tabbedpane" jsxtextalign="0" jsxdisplay="" jsxbg="" jsxvisibility=""></strings>
             <dynamics jsxbgcolor="@Transparent BG"></dynamics>
             <object type="jsx3.gui.Tab">
-              <variants jsxzindex="3" jsxheight="20"></variants>
-              <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#e8e8f5" jsxtip="Setup the connection  to the webserver."></strings>
+              <variants jsxzindex="3" jsxheight="20" jsxenabled="1" jsxloadtype="4"></variants>
+              <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#e8e8f5" jsxtip="Setup the connection  to the webserver." jsxdisplay="" Display="None"></strings>
               <object type="jsx3.gui.Block">
                 <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"></variants>
                 <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxvisibility=""></strings>
@@ -269,7 +269,7 @@
             </object>
             <object type="jsx3.gui.Tab">
               <variants jsxheight="18"></variants>
-              <strings jsxname="Settings" jsxtext="Settings" jsxbgcolor="#d8d8e5" jsxtip="See rTorrent settings, change total upload/download."></strings>
+              <strings jsxname="Settings" jsxtext="Settings" jsxbgcolor="#d8d8e5" jsxtip="See rTorrent settings, change total upload/download." jsxdisplay=""></strings>
               <events jsxshow="Settings.service.call();"></events>
               <object type="jsx3.gui.Block">
                 <variants jsxoverflow="2" jsxrelativeposition="0" jsxloadtype="4"></variants>
