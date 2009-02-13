@@ -1,4 +1,4 @@
-<serialization jsxversion="3.6" xmlns="urn:tibco.com/v3.0">
+<serialization jsxversion="3.7" xmlns="urn:tibco.com/v3.0">
   <name><![CDATA[Layout - Top/Over]]></name>
   <icon><![CDATA[images/prototypes/layout-over.gif]]></icon>
   <description><![CDATA[2 top-over-bottom panes in an adaptive layout grid.]]></description>
@@ -259,11 +259,11 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"></variants>
-                  <strings jsxname="Version" jsxtext="V 0.6.5" jsxleft="85%" jsxtop="80%" jsxdisplay=""></strings>
+                  <strings jsxname="Version" jsxtext="V 0.6.6" jsxleft="85%" jsxtop="80%" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"></variants>
-                  <strings jsxname="Version GI" jsxtext="based on GI 3.6.2" jsxleft="85%" jsxtop="85%" jsxdisplay=""></strings>
+                  <strings jsxname="Version GI" jsxtext="based on GI 3.7.0" jsxleft="85%" jsxtop="85%" jsxdisplay=""></strings>
                 </object>
               </object>
             </object>

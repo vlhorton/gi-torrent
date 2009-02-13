@@ -15,7 +15,7 @@
   <record jsxid="overflow" type="string">3</record>
   <record jsxid="eventsvers" type="number">3.1</record>
   <record jsxid="default_locale" type="string">en_US</record>
-  <record jsxid="onload" type="string">url = window.location.hostname; port = window.location.port; giTorrent.getJSXByName("URI").setValue ("http://"+ url); giTorrent.getJSXByName("Port").setValue (port);</record>
+  <record jsxid="onload" type="string">url = giTorrent.getServer().getUriPrefix(); port = window.location.port; giTorrent.getJSXByName("URI").setValue ("http://"+ url); giTorrent.getJSXByName("Port").setValue (port);</record>
   <record jsxid="objectseturl" type="string">components/appCanvas.xml</record>
   <record jsxid="includes" type="array">
     <record jsxid="0" type="map">
