@@ -6,6 +6,31 @@ This is the first attempt to create a user manual for giTorrent.
 
 
 = Details =
+*Config File*
+
+In the directory gihome/JSXAPPS/giTorrent/ there are 2 config files. The one called  giTorrentConfig.xml contains the variables that are used to configure the startup paramaters. The default file looks like this :
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<data>
+<property 
+
+url="http://my.torrent.server"
+port="80"
+mount_point="/RPC2"
+userid = ""
+password = "" 
+hide_connection = "no"
+hide_settings = "no"
+refresh = "no"
+interval = "10"
+view = "None"
+
+/>
+</data>
+
+Most of the variables will be evident, but some parameters need additional explenation. The hide_connection and hide_settings parameters allow you to hide the connection and settings tabs when the value is "yes". Refresh, interval and view will enable you to set auto-refresh, the interval and starting a view at startup. This will only work when the connection parameters are sufficient to succesfully connect to rtorrent. 
+
+
 *Setting up the connection*
 
 The connection tab contains the information for giTorrent to reach rTorrent on the server. There are 5 parameters to set :
