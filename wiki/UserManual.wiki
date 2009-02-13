@@ -6,9 +6,9 @@ This is the first attempt to create a user manual for giTorrent.
 
 
 = Details =
-*Config File*
+*Config File (0.6.6 and up)*
 
-In the directory gihome/JSXAPPS/giTorrent/ there are 2 config files. The one called  giTorrentConfig.xml contains the variables that are used to configure the startup paramaters. The default file looks like this :
+In the directory gihome/JSXAPPS/giTorrent/ there are 2 config files. The one called  giTorrentConfig.xml contains the variables that are used to configure the startup parameters. The default file looks like this :
 {{{
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <data>
@@ -29,8 +29,7 @@ view = "None"
 </data>
 }}}
 
-Most of the variables will be evident, but some parameters need additional explenation. The hide_connection and hide_settings parameters allow you to hide the connection and settings tabs when the value is "yes". Refresh, interval and view will enable you to set auto-refresh, the interval and starting a view at startup. This will only work when the connection parameters are sufficient to succesfully connect to rtorrent. The view paramater is filled with the view as seen in the view menu.
-
+Most of the variables will be evident, but some parameters need additional explanation. The hide_connection and hide_settings parameters allow you to hide the connection and settings tabs when the value is "yes". Refresh, interval and view will enable you to set auto-refresh, the interval and starting a view at startup. This will only work when the connection parameters are sufficient to successfully connect to rtorrent. The view parameter is filled with the view as seen in the view menu.
 
 *Setting up the connection*
 
