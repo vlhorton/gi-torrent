@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<data>
+<property 
+
+url="http://my.torrent.server"
+port="80"
+mount_point="/RPC2"
+userid = ""
+password = "" 
+refresh = "no"
+interval = "10"
+view = "none"
+
+/>
+</data>

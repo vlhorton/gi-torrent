@@ -219,15 +219,15 @@
                 <dynamics jsxbgcolor="@Solid Medium"></dynamics>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxheight="18" jsxrelativeposition="0" jsxleft="20" jsxtop="30" jsxwidth="170"></variants>
-                  <strings jsxname="URI" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="http://my.torrent.server"></strings>
+                  <strings jsxname="URI" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxheight="18" jsxrelativeposition="0" jsxleft="200" jsxtop="30" jsxwidth="50"></variants>
-                  <strings jsxname="Port" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue="80"></strings>
+                  <strings jsxname="Port" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""></strings>
                 </object>
                 <object type="jsx3.gui.TextBox">
                   <variants jsxheight="18" jsxrelativeposition="0" jsxleft="260" jsxtop="30"></variants>
-                  <strings jsxname="Mount" jsxmargin="0 4 0 0" jsxvalue="/RPC2" jsxdisplay=""></strings>
+                  <strings jsxname="Mount" jsxmargin="0 4 0 0" jsxvalue="" jsxdisplay=""></strings>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3" jsxleft="100" jsxtop="10"></variants>
