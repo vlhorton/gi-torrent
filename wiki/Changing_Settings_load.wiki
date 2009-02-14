@@ -1,6 +1,8 @@
 #summary Changing the content of the settings tab on load
 = Introduction =
 
+*Deprecated, only for versions before 0.6.6, see user manual*
+
 The default settings of giTorrent can be adjusted, so that on load your server settings are already filled in. The file "gihome/JSXAPPS/giTorrent/components/appCanvas.xml" contains the values at startup. You can edit it with a normal text editor (like notepad) to change the values for your installation.
 
 = Details =
