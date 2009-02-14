@@ -29,7 +29,7 @@ view = "None"
 </data>
 }}}
 
-Most of the variables will be evident, but some parameters need additional explanation. The hide_connection and hide_settings parameters allow you to hide the connection and settings tabs when the value is "yes". Refresh, interval and view will enable you to set auto-refresh, the interval and starting a view at startup. This will only work when the connection parameters are sufficient to successfully connect to rtorrent. The view parameter is filled with the view as seen in the view menu.
+Most of the variables will be evident, but some parameters need additional explanation. The hide_connection and hide_settings parameters allow you to hide the connection and settings tabs when the value is "yes". Refresh, interval and view will enable you to set auto-refresh, the interval and starting a view at startup. This will only work when the connection parameters are sufficient to successfully connect to rTorrent. The view parameter is filled with the view as seen in the view menu.
 
 *Setting up the connection*
 
