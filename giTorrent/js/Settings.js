@@ -1,8 +1,8 @@
 jsx3.lang.Package.definePackage(
-  "Settings.service",          //the full name of the package to create
+  "rTorrentSettings.service",          //the full name of the package to create
   function(service) {          //name the argument of this function
 
-    //call this method to begin the service call (Settings.service.call();)
+    //call this method to begin the service call (rTorrentSettings.service.call();)
     service.call = function() {
       var objService = giTorrent.loadResource("Settings_xml");
       objService.setOperation("");
