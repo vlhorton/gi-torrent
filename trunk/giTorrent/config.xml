@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <record jsxid="version" type="string">1.0</record>
   <record jsxid="jsxversion" type="string">3.2</record>
@@ -354,7 +354,7 @@ giTorrent.getJSXByName("UserId").setValue(e.getAttribute("userid")); giTorrent.g
       <record jsxid="src" type="string">rules/SetMaxUp.xml</record>
     </record>
   </record>
-  <record jsxid="addins" type="array"></record>
+  <record jsxid="addins" type="array"/>
   <record jsxid="bodyhotkeys" type="boolean">false</record>
-  <record jsxid="onunload" type="string"></record>
+  <record jsxid="onunload" type="string"/>
 </data>
