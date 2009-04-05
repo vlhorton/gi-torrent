@@ -11,7 +11,7 @@ Open the webpage 'about:config' and change the setting 'signed.applets.codebase_
 
 *Internet Explorer*
 
-In short, you have to add your server as a trusted domain and enable the 'Access data sources across domains setting'.
+In short, you have to add your server and the live site as a trusted domain and enable the 'Access data sources across domains setting' and 'Allow Scriptlets'.
 
 Start Internet Explorer and Select 'Tools', 'Internet options' in the menu bar. Click the 'Security' tab and click the 'Custom Level' button. Scroll through the list until you see 'Access data sources across domains setting', select 'enable'. Scroll through the list until you find 'Allow Scriptlets', select 'enable' then click 'Ok'. You are back at the 'Security' tab, click the 'Sites' button and type the page of your rTorrent serving web server and click the 'Add' button. Do the same for and http://hhasert.110mb.com. You are done now, load giTorrent from the link [http://hhasert.110mb.com/apps/giTorrent.html giTorrent Live!] and fill in the 'Connections tab'
 
