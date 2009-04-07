@@ -55,4 +55,4 @@ CDFCONTEXT.setAttribute("SecondNumber",MESSAGENODE.selectSingleNode("value[4]/*"
 CDFCONTEXT.setAttribute("ThirdNumber",MESSAGENODE.selectSingleNode("value[5]/*").getValue());
 }}}
 
-The 'CDF Document' is created in the data cache is addressable by the names we used to identify them. 
+The 'CDF Document' is created in the data cache and the entires are addressable by the names we used to identify them as attributes. 
