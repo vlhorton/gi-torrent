@@ -41,24 +41,19 @@
           <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbgcolor="#FFFFFF" jsxvisibility=""/>
           <dynamics jsxborder="@Outset"/>
           <object type="jsx3.gui.Matrix">
-            <variants jsxpagingmodel="0" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1" jsxautorow="0" jsxxmlbind="1" jsxxmlasync="0" jsxloadtype="0" jsxdrag="0" jsxdrop="0" jsxresize="0" jsxreorder="1" jsxsuppressvscroll="0" jsxsuppresshscroll="1"/>
+            <variants jsxpagingmodel="0" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1" jsxautorow="0" jsxxmlbind="1" jsxxmlasync="0" jsxloadtype="0" jsxdrag="0" jsxdrop="0" jsxresize="1" jsxreorder="1" jsxsuppressvscroll="0" jsxsuppresshscroll="1"/>
             <strings jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxfocusstyle="font-weight:bold;" jsxxmlid="Download_list" jsxsortpath="Percent_complete" jsxsorttype="number" jsxsortdirection="descending" jsxbgcolor="#FFFFFF" jsxselectionbg=""/>
             <dynamics jsxbg="@Bevel TopDown Light"/>
             <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);" jsxselect="giTorrent.getJSXByName(&quot;Hash&quot;).setValue(giTorrent.getJSXByName(&quot;matrix1&quot;).getValue()); giTorrent.getJSXByName(&quot;Tracker&quot;).doShow();"/>
             <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"/>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="100" jsxresize="1"/>
+              <variants jsxwidth="1" jsxresize="1"/>
               <strings jsxname="View" jsxtext="View" jsxcellpadding="2" jsxpath="View" jsxdisplay="none"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="100" jsxresize="1"/>
+              <variants jsxwidth="1" jsxresize="1"/>
               <strings jsxname="Free_Diskspace" jsxtext="Free" jsxcellpadding="2" jsxpath="Free_Diskspace" jsxdisplay="none"/>
-              <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
-            </object>
-            <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="250" jsxresize="1"/>
-              <strings jsxname="Hash" jsxtext="Hash" jsxcellpadding="2" jsxpath="Hash" jsxdisplay="none"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
@@ -92,22 +87,22 @@
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80" jsxresize="0"/>
+              <variants jsxwidth="80" jsxresize="0" jsxsort="1"/>
               <strings jsxname="State" jsxtext="State" jsxpadding="2" jsxcellpadding="2" jsxpath="State" jsxtextalign="center" jsxcelltextalign="center"/>
               <dynamics jsxborder="@Outset" jsxbgcolor="@Solid Disabled" jsxbg="@Bevel TopDown Light"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="280" jsxresize="1"/>
+              <variants jsxwidth="280" jsxresize="1" jsxsort="1"/>
               <strings jsxname="Name" jsxtext="Name" jsxcellpadding="2" jsxpath="Name" jsxtextalign="center"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80" jsxresize="0"/>
+              <variants jsxwidth="80" jsxresize="0" jsxsort="1"/>
               <strings jsxname="Size" jsxtext="Size" jsxcellpadding="2" jsxpath="Size" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxsortpath="Size_bytes" jsxsortdatatype="number"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="100" jsxresize="0"/>
+              <variants jsxwidth="100" jsxresize="0" jsxsort="1"/>
               <strings jsxname="Size_bytes" jsxtext="Size_bytes" jsxcellpadding="2" jsxpath="Size_bytes" jsxvaluetemplate="" jsxcelltextalign="right" jsxtextalign="center" jsxdisplay="none" jsxdatatype="number"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
@@ -122,12 +117,12 @@
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="82"/>
+              <variants jsxwidth="82" jsxresize="0" jsxsort="1"/>
               <strings jsxname="Uploaded" jsxtext="Uploaded" jsxpadding="2" jsxcellpadding="2" jsxpath="Uploaded" jsxcelltextalign="right" jsxtextalign="center" jsxsortpath="Uploaded_bytes" jsxsortdatatype="number" jsxdisplay=""/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="100"/>
+              <variants jsxwidth="100" jsxresize="0" jsxsort="1"/>
               <strings jsxname="Uploaded_bytes" jsxtext="Uploaded_bytes" jsxpadding="2" jsxcellpadding="2" jsxpath="Uploaded_bytes" jsxcelltextalign="right" jsxtextalign="center" jsxdatatype="number" jsxdisplay="none"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
@@ -142,12 +137,12 @@
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="47"/>
+              <variants jsxwidth="47" jsxresize="0" jsxsort="1"/>
               <strings jsxname="Seed" jsxtext="Seed" jsxpadding="2" jsxcellpadding="2" jsxpath="Peers_complete" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number" jsxtip="Seeds rTorrent is connected to."/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="47"/>
+              <variants jsxwidth="47" jsxresize="0" jsxsort="1"/>
               <strings jsxname="Leech" jsxtext="Leech" jsxpadding="2" jsxcellpadding="2" jsxpath="Peers_accounted" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="number" jsxsortdatatype="number" jsxtip="Leeches rTorrent is connected to."/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
@@ -162,18 +157,18 @@
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80"/>
+              <variants jsxwidth="80" jsxresize="0" jsxsort="1"/>
               <strings jsxname="Priority" jsxtext="Prio" jsxpadding="2" jsxcellpadding="2" jsxpath="Priority" jsxtextalign="center" jsxcelltextalign="center" jsxdatatype="text" jsxsortdatatype="text"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80"/>
+              <variants jsxwidth="80" jsxresize="0" jsxsort="1"/>
               <strings jsxname="Privacy" jsxtext="Privacy" jsxpadding="2" jsxcellpadding="2" jsxpath="Privacy" jsxtextalign="center" jsxcelltextalign="center" jsxdatatype="text" jsxsortdatatype="text"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="10" jsxsort="0" jsxresize="1"/>
-              <strings jsxname="Empty" jsxtext="" jsxpadding="2" jsxcellpadding="2" jsxpath="bla" jsxcelltextalign="right" jsxtextalign="center"/>
+              <variants jsxwidth="1" jsxsort="0" jsxresize="1"/>
+              <strings jsxname="Empty" jsxtext="" jsxpadding="2" jsxcellpadding="0" jsxpath="empty" jsxcelltextalign="right" jsxtextalign="center"/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
           </object>
