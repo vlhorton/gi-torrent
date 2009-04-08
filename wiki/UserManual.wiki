@@ -61,9 +61,9 @@ In general every action on a torrent starts from selecting it in the torrent lis
 
 In the settings tab there is an option to enable the auto-refresh function. The Refresh listbox enables you to select a refresh interval in seconds. Checking the Auto-Refresh checkbox will enable auto refresh. After checking the box you need to select the view you want auto-refresh to be active on.
 
-Auto refresh is cancelled by selecting a torrent or deselecting the checkbox. Other actions like selecting a different view or changing the refresh interval will continue auto refresh.
+Auto refresh is cancelled by deselecting the checkbox. Other actions like selecting a different view, selecting a torrent or changing the refresh interval will continue auto refresh.
 
-The Peer list will always auto refresh and uses the refresh setting. 
+The Peer list will always auto refresh and uses the same refresh setting. 
 
 *Start/Stop/Hash/Erase a torrent*
 
