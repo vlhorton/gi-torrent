@@ -24,7 +24,6 @@ jsx3.lang.Package.definePackage(
     };
     service.onSuccess = function(objEvent) {
       //var responseXML = objEvent.target.getInboundDocument();
-      Speed.service.call();
       giTorrent.getJSXByName("matrix3").repaint(); 
     };
     service.onError = function(objEvent) {
