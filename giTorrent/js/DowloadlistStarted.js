@@ -32,6 +32,7 @@ jsx3.lang.Package.definePackage(
       //var responseXML = objEvent.target.getInboundDocument();
      Speed.service.call();
      giTorrent.getJSXByName("matrix1").repaint();
+     giTorrent.getJSXByName("matrix1").setValue(giTorrent.getJSXByName("Hash").getValue());
     };
     service.onError = function(objEvent) {
       var myStatus = objEvent.target.getRequest().getStatus();
