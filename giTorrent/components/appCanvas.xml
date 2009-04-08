@@ -44,7 +44,7 @@
             <variants jsxpagingmodel="0" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1" jsxautorow="0" jsxxmlbind="1" jsxxmlasync="0" jsxloadtype="0" jsxdrag="0" jsxdrop="0" jsxresize="0" jsxreorder="1" jsxsuppressvscroll="0" jsxsuppresshscroll="1"/>
             <strings jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxfocusstyle="font-weight:bold;" jsxxmlid="Download_list" jsxsortpath="Percent_complete" jsxsorttype="number" jsxsortdirection="descending" jsxbgcolor="#FFFFFF" jsxselectionbg=""/>
             <dynamics jsxbg="@Bevel TopDown Light"/>
-            <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);" jsxselect="TimeoutID = giTorrent.getJSXByName(&quot;TimeoutID&quot;).getValue(); if ( TimeoutID  ) { window.clearTimeout(TimeoutID); giTorrent.getJSXByName(&quot;TimeoutID&quot;).setValue(&quot;0&quot;);}  giTorrent.getJSXByName(&quot;Refresh&quot;).setChecked(0);giTorrent.getJSXByName(&quot;Tracker&quot;).doShow();"/>
+            <events jsxexecute="jsx3.log('EVENT: (jsxexecute). Record: ' + strRECORDID);" jsxselect="giTorrent.getJSXByName(&quot;Hash&quot;).setValue(giTorrent.getJSXByName(&quot;matrix1&quot;).getValue()); giTorrent.getJSXByName(&quot;Tracker&quot;).doShow();"/>
             <xslparameters jsx_rowbg1="#E5F8FF" jsx_rowbg2="#FBFBFF"/>
             <object type="jsx3.gui.Matrix.Column">
               <variants jsxwidth="100" jsxresize="1"/>
@@ -259,7 +259,7 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version" jsxtext="V 0.6.7" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
+                  <strings jsxname="Version" jsxtext="V 0.7.0" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
@@ -641,6 +641,7 @@
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="10" jsxwidth="640" jsxenabled="1"/>
                     <strings jsxname="Hash" jsxmargin="0 4 0 0" jsxdisplay="" jsxvalue=""/>
+                    <events jsxchange=""/>
                   </object>
                   <object type="jsx3.gui.TextBox">
                     <variants jsxheight="18" jsxrelativeposition="0" jsxleft="70" jsxtop="35" jsxwidth="640" jsxenabled="1"/>

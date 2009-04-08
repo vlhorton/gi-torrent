@@ -10,9 +10,7 @@ jsx3.lang.Package.definePackage(
       objGUI = giTorrent.getServer().getCache().clearById("Tracker_list");
       giTorrent.getJSXByName("matrix4").repaint();
       
-      objGUI = giTorrent.getJSXByName("matrix1"); 
-      Val = objGUI.getRecord(objGUI.getValue()).Hash;
-      giTorrent.getJSXByName("Hash").setValue(Val);
+      objGUI = giTorrent.getJSXByName("matrix1");
       Val = objGUI.getRecord(objGUI.getValue()).Tied_File;
       giTorrent.getJSXByName("Tied_File").setValue(Val);
       Val = objGUI.getRecord(objGUI.getValue()).Dir;
