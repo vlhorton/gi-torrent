@@ -15,10 +15,6 @@ jsx3.lang.Package.definePackage(
       objService.subscribe(jsx3.net.Service.ON_INVALID, service.onInvalid);
       //PERFORMANCE ENHANCEMENT: uncomment the following line of code to use XSLT to convert the server response to CDF (refer to the API docs for jsx3.net.Service.compile for implementation details)
       //objService.compile();
-      if ( giTorrent.getJSXByName("tabbedpane").getSelectedIndex() == 6 )
-      {
-         TimeoutID = window.setTimeout(Peerlist.service.call, giTorrent.getJSXByName("Refresh_Interval").getValue() * 1000);
-      } 
       //call the service
       objService.doCall();
     };
