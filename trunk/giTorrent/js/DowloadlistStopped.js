@@ -33,6 +33,13 @@ jsx3.lang.Package.definePackage(
      Speed.service.call();
      giTorrent.getJSXByName("matrix1").repaint();
      giTorrent.getJSXByName("matrix1").setValue(giTorrent.getJSXByName("Hash").getValue());
+     switch ( giTorrent.getJSXByName("tabbedpane").getSelectedIndex() )
+      { 
+        case 3: DhtStatistics.service.call(); break;
+        case 4: Trackerlist.service.call(); break;
+        case 6: Peerlist.service.call(); break;
+        default: break;
+      }     
     };
     service.onError = function(objEvent) {
       var myStatus = objEvent.target.getRequest().getStatus();
