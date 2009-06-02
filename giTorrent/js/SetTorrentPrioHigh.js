@@ -2,7 +2,7 @@ jsx3.lang.Package.definePackage(
   "SetTorrentPrioHigh.service", //the full name of the package to create
   function(service) {          //name the argument of this function
 
-    //call this method to begin the service call (SetTorrentPrioHigh.service.service.call();)
+    //call this method to begin the service call (SetTorrentPrioHigh.service.call();)
     service.call = function() {
       var objService = giTorrent.loadResource("SetTorrentPrioHigh_xml");
       objService.setOperation("");

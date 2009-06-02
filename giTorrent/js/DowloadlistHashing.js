@@ -35,6 +35,7 @@ jsx3.lang.Package.definePackage(
      giTorrent.getJSXByName("matrix1").setValue(giTorrent.getJSXByName("Hash").getValue());
      switch ( giTorrent.getJSXByName("tabbedpane").getSelectedIndex() )
       { 
+        case 1: rTorrentSettings.service.call();break;        
         case 3: DhtStatistics.service.call(); break;
         case 4: Trackerlist.service.call(); break;
         case 6: Peerlist.service.call(); break;
