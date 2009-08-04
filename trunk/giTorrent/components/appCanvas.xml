@@ -1,4 +1,4 @@
-<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.7">
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.8">
   <name>Layout - Top/Over</name>
   <icon>images/prototypes/layout-over.gif</icon>
   <description>2 top-over-bottom panes in an adaptive layout grid.</description>
@@ -254,11 +254,11 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version" jsxtext="V 0.7.2" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
+                  <strings jsxname="Version" jsxtext="V 0.7.3" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version GI" jsxtext="based on GI 3.7.1" jsxleft="85%" jsxtop="85%" jsxdisplay=""/>
+                  <strings jsxname="Version GI" jsxtext="based on GI 3.8.0" jsxleft="85%" jsxtop="85%" jsxdisplay=""/>
                 </object>
               </object>
             </object>
@@ -417,7 +417,7 @@
                   <strings jsxname="Refresh_Interval" jsxxmlurl="" jsxmargin="0 4 0 0" jsxdisplay="" jsxxml="&lt;data jsxid=&quot;jsxroot&quot;&gt;&lt;record jsxid=&quot;2&quot; jsximg=&quot;&quot; jsxtext=&quot;2&quot;/&gt;&lt;record jsxid=&quot;3&quot; jsximg=&quot;&quot; jsxtext=&quot;3&quot;/&gt;&lt;record jsxid=&quot;4&quot; jsximg=&quot;&quot; jsxtext=&quot;4&quot;/&gt;&lt;record jsxid=&quot;5&quot; jsximg=&quot;&quot; jsxtext=&quot;5&quot;/&gt;&lt;record jsxid=&quot;10&quot; jsximg=&quot;&quot; jsxtext=&quot;10&quot;/&gt;&lt;record jsxid=&quot;15&quot; jsximg=&quot;&quot; jsxtext=&quot;15&quot;/&gt;&lt;record jsxid=&quot;20&quot; jsximg=&quot;&quot; jsxtext=&quot;20&quot;/&gt;&lt;record jsxid=&quot;30&quot; jsximg=&quot;&quot; jsxtext=&quot;30&quot;/&gt;&lt;record jsxid=&quot;60&quot; jsximg=&quot;&quot; jsxtext=&quot;60&quot;/&gt; &lt;/data&gt;" jsxvalue="10"/>
                 </object>
                 <object type="jsx3.gui.CheckBox">
-                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="500" jsxtop="30" jsxchecked="0" jsxenabled="1"/>
+                  <variants jsxheight="18" jsxrelativeposition="0" jsxleft="500" jsxtop="30" jsxchecked="0" jsxenabled="1" jsxdefaultchecked="0"/>
                   <strings jsxname="Refresh" jsxtext="Auto Refresh" jsxmargin="0 4 0 0" jsxdisplay=""/>
                   <events jsxexecute="jsx3.out('mycheck','the jsxexecute method was fired for checkbox, ' + this.getId());" jsxtoggle="giTorrent.getJSXByName(&quot;TimeoutID&quot;).setValue(&quot;0&quot;); "/>
                 </object>
