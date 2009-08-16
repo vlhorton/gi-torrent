@@ -86,7 +86,7 @@ The list contains information per associated tracker. If the trackers provides s
 
 *Changing File Priorities*
 
-Select a torrent from the torrent list and click the Files tab. The tab will fill with a list of the files for this torrent. Select a file from the list and open the 'File Priority' menu. Choose a priority from the menu. You can also set the file to 'Do not Download', so it will not get downloaded by rTorrent (duh). 
+Select a torrent from the torrent list and click the Files tab. The tab will fill with a list of the files for this torrent. Select a file from the list and open the 'File Priority' menu. Choose a priority from the menu. You can also set the file to 'Do not Download', so it will not get downloaded by rTorrent (duh). It is advisable to disable auto refresh before changing the file priority. Due to refresh activity there is some interference between the listings and the service calls.
 
 *Adding a Torrent*
 
