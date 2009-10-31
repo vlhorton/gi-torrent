@@ -288,6 +288,7 @@ to_* functions operate on another command, the following operate on a unix times
 'to_gm_date'                convert the unix timestamp to a GM date string
 'to_gm_time'                convert the unix timestamp to a GM time string
 'to_time'                   convert the unix timestamp to a time string
+'to_throttle'
 
 Syntax is 'to_*=$.....'. Example : 'to_date=$d.get_creation_date'. 
 
