@@ -31,6 +31,7 @@ The commands that act on a torrent are prefixed with 'd.'. They can be used sepa
 
 Process an array of calls, and return an array of results. This is specific for a torrent listing, where the following arguments can be used to acquire information. The first argument is the type of view (f.i. 'main', 'started','stopped','hashing','seeding') that you want to get returned. The arguments can be used on their own as well, with the 'hash' as the parameter to distinguish the torrents. Whenever in a multicall, the char '=' is added at the end.
 {{{
+d.add_peer
 d.check_hash               Initiate a hash check
 d.close                    Stop the torrent
 d.create_link
@@ -39,6 +40,7 @@ d.delete_tied
 d.erase                    Erase the torrent from the list
 d.get_base_filename
 d.get_base_path
+d.get_bitfield
 d.get_bytes_done
 d.get_chunk_size           Get the size of a block of data (chunk)
 d.get_chunks_hashed
@@ -54,6 +56,7 @@ d.get_custom2
 d.get_custom3
 d.get_custom4
 d.get_custom5
+d.get_custom_throw
 d.get_directory
 d.get_directory_base
 d.get_down_rate             Get the speed in bytes/sec in which the torrent is downloading
@@ -91,6 +94,7 @@ d.get_skip_total
 d.get_state
 d.get_state_changed
 d.get_state_counter
+d.get_throttle_name
 d.get_tied_to_file
 d.get_tracker_focus
 d.get_tracker_numwant
@@ -109,6 +113,7 @@ d.is_private               Get the privacy of the torrent (0=public, 1=private)
 d.open                     
 d.pause
 d.resume
+d.save_session
 d.set_connection_current
 d.set_custom1
 d.set_custom2
@@ -125,6 +130,7 @@ d.set_peer_exchange
 d.set_peers_max
 d.set_peers_min
 d.set_priority              Set the priority (0 = off (do not allocate up/down slots), 1=low, 2=normal, 3=high)
+d.set_throttle_name
 d.set_tied_to_file
 d.set_tracker_numwant
 d.set_uploads_max
@@ -134,6 +140,11 @@ d.try_close
 d.try_start
 d.try_stop
 d.update_priorities         Update the torrent after changes to file priorities
+d.views
+d.views.has
+d.views.push_back
+d.views.push_back_unique
+d.views.remove
 }}}
 
 *Managing Files*
