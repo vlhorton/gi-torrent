@@ -326,6 +326,8 @@ The URL for a restricted site is http://userid:password@Torrent.location.org.
 'encoding_list'
 'encryption'
 'execute'
+'execute_capture'
+'execute_capture_nothrow'
 'execute_log'
 'execute_nothrow'
 'execute_raw'
