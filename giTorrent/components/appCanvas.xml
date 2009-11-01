@@ -157,7 +157,7 @@
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
             <object type="jsx3.gui.Matrix.Column">
-              <variants jsxwidth="80" jsxresize="0" jsxsort="0"/>
+              <variants jsxwidth="90" jsxresize="0" jsxsort="0"/>
               <strings jsxname="E.T.A." jsxtext="E.T.A." jsxpadding="2" jsxcellpadding="2" jsxpath="ETA" jsxtextalign="center" jsxcelltextalign="right" jsxdatatype="text" jsxsortdatatype="text" jsxtip="Seeds rTorrent is connected to."/>
               <dynamics jsxborder="@Outset" jsxbg="@Bevel TopDown" jsxbgcolor="@Solid Disabled"/>
             </object>
