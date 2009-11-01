@@ -24,9 +24,11 @@ jsx3.lang.Package.definePackage(
     };
     service.onError = function(objEvent) {
       var myStatus = objEvent.target.getRequest().getStatus();
+      giTorrent.getJSXByName("Refresh").setChecked(0);      
       objEvent.target.getServer().alert("Error","The service call failed. The HTTP Status code is: " + myStatus);
     };
     service.onInvalid = function(objEvent) {
+      giTorrent.getJSXByName("Refresh").setChecked(0);    
       objEvent.target.getServer().alert("Invalid","The following message node just failed validation:\n\n" + objEvent.message);
     };
   }
