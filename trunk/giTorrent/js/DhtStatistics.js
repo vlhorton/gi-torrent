@@ -67,6 +67,8 @@ jsx3.lang.Package.definePackage(
        val = iter.next().getAttribute('Result');
        giTorrent.getJSXByName("Replies_received_t").setValue(val);
        val = iter.next().getAttribute('Result');
+       if ( (val == "") || isNaN (val) )
+         { val = iter.next().getAttribute('Result'); }
        giTorrent.getJSXByName("Torrents_t").setValue(val);        
       }
       else 
