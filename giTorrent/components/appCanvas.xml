@@ -37,7 +37,7 @@
         <strings jsxname="layout (--)" jsxrows="45%,55%" jsxwidth="100%" jsxheight="100%" jsxbgcolor="#E6E6FA"/>
         <object type="jsx3.gui.Block">
           <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"/>
-          <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbgcolor="#FFFFFF" jsxvisibility=""/>
+          <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbgcolor="#FFFFFF" jsxvisibility="" jsxborder="1px solid #dfdfef"/>
           <object type="jsx3.gui.Matrix">
             <variants jsxpagingmodel="0" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1" jsxautorow="0" jsxxmlbind="1" jsxxmlasync="0" jsxloadtype="0" jsxdrag="0" jsxdrop="0" jsxresize="1" jsxreorder="1" jsxsuppressvscroll="0" jsxsuppresshscroll="1"/>
             <strings jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxfocusstyle="font-weight:bold;" jsxxmlid="Download_list" jsxsortpath="Percent_complete" jsxsorttype="number" jsxsortdirection="descending" jsxbgcolor="#FFFFFF" jsxselectionbg=""/>
@@ -209,7 +209,7 @@
             <strings jsxname="tabbedpane" jsxtextalign="0" jsxdisplay="" jsxbg="" jsxvisibility=""/>
             <dynamics jsxbgcolor="@Transparent BG"/>
             <object type="jsx3.gui.Tab">
-              <variants jsxzindex="3" jsxheight="20" jsxenabled="1" jsxloadtype="4"/>
+              <variants jsxzindex="3" jsxheight="20" jsxenabled="1" jsxloadtype="0"/>
               <strings jsxname="Connection" jsxtext="Connection" jsxbgcolor="#e8e8f5" jsxtip="Setup the connection  to the webserver." jsxdisplay="" Display="None"/>
               <object type="jsx3.gui.Block">
                 <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"/>
