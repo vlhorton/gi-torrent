@@ -1,7 +1,7 @@
-<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.8">
-  <name>Layout - Top/Over</name>
-  <icon>images/prototypes/layout-over.gif</icon>
-  <description>2 top-over-bottom panes in an adaptive layout grid.</description>
+<serialization xmlns="urn:tibco.com/v3.0" jsxversion="3.9">
+  <name><![CDATA[Layout - Top/Over]]></name>
+  <icon><![CDATA[images/prototypes/layout-over.gif]]></icon>
+  <description><![CDATA[2 top-over-bottom panes in an adaptive layout grid.]]></description>
   <onBeforeDeserialize/>
   <onAfterDeserialize/>
   <object type="jsx3.gui.LayoutGrid">
@@ -10,7 +10,6 @@
     <object type="jsx3.gui.Block">
       <variants jsxoverflow="2" jsxleft="0" jsxtop="0" jsxrelativeposition="0"/>
       <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbgcolor="#FFFFFF"/>
-      <dynamics jsxborder="@Outset"/>
       <object type="jsx3.gui.WindowBar">
         <variants jsxbartype="2"/>
         <strings jsxname="menuBar" jsxcolor="#FFFFFF" jsxfontweight="normal"/>
@@ -39,7 +38,6 @@
         <object type="jsx3.gui.Block">
           <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"/>
           <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="" jsxbgcolor="#FFFFFF" jsxvisibility=""/>
-          <dynamics jsxborder="@Outset"/>
           <object type="jsx3.gui.Matrix">
             <variants jsxpagingmodel="0" jsxselectionmodel="1" jsxscalewidth="1" jsxjsxxmlasync="1" jsxsort="1" jsxautorow="0" jsxxmlbind="1" jsxxmlasync="0" jsxloadtype="0" jsxdrag="0" jsxdrop="0" jsxresize="1" jsxreorder="1" jsxsuppressvscroll="0" jsxsuppresshscroll="1"/>
             <strings jsxname="matrix1" jsxbodyborder="1px solid #dfdfef" jsxheaderborder="1px solid #dfdfef" jsxfocusstyle="font-weight:bold;" jsxxmlid="Download_list" jsxsortpath="Percent_complete" jsxsorttype="number" jsxsortdirection="descending" jsxbgcolor="#FFFFFF" jsxselectionbg=""/>
@@ -259,11 +257,11 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version" jsxtext="V 0.7.7" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
+                  <strings jsxname="Version" jsxtext="V 0.7.8" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version GI" jsxtext="based on GI 3.8.1" jsxleft="85%" jsxtop="85%" jsxdisplay=""/>
+                  <strings jsxname="Version GI" jsxtext="based on GI 3.9.0" jsxleft="85%" jsxtop="85%" jsxdisplay=""/>
                 </object>
               </object>
             </object>
