@@ -267,13 +267,13 @@
             </object>
             <object type="jsx3.gui.Tab">
               <variants jsxzindex="3" jsxheight="20" jsxenabled="1" jsxloadtype="0"/>
-              <strings jsxname="Chart" jsxtext="Graph" jsxbgcolor="#d8d8e5" jsxtip="Setup the connection  to the webserver." jsxdisplay="" Display="None"/>
+              <strings jsxname="Chart" jsxtext="Graph" jsxbgcolor="#d8d8e5" jsxtip="Graph of upload and download speed." jsxdisplay="" Display="None"/>
               <object type="jsx3.gui.Block">
                 <variants jsxoverflow="2" jsxrelativeposition="0" jsxleft="0" jsxtop="0"/>
                 <strings jsxname="pane" jsxwidth="100%" jsxheight="100%" jsxdisplay="none" jsxvisibility=""/>
                 <dynamics jsxbgcolor="@Solid Medium"/>
                 <object type="jsx3.chart.LineChart">
-                  <variants alpha="1" borderAlpha="1" borderWidth="1" jsxleft="0" jsxrelativeposition="1" jsxtop="0" loadState="1" jsxxmlasync="1" jsxxmlbind="1"/>
+                  <variants alpha="1" borderAlpha="1" borderWidth="1" jsxleft="0" jsxrelativeposition="1" jsxtop="0" loadState="1" jsxxmlasync="0" jsxxmlbind="0"/>
                   <strings jsxheight="95%" jsxwidth="100%" borderColor="#999999" dataPadding="14 10 6 6" jsxbgcolor="#e8e8f5" jsxname="SpeedLineChart" legendPlacement="right" titlePlacement="top" type="overlay" jsxxmlid="SpeedChart"/>
                   <object type="jsx3.chart.ChartLabel">
                     <variants jsxfontsize="14" labelRotation="0" jsxleft="0" jsxtop="0" jsxwidth="1007" jsxheight="25" jsxzindex="1000"/>
@@ -296,7 +296,7 @@
                     </object>
                   </object>
                   <object type="jsx3.chart.GridLines">
-                    <variants horizontalAbove="1" inForeground="0" strokeMajorH="['#DDDDDD 1 1']" strokeMinorH="['#EEEEEE 1 1']" useXPrimary="1" useYPrimary="1" jsxleft="39" jsxtop="0" jsxwidth="852" jsxheight="206" jsxzindex="11"/>
+                    <variants horizontalAbove="1" inForeground="0" strokeMajorH="['#BBBBBB 1 1']" strokeMinorH="['#CCCCCC 1 1']" useXPrimary="1" useYPrimary="1" jsxleft="39" jsxtop="0" jsxwidth="852" jsxheight="206" jsxzindex="11"/>
                     <strings borderStroke="#CCCCCC 1" jsxname="grid"/>
                   </object>
                   <object type="jsx3.chart.LineSeries">
@@ -309,7 +309,7 @@
                   </object>
                   <object type="jsx3.chart.Legend">
                     <variants boxHeight="13" boxSpace="6" lineHeight="22" titleSpace="8" jsxleft="907" jsxtop="0" jsxwidth="100" jsxheight="246" jsxzindex="990"/>
-                    <strings backgroundStroke="#BBBBBB" jsxmargin="10 10 10 4" jsxname="legend" jsxpadding="4 4 0 4" labelStyle="font-size: 10px; font-weight: bold;"/>
+                    <strings backgroundStroke="#BBBBBB" jsxmargin="10 10 10 4" jsxname="legend" jsxpadding="4 4 0 4" labelStyle="font-size: 10px; font-weight: bold;" jsxdisplay=""/>
                     <object type="jsx3.chart.ChartLabel">
                       <variants jsxfontsize="12" labelRotation="0" jsxleft="8" jsxtop="90" jsxwidth="78" jsxheight="18" jsxzindex="3"/>
                       <strings jsxfontname="Arial" jsxfontweight="bold" jsxname="legendTitle" jsxtext="Legend" jsxtextalign="center"/>
