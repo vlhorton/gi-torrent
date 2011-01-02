@@ -34,11 +34,13 @@ jsx3.lang.Package.definePackage(
       if ( arrList.length > 99 ){ Chart.deleteRecord(arrList.shift(),true)}
       iter = myDoc.selectNodes('//record').iterator();
       val = Math.round(10*iter.next().getAttribute('Result')/1024)/10;
-      objRecord.u = val.toFixed(1);
-      giTorrent.getJSXByName("Up_Rate_t").setValue(val.toFixed(1));
+      v = val.toFixed(1);
+      objRecord.u = v;
+      giTorrent.getJSXByName("Up_Rate_t").setValue(v);
       val = Math.round(10*iter.next().getAttribute('Result')/1024)/10;
-      objRecord.d = val.toFixed(1);
-      giTorrent.getJSXByName("Down_Rate_t").setValue(val.toFixed(1));
+      v = val.toFixed(1);
+      objRecord.d = v;
+      giTorrent.getJSXByName("Down_Rate_t").setValue(v);
       Chart.insertRecord(objRecord,true);
     };
 
