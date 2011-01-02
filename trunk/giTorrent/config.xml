@@ -354,7 +354,9 @@ giTorrent.getJSXByName("UserId").setValue(e.getAttribute("userid")); giTorrent.g
       <record jsxid="src" type="string">rules/SetMaxUp.xml</record>
     </record>
   </record>
-  <record jsxid="addins" type="array"/>
+  <record jsxid="addins" type="array">
+    <record jsxid="0" type="string">charting</record>
+  </record>
   <record jsxid="bodyhotkeys" type="boolean">false</record>
   <record jsxid="onunload" type="string"/>
 </data>

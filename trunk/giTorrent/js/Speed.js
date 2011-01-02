@@ -26,11 +26,20 @@ jsx3.lang.Package.definePackage(
     service.onSuccess = function(objEvent) {
       //var responseXML = objEvent.target.getInboundDocument();
       var myDoc = giTorrent.getCache().getDocument("Speed");
+      var objRecord = new Object();                                  // new CDF record obj
+      var arrList = new Array();
+      var Chart =  giTorrent.getJSXByName("SpeedLineChart");
+      objRecord.jsxid = jsx3.CDF.getKey();
+      arrList = Chart.getRecordIds();
+      if ( arrList.length > 99 ){ Chart.deleteRecord(arrList.shift(),true)}
       iter = myDoc.selectNodes('//record').iterator();
       val = Math.round(10*iter.next().getAttribute('Result')/1024)/10;
+      objRecord.u = val.toFixed(1);
       giTorrent.getJSXByName("Up_Rate_t").setValue(val.toFixed(1));
       val = Math.round(10*iter.next().getAttribute('Result')/1024)/10;
+      objRecord.d = val.toFixed(1);
       giTorrent.getJSXByName("Down_Rate_t").setValue(val.toFixed(1));
+      Chart.insertRecord(objRecord,true);
     };
 
     service.onError = function(objEvent) {
