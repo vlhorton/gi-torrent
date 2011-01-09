@@ -99,4 +99,5 @@ rTorrent has the ability to limit the upload and download speed. In the 'Setting
 rTorrent uses mmap() to map file blocks to memory. This is like OS swapping, but in the scope of the application. There is a maximum size to the memory that can be mmap-ed which is set n the .rtorrent.rc file. The 'Settings' tab contains information on the setting and the actual usage of this type of memory. Like swap space, there is no 1:1 relation between physical memory and the mmap() memory.
 
 *Graph*
+
 The graph tab shows the upload and download speed in kB/s. Every refresh interval the measured values are added to the graph until a max of 100 measurements. The graph scales all measurements to 100%, the density of the interval ticks on the x-axis shows how many are actually in the graph.
