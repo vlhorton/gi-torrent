@@ -97,3 +97,6 @@ Select the 'Add Torrent' tab and paste the location for the torrent file in the 
 rTorrent has the ability to limit the upload and download speed. In the 'Settings' tab you will see both settings from the .rtorrent.rc file, the memory usage and the settings for upload/download speed. You can change the settings for the limits by editing the text box to the desired value and clicking the associated button to update rTorrent. 
 
 rTorrent uses mmap() to map file blocks to memory. This is like OS swapping, but in the scope of the application. There is a maximum size to the memory that can be mmap-ed which is set n the .rtorrent.rc file. The 'Settings' tab contains information on the setting and the actual usage of this type of memory. Like swap space, there is no 1:1 relation between physical memory and the mmap() memory.
+
+*Graph*
+The graph tab shows the upload and download speed in kB/s. Every refresh interval the measured values are added to the graph until a max of 100 measurements. The graph scales all measurements to 100%, the density of the interval ticks on the x-axis shows how many are actually in the graph.
