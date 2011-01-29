@@ -257,7 +257,7 @@
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
-                  <strings jsxname="Version" jsxtext="V 0.8.0" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
+                  <strings jsxname="Version" jsxtext="V 0.8.1" jsxleft="85%" jsxtop="80%" jsxdisplay=""/>
                 </object>
                 <object type="jsx3.gui.Block">
                   <variants jsxrelativeposition="0" jsxoverflow="3"/>
@@ -280,38 +280,38 @@
                     <strings jsxbgcolor="#666666" jsxcolor="#FFFFFF" jsxfontname="Arial" jsxfontweight="bold" jsxname="title" jsxpadding="4 0 0 0" jsxtext="Line Chart" jsxtextalign="center" jsxdisplay="none"/>
                   </object>
                   <object type="jsx3.chart.CategoryAxis">
-                    <variants horizontal="1" labelGap="3" minorTickDivisions="4" minorTickLength="2" numCategories="6" numSeries="2" primary="1" showAxis="1" showLabels="0" tickLength="3" length="852" jsxleft="39" jsxtop="0" jsxwidth="891" jsxheight="226" jsxzindex="110"/>
+                    <variants horizontal="1" labelGap="3" minorTickDivisions="4" minorTickLength="2" numCategories="6" numSeries="2" primary="1" showAxis="1" showLabels="0" tickLength="3" length="-54" jsxleft="39" jsxtop="28" jsxwidth="-15" jsxheight="-22" jsxzindex="110"/>
                     <strings axisStroke="#000000 1 1" jsxname="xAxis" labelPlacement="axis" labelStyle="font-size: 8px; font-family: Verdana;" minorTickPlacement="outside" tickAlignment="aligned" tickPlacement="outside" tickStroke="#000000 1 1"/>
                     <object type="jsx3.chart.ChartLabel">
-                      <variants jsxfontsize="12" labelRotation="0" preferredHeight="14" jsxleft="0" jsxtop="212" jsxwidth="852" jsxheight="14"/>
+                      <variants jsxfontsize="12" labelRotation="0" preferredHeight="14" jsxleft="0" jsxtop="-58" jsxwidth="-54" jsxheight="14"/>
                       <strings jsxfontname="Arial" jsxfontweight="bold" jsxname="xTitle" jsxtext="interval" jsxtextalign="center"/>
                     </object>
                   </object>
                   <object type="jsx3.chart.LinearAxis">
-                    <variants autoAdjust="1" baseAtZero="1" displayWidth="15" horizontal="0" labelGap="3" minorTickDivisions="4" minorTickLength="3" primary="1" showAxis="1" showLabels="1" tickLength="3" length="206" jsxleft="39" jsxtop="0" jsxwidth="891" jsxheight="226" jsxzindex="110"/>
+                    <variants autoAdjust="1" baseAtZero="1" displayWidth="15" horizontal="0" labelGap="3" minorTickDivisions="4" minorTickLength="3" primary="1" showAxis="1" showLabels="1" tickLength="3" length="-64" jsxleft="39" jsxtop="28" jsxwidth="-15" jsxheight="-22" jsxzindex="110"/>
                     <strings axisStroke="#000000 1 1" jsxname="yAxis" labelPlacement="axis" labelStyle="font-size: 8px; font-family: Verdana; text-align: right;" minorTickPlacement="none" minorTickStroke="#000000 1 1" tickPlacement="outside" tickStroke="#000000 1 1"/>
                     <object type="jsx3.chart.ChartLabel">
-                      <variants jsxfontsize="12" labelRotation="270" jsxleft="-39" jsxtop="0" jsxwidth="18" jsxheight="206"/>
+                      <variants jsxfontsize="12" labelRotation="270" jsxleft="-39" jsxtop="0" jsxwidth="18" jsxheight="-64"/>
                       <strings jsxfontname="Arial" jsxfontweight="bold" jsxname="ytitle" jsxtext="kB/s" jsxtextalign="center"/>
                     </object>
                   </object>
                   <object type="jsx3.chart.GridLines">
-                    <variants horizontalAbove="1" inForeground="0" strokeMajorH="['#BBBBBB 1 1']" strokeMinorH="['#CCCCCC 1 1']" useXPrimary="1" useYPrimary="1" jsxleft="39" jsxtop="0" jsxwidth="852" jsxheight="206" jsxzindex="11"/>
+                    <variants horizontalAbove="1" inForeground="0" strokeMajorH="['#BBBBBB 1 1']" strokeMinorH="['#CCCCCC 1 1']" useXPrimary="1" useYPrimary="1" jsxleft="39" jsxtop="28" jsxwidth="-54" jsxheight="-64" jsxzindex="11"/>
                     <strings borderStroke="#CCCCCC 1" jsxname="grid"/>
                   </object>
                   <object type="jsx3.chart.LineSeries">
-                    <variants index="0" interpolateValues="1" usePrimaryX="1" usePrimaryY="1" jsxzindex="20" jsxleft="39" jsxtop="0" jsxwidth="852" jsxheight="206"/>
+                    <variants index="0" interpolateValues="1" usePrimaryX="1" usePrimaryY="1" jsxzindex="20" jsxleft="39" jsxtop="28" jsxwidth="-54" jsxheight="-64"/>
                     <strings form="segment" jsxname="Upload" pointFill="#FF0000" pointStroke="#000000" seriesName="Upload" stroke="#D61704" tooltipFunction="jsx3.chart.LineSeries.tooltip" yField="u" jsxdisplay=""/>
                   </object>
                   <object type="jsx3.chart.LineSeries">
-                    <variants index="1" interpolateValues="1" usePrimaryX="1" usePrimaryY="1" jsxzindex="21" jsxleft="39" jsxtop="0" jsxwidth="852" jsxheight="206"/>
+                    <variants index="1" interpolateValues="1" usePrimaryX="1" usePrimaryY="1" jsxzindex="21" jsxleft="39" jsxtop="28" jsxwidth="-54" jsxheight="-64"/>
                     <strings form="segment" jsxname="Download" pointFill="#FFFF00" pointStroke="#999900" seriesName="Download" stroke="#07A808" tooltipFunction="jsx3.chart.LineSeries.tooltip" yField="d"/>
                   </object>
                   <object type="jsx3.chart.Legend">
-                    <variants boxHeight="13" boxSpace="6" lineHeight="22" titleSpace="8" jsxleft="907" jsxtop="0" jsxwidth="100" jsxheight="246" jsxzindex="990"/>
+                    <variants boxHeight="13" boxSpace="6" lineHeight="22" titleSpace="8" jsxleft="1" jsxtop="0" jsxwidth="-3" jsxheight="-2" jsxzindex="990"/>
                     <strings backgroundStroke="#BBBBBB" jsxmargin="10 10 10 4" jsxname="legend" jsxpadding="4 4 0 4" labelStyle="font-size: 10px; font-weight: bold;" jsxdisplay=""/>
                     <object type="jsx3.chart.ChartLabel">
-                      <variants jsxfontsize="12" labelRotation="0" jsxleft="8" jsxtop="90" jsxwidth="78" jsxheight="18" jsxzindex="3"/>
+                      <variants jsxfontsize="12" labelRotation="0" jsxleft="8" jsxtop="14" jsxwidth="-25" jsxheight="18" jsxzindex="3"/>
                       <strings jsxfontname="Arial" jsxfontweight="bold" jsxname="legendTitle" jsxtext="Legend" jsxtextalign="center"/>
                     </object>
                   </object>
