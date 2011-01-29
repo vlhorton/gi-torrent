@@ -31,7 +31,7 @@ jsx3.lang.Package.definePackage(
       var Chart =  giTorrent.getJSXByName("SpeedLineChart");
       objRecord.jsxid = jsx3.CDF.getKey();
       arrList = Chart.getRecordIds();
-      if ( arrList.length > 99 ){ Chart.deleteRecord(arrList.shift(),true)}
+      Chart.deleteRecord(arrList.shift(),true);
       iter = myDoc.selectNodes('//record').iterator();
       val = Math.round(10*iter.next().getAttribute('Result')/1024)/10;
       v = val.toFixed(1);
